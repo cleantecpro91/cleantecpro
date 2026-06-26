@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     canonical: BRAND.website,
   },
   verification: {
-    google: "",
+    google: "Z5bp42bwL-QSrPacTiEhWxo133e4vZblKXcCPwdmq3E",
     other: {
       "msvalidate.01": "",
     },
