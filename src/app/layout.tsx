@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   verification: {
     google: "Z5bp42bwL-QSrPacTiEhWxo133e4vZblKXcCPwdmq3E",
     other: {
-      "msvalidate.01": "",
+      "msvalidate.01": "5EDD07B30D079CF725A6136DE642A470",
     },
   },
   category: "Home Services",
