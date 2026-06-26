@@ -4,8 +4,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog — Home Maintenance Tips & Service Guides | CleanTecPro",
-  description: `Expert tips, guides, and insights on home maintenance, cleaning, AC care, plumbing, and property management in the UAE. By ${BRAND.shortName}.`,
+  title: "Blog — Home Maintenance Tips, Cleaning Guides & UAE Property Care Advice",
+  description: `Expert tips, step-by-step guides, and practical insights on home maintenance, cleaning, AC care, plumbing, pest control and property management in the UAE. By ${BRAND.shortName}.`,
+  alternates: { canonical: `${BRAND.website}/blog` },
+  openGraph: {
+    title: `Blog & Resources | ${BRAND.shortName}`,
+    description: "Expert home maintenance tips and service guides for UAE homeowners.",
+    url: `${BRAND.website}/blog`,
+  },
 };
 
 const SAMPLE_POSTS = [

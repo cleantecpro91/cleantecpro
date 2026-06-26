@@ -4,8 +4,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Service Areas — All UAE Emirates | CleanTecPro",
-  description: `Professional services across all 7 UAE emirates. ${BRAND.shortName} covers Dubai, Sharjah, Abu Dhabi, Ajman, RAK, Fujairah, UAQ, and Al Ain with dedicated local teams.`,
+  title: "Service Areas — Dubai, Sharjah, Abu Dhabi & All UAE Emirates",
+  description: `Professional cleaning, AC, plumbing & maintenance services across all 7 UAE emirates. ${BRAND.shortName} covers Dubai, Sharjah, Abu Dhabi, Ajman, Ras Al Khaimah, Fujairah, Umm Al Quwain and Al Ain with dedicated local teams.`,
+  alternates: { canonical: `${BRAND.website}/locations` },
+  openGraph: {
+    title: `Service Areas | ${BRAND.shortName}`,
+    description: "We serve all 7 UAE emirates with dedicated local service teams.",
+    url: `${BRAND.website}/locations`,
+  },
 };
 
 export default function LocationsPage() {

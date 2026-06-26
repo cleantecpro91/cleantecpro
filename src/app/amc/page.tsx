@@ -4,8 +4,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Annual Maintenance Contracts (AMC) — Plans & Pricing | CleanTecPro",
-  description: `Comprehensive annual maintenance contracts for villas, apartments, and commercial properties in the UAE. ${BRAND.shortName} AMC plans cover AC, plumbing, electrical, and more.`,
+  title: "Annual Maintenance Contracts (AMC) — Plans & Pricing for Villas, Apartments & Offices",
+  description: `Comprehensive annual maintenance contracts starting from AED 1,999/year for villas, apartments & commercial properties in UAE. ${BRAND.shortName} AMC plans cover AC servicing, plumbing, electrical, pest control & more.`,
+  alternates: { canonical: `${BRAND.website}/amc` },
+  openGraph: {
+    title: `AMC Plans & Pricing | ${BRAND.shortName}`,
+    description: "Annual maintenance contracts for villas, apartments & commercial properties in UAE.",
+    url: `${BRAND.website}/amc`,
+  },
 };
 
 const PLANS = [

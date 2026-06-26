@@ -3,8 +3,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | CleanTecPro",
-  description: `Get answers to common questions about ${BRAND.shortName} services, booking, pricing, payments, and coverage across the UAE.`,
+  title: "Frequently Asked Questions — Booking, Pricing, Payments & Coverage",
+  description: `Get answers to common questions about ${BRAND.shortName} services, booking process, pricing, payment methods, service areas, cancellations and coverage across the UAE.`,
+  alternates: { canonical: `${BRAND.website}/faq` },
+  openGraph: {
+    title: `FAQ | ${BRAND.shortName}`,
+    description: "Answers to common questions about our services, booking, and pricing.",
+    url: `${BRAND.website}/faq`,
+  },
 };
 
 const FAQ_ITEMS = [

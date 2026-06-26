@@ -4,8 +4,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us — Trusted UAE Service Platform",
-  description: `Learn about ${BRAND.shortName} — a trusted multiservice marketplace serving homes and businesses across all UAE emirates since establishment in Dubai.`,
+  title: "About CleanTecPro — Trusted UAE Cleaning & Technical Services Platform",
+  description: `Learn about ${BRAND.fullName} — a trusted multiservice marketplace headquartered in Business Bay, Dubai. We serve homes and businesses across all 7 UAE emirates with vetted professionals.`,
+  alternates: { canonical: `${BRAND.website}/about` },
+  openGraph: {
+    title: `About Us | ${BRAND.shortName}`,
+    description: `${BRAND.shortName} is a trusted UAE multiservice marketplace for cleaning, AC, plumbing, electrical & maintenance services.`,
+    url: `${BRAND.website}/about`,
+  },
 };
 
 export default function AboutPage() {

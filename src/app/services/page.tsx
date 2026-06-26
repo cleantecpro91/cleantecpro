@@ -4,8 +4,14 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "All Services — Cleaning, AC, Plumbing, Electrical & More",
-  description: `Browse all professional services offered by ${BRAND.shortName} across the UAE. Cleaning, AC repair, plumbing, electrical, renovation, pest control, and more.`,
+  title: "All Services — Cleaning, AC Repair, Plumbing, Electrical, Pest Control & More in UAE",
+  description: `Browse 100+ professional services offered by ${BRAND.shortName} across the UAE. Deep cleaning, AC repair, plumbing, electrical, handyman, renovation, pest control, moving, garden maintenance & more. Book online today.`,
+  alternates: { canonical: `${BRAND.website}/services` },
+  openGraph: {
+    title: `All Services | ${BRAND.shortName}`,
+    description: "Browse 100+ professional home and commercial services across all UAE emirates.",
+    url: `${BRAND.website}/services`,
+  },
 };
 
 const CATEGORY_ICONS: Record<string, string> = {

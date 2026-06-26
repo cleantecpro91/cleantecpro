@@ -17,8 +17,14 @@ export async function generateMetadata({
   const emirate = getEmirateBySlug(emirateSlug);
   if (!emirate) return {};
   return {
-    title: `Services in ${emirate.name} — Cleaning, AC, Plumbing & More | ${BRAND.shortName}`,
-    description: `Professional cleaning, AC, plumbing, electrical, and maintenance services in ${emirate.name}. ${BRAND.shortName} provides vetted, reliable services with transparent pricing.`,
+    title: `Services in ${emirate.name} — Cleaning, AC Repair, Plumbing, Electrical & More`,
+    description: `Professional cleaning, AC repair, plumbing, electrical, handyman and maintenance services in ${emirate.name}. ${BRAND.shortName} provides vetted, reliable professionals with transparent pricing. Book online today.`,
+    alternates: { canonical: `${BRAND.website}/locations/${emirate.slug}` },
+    openGraph: {
+      title: `Services in ${emirate.name} | ${BRAND.shortName}`,
+      description: `Professional home and commercial services across ${emirate.name}.`,
+      url: `${BRAND.website}/locations/${emirate.slug}`,
+    },
   };
 }
 

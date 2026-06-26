@@ -3,9 +3,19 @@ import { SERVICE_CATEGORIES, BRAND, UAE_EMIRATES } from "@/lib/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE`,
+  title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE | Dubai, Sharjah, Abu Dhabi`,
   description:
-    "Book trusted cleaning, AC repair, plumbing, electrical, renovation, and maintenance services across Dubai, Sharjah, Abu Dhabi, and all UAE emirates. Transparent pricing, vetted professionals, fast booking.",
+    "Book trusted cleaning, AC repair, plumbing, electrical, renovation, pest control & maintenance services across Dubai, Sharjah, Abu Dhabi and all 7 UAE emirates. Transparent pricing, vetted professionals, same-day booking available.",
+  alternates: {
+    canonical: BRAND.website,
+  },
+  openGraph: {
+    title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE`,
+    description:
+      "Book trusted cleaning, AC, plumbing, electrical & maintenance services across all UAE emirates. Transparent pricing, vetted professionals.",
+    url: BRAND.website,
+    type: "website",
+  },
 };
 
 const CATEGORY_ICONS: Record<string, string> = {

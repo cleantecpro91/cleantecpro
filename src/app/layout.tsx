@@ -12,22 +12,74 @@ export const metadata: Metadata = {
     template: `%s | ${BRAND.shortName}`,
   },
   description:
-    "Trusted UAE marketplace for cleaning, AC, plumbing, electrical, maintenance, renovation, and more. Book online or request a quote. Serving Dubai, Sharjah, Abu Dhabi & all emirates.",
+    "Trusted UAE marketplace for cleaning, AC repair, plumbing, electrical, handyman, renovation, pest control & maintenance services. Book online or request a quote. Serving Dubai, Sharjah, Abu Dhabi & all 7 emirates.",
   keywords: [
     "cleaning services UAE",
     "AC repair Dubai",
-    "plumbing Sharjah",
+    "AC cleaning Sharjah",
+    "plumbing services Sharjah",
+    "deep cleaning Dubai",
     "maintenance services Abu Dhabi",
-    "deep cleaning UAE",
-    "technical services",
+    "handyman Dubai",
+    "pest control UAE",
+    "move in move out cleaning",
+    "annual maintenance contract UAE",
+    "villa cleaning Dubai",
+    "office cleaning Sharjah",
+    "electrical services UAE",
+    "home maintenance Dubai",
+    "sofa cleaning",
+    "carpet cleaning UAE",
+    "water tank cleaning",
+    "property snagging Dubai",
+    "renovation services UAE",
+    "technical services Dubai",
   ],
   metadataBase: new URL(BRAND.website),
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_AE",
+    url: BRAND.website,
     siteName: BRAND.fullName,
+    title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE`,
+    description:
+      "Book trusted cleaning, AC, plumbing, electrical, renovation & maintenance services across Dubai, Sharjah, Abu Dhabi & all UAE emirates. Transparent pricing, vetted professionals.",
   },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: "summary_large_image",
+    title: `${BRAND.shortName} — Professional Services in UAE`,
+    description:
+      "Book trusted cleaning, AC, plumbing, electrical & maintenance services across all UAE emirates.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: BRAND.website,
+  },
+  verification: {
+    google: "",
+    other: {
+      "msvalidate.01": "",
+    },
+  },
+  category: "Home Services",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -35,22 +87,35 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en" dir="ltr">
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta name="theme-color" content="#256ee9" />
+        <meta name="geo.region" content="AE" />
+        <meta name="geo.placename" content="Dubai" />
+        <meta name="geo.position" content="25.1864;55.2649" />
+        <meta name="ICBM" content="25.1864, 55.2649" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
+              "@id": `${BRAND.website}/#organization`,
               name: BRAND.fullName,
               alternateName: BRAND.shortName,
               url: BRAND.website,
+              logo: `${BRAND.website}/favicon.png`,
+              image: `${BRAND.website}/favicon.png`,
               telephone: BRAND.phoneFormatted,
               email: BRAND.email,
+              description:
+                "Professional cleaning, AC, plumbing, electrical, renovation, pest control and maintenance services across all UAE emirates. Vetted professionals, transparent pricing.",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Cyan Centre 202, Business Bay",
                 addressLocality: "Dubai",
                 addressRegion: "Dubai",
+                postalCode: "",
                 addressCountry: "AE",
               },
               geo: {
@@ -62,19 +127,74 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 { "@type": "City", name: "Dubai" },
                 { "@type": "City", name: "Sharjah" },
                 { "@type": "City", name: "Abu Dhabi" },
+                { "@type": "City", name: "Ajman" },
+                { "@type": "City", name: "Ras Al Khaimah" },
+                { "@type": "City", name: "Fujairah" },
+                { "@type": "City", name: "Umm Al Quwain" },
+                { "@type": "City", name: "Al Ain" },
                 { "@type": "Country", name: "United Arab Emirates" },
               ],
-              priceRange: "AED",
-              openingHoursSpecification: {
-                "@type": "OpeningHoursSpecification",
-                dayOfWeek: [
-                  "Monday", "Tuesday", "Wednesday", "Thursday",
-                  "Friday", "Saturday", "Sunday",
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Professional Services",
+                itemListElement: [
+                  { "@type": "OfferCatalog", name: "Cleaning Services" },
+                  { "@type": "OfferCatalog", name: "AC & HVAC Services" },
+                  { "@type": "OfferCatalog", name: "Plumbing Services" },
+                  { "@type": "OfferCatalog", name: "Electrical Services" },
+                  { "@type": "OfferCatalog", name: "Handyman Services" },
+                  { "@type": "OfferCatalog", name: "Pest Control" },
+                  { "@type": "OfferCatalog", name: "Renovation & Fit-Out" },
+                  { "@type": "OfferCatalog", name: "Moving & Relocation" },
+                  { "@type": "OfferCatalog", name: "Building Maintenance" },
                 ],
-                opens: "08:00",
-                closes: "22:00",
+              },
+              priceRange: "AED 59 - AED 14999",
+              currenciesAccepted: "AED",
+              paymentAccepted: "Cash, Credit Card, Bank Transfer",
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday",
+                  ],
+                  opens: "08:00",
+                  closes: "22:00",
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: "Friday",
+                  opens: "14:00",
+                  closes: "22:00",
+                },
+              ],
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "2450",
+                bestRating: "5",
+                worstRating: "1",
               },
               sameAs: [],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: BRAND.shortName,
+              url: BRAND.website,
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: `${BRAND.website}/services?q={search_term_string}`,
+                },
+                "query-input": "required name=search_term_string",
+              },
             }),
           }}
         />

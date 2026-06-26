@@ -24,8 +24,14 @@ export async function generateMetadata({
   const city = getCityBySlug(emirateSlug, citySlug);
   if (!emirate || !city) return {};
   return {
-    title: `Professional Services in ${city.name}, ${emirate.name} | ${BRAND.shortName}`,
-    description: `Book cleaning, AC, plumbing, electrical, and maintenance services in ${city.name}, ${emirate.name}. ${BRAND.shortName} delivers vetted, professional services with transparent pricing.`,
+    title: `Professional Services in ${city.name}, ${emirate.name} — Book Online`,
+    description: `Book cleaning, AC repair, plumbing, electrical, handyman and maintenance services in ${city.name}, ${emirate.name}. ${BRAND.shortName} delivers vetted, professional services with transparent pricing. Same-day availability.`,
+    alternates: { canonical: `${BRAND.website}/locations/${emirateSlug}/${citySlug}` },
+    openGraph: {
+      title: `Services in ${city.name}, ${emirate.name} | ${BRAND.shortName}`,
+      description: `Professional home and commercial services in ${city.name}, ${emirate.name}.`,
+      url: `${BRAND.website}/locations/${emirateSlug}/${citySlug}`,
+    },
   };
 }
 

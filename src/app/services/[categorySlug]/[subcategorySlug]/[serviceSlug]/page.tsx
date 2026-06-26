@@ -29,8 +29,14 @@ export async function generateMetadata({
   const svc = getServiceBySlug(categorySlug, subcategorySlug, serviceSlug);
   if (!svc) return {};
   return {
-    title: `${svc.name} in UAE — Book Online | ${BRAND.shortName}`,
-    description: `Professional ${svc.name.toLowerCase()} service across Dubai, Sharjah, Abu Dhabi & all UAE. ${svc.price ? `Starting from AED ${svc.price}.` : ""} Book online or request a free quote from ${BRAND.shortName}.`,
+    title: `${svc.name} in UAE — ${svc.price ? `From AED ${svc.price} | ` : ""}Book Online | ${BRAND.shortName}`,
+    description: `Professional ${svc.name.toLowerCase()} service across Dubai, Sharjah, Abu Dhabi & all UAE emirates. ${svc.price ? `Starting from AED ${svc.price}. ` : ""}Vetted professionals, same-day availability. Book online or request a free quote from ${BRAND.shortName}.`,
+    alternates: { canonical: `${BRAND.website}/services/${categorySlug}/${subcategorySlug}/${serviceSlug}` },
+    openGraph: {
+      title: `${svc.name} | ${BRAND.shortName}`,
+      description: `Professional ${svc.name.toLowerCase()} service across all UAE emirates.${svc.price ? ` From AED ${svc.price}.` : ""}`,
+      url: `${BRAND.website}/services/${categorySlug}/${subcategorySlug}/${serviceSlug}`,
+    },
   };
 }
 

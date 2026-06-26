@@ -17,8 +17,14 @@ export async function generateMetadata({
   const cat = getCategoryBySlug(categorySlug);
   if (!cat) return {};
   return {
-    title: `${cat.name} Services in UAE | ${BRAND.shortName}`,
-    description: `Professional ${cat.name.toLowerCase()} services across Dubai, Sharjah, Abu Dhabi and all UAE emirates. Book online or request a free quote from ${BRAND.shortName}.`,
+    title: `${cat.name} Services in UAE — Book Online | ${BRAND.shortName}`,
+    description: `Professional ${cat.name.toLowerCase()} services across Dubai, Sharjah, Abu Dhabi and all UAE emirates. Vetted professionals, transparent pricing. Book online or request a free quote from ${BRAND.shortName}.`,
+    alternates: { canonical: `${BRAND.website}/services/${cat.slug}` },
+    openGraph: {
+      title: `${cat.name} | ${BRAND.shortName}`,
+      description: `Professional ${cat.name.toLowerCase()} services across all UAE emirates.`,
+      url: `${BRAND.website}/services/${cat.slug}`,
+    },
   };
 }
 
