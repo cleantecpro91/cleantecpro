@@ -63,7 +63,7 @@ export default async function CityPage({
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Services in {city.name}, {emirate.name}
           </h1>
-          <p className="text-white/85 max-w-2xl text-base">
+          <p className="text-white/70 max-w-2xl text-base">
             Professional home and commercial services in {city.name}. Book online, get a quote, or contact us on WhatsApp for immediate assistance.
           </p>
         </div>
@@ -132,7 +132,7 @@ export default async function CityPage({
                       <Link
                         key={a.slug}
                         href={`/locations/${emirate.slug}/${a.slug}`}
-                        className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors"
+                        className="text-sm text-brand-600 bg-brand-50 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors"
                       >
                         {a.name}
                       </Link>

@@ -60,7 +60,7 @@ export default function FAQPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "FAQ" }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">Frequently Asked Questions</h1>
-          <p className="text-white/85 max-w-2xl">
+          <p className="text-white/70 max-w-2xl">
             Find answers to common questions about our services, booking process, pricing, and coverage.
           </p>
         </div>

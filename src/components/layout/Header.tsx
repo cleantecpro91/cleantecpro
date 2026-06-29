@@ -108,7 +108,7 @@ export default function Header() {
             </a>
           </div>
           <div className="flex items-center gap-3">
-            <span className="text-white/80">Serving all UAE Emirates</span>
+            <span className="text-white/60">Serving all UAE Emirates</span>
             <span className="text-white/30">|</span>
             <Link href="/auth/login" className="hover:text-white transition-colors">
               Sign In

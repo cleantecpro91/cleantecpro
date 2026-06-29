@@ -142,7 +142,7 @@ export default async function ServiceDetailPage({
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white mb-4">
                 {service.name}
               </h1>
-              <p className="text-white/85 text-base leading-relaxed mb-6 max-w-xl">
+              <p className="text-white/70 text-base leading-relaxed mb-6 max-w-xl">
                 {svc.shortDescription ||
                   `Professional ${service.name.toLowerCase()} service by vetted, experienced technicians. Available across all UAE emirates with transparent pricing and satisfaction guarantee.`}
               </p>

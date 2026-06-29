@@ -30,7 +30,7 @@ export default function BlogPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "Blog" }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">Blog & Resources</h1>
-          <p className="text-white/85 max-w-2xl">
+          <p className="text-white/70 max-w-2xl">
             Expert tips, maintenance guides, and practical advice for UAE homeowners and businesses.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {SAMPLE_POSTS.map((post) => (
               <article key={post.slug} className="premium-card p-6 flex flex-col">
-                <span className="text-xs font-semibold text-brand-800 bg-brand-100 px-2 py-1 rounded-md self-start mb-3">
+                <span className="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded-md self-start mb-3">
                   {post.category}
                 </span>
                 <h2 className="text-base font-bold text-slate-900 mb-2">

@@ -47,7 +47,7 @@ export default function AMCPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Annual Maintenance Contracts
           </h1>
-          <p className="text-white/85 max-w-2xl">
+          <p className="text-white/70 max-w-2xl">
             Keep your property in top condition year-round with our comprehensive AMC plans. One contract, complete peace of mind.
           </p>
         </div>

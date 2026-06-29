@@ -67,14 +67,14 @@ export default async function CategoryPage({
               <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-2">
                 {category.name}
               </h1>
-              <p className="text-white/85 text-base max-w-2xl">
+              <p className="text-white/70 text-base max-w-2xl">
                 {category.description}
               </p>
               <div className="flex gap-3 mt-3">
-                <span className="text-xs text-white/80 bg-white/10 px-3 py-1 rounded-full">
+                <span className="text-xs text-white/50 bg-white/10 px-3 py-1 rounded-full">
                   {category.subcategories.length} categories
                 </span>
-                <span className="text-xs text-white/80 bg-white/10 px-3 py-1 rounded-full">
+                <span className="text-xs text-white/50 bg-white/10 px-3 py-1 rounded-full">
                   {totalServices}+ services
                 </span>
               </div>
