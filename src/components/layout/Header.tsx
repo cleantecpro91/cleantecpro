@@ -130,7 +130,7 @@ export default function Header() {
       >
         <div className="container-main flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="CleanTecPro Home">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center shadow-lg shadow-brand-500/20">
               <svg viewBox="0 0 32 32" className="w-6 h-6 text-white" fill="currentColor">
                 <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 3c1.5 0 3 .5 4 1.5l-4 4-4-4C13 5.5 14.5 5 16 5zm-7 6.5L12.5 15 9 18.5c-1-1-1.5-2.5-1.5-4 0-1 .5-2 1.5-3zM16 27c-6.075 0-11-4.925-11-11 0-1.5.5-3 1.5-4.5L12 17l4-7 4 7 5.5-5.5c1 1.5 1.5 3 1.5 4.5 0 6.075-4.925 11-11 11z"/>
