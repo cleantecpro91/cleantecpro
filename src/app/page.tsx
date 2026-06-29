@@ -60,23 +60,23 @@ export default function HomePage() {
         <div className="container-main relative py-16 md:py-24 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-up">
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-sm font-medium px-4 py-2 rounded-full mb-6">
+              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/40 text-white/90 text-sm font-medium px-4 py-2 rounded-full mb-6">
                 <span className="w-2 h-2 bg-accent-500 rounded-full animate-pulse" />
                 Trusted by 10,000+ UAE Customers
               </div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
                 Professional Services
                 <br />
-                <span className="text-brand-300">At Your Doorstep</span>
+                <span className="text-brand-200">At Your Doorstep</span>
               </h1>
-              <p className="text-base md:text-lg text-white/70 leading-relaxed mb-8 max-w-lg">
+              <p className="text-base md:text-lg text-white/90 leading-relaxed mb-8 max-w-lg">
                 Book trusted cleaning, AC, plumbing, electrical, renovation, and maintenance services across Dubai, Sharjah, Abu Dhabi, and all UAE emirates. One platform, every service.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <Link href="/booking" className="btn-primary !py-3 !px-6 text-base">
                   Book a Service
                 </Link>
-                <Link href="/quote" className="btn-outline !bg-white/10 !text-white !border-white/20 hover:!bg-white/20 !py-3 !px-6 text-base">
+                <Link href="/quote" className="btn-outline !bg-white/10 !text-white !border-white/40 hover:!bg-white/20 !py-3 !px-6 text-base">
                   Request a Quote
                 </Link>
                 <a
@@ -103,7 +103,7 @@ export default function HomePage() {
                     <Link
                       key={cat.slug}
                       href={`/services/${cat.slug}`}
-                      className={`glass-card !bg-white/10 !border-white/20 backdrop-blur-xl rounded-2xl p-5 hover:!bg-white/15 transition-all group ${
+                      className={`glass-card !bg-white/10 !border-white/40 backdrop-blur-xl rounded-2xl p-5 hover:!bg-white/15 transition-all group ${
                         i === 0 ? "col-span-2" : ""
                       }`}
                     >
@@ -113,7 +113,7 @@ export default function HomePage() {
                       <h3 className="text-sm font-bold text-white mb-1">
                         {cat.name}
                       </h3>
-                      <p className="text-xs text-white/50">
+                      <p className="text-xs text-white/80">
                         {cat.subcategories.length} service types
                       </p>
                     </Link>
@@ -241,7 +241,7 @@ export default function HomePage() {
             <h2 className="text-2xl md:text-3xl font-extrabold mb-3">
               Why Choose CleanTecPro
             </h2>
-            <p className="text-white/60 text-base max-w-lg mx-auto">
+            <p className="text-white/80 text-base max-w-lg mx-auto">
               We are committed to delivering reliable, professional, and fairly priced services across the UAE.
             </p>
           </div>
@@ -255,7 +255,7 @@ export default function HomePage() {
                 <h3 className="text-base font-bold text-white mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/50">{item.desc}</p>
+                <p className="text-sm text-white/80">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -319,7 +319,7 @@ export default function HomePage() {
                 </p>
                 <div className="border-t border-slate-100 pt-3">
                   <p className="text-sm font-bold text-slate-900">{t.name}</p>
-                  <p className="text-xs text-slate-400">{t.location}</p>
+                  <p className="text-xs text-slate-500">{t.location}</p>
                   <span className="text-xs text-brand-600 mt-1 inline-block">{t.service}</span>
                 </div>
               </div>
@@ -335,14 +335,14 @@ export default function HomePage() {
             <h2 className="text-2xl md:text-3xl font-extrabold mb-4">
               Annual Maintenance Contracts
             </h2>
-            <p className="text-white/70 max-w-xl mx-auto mb-8">
+            <p className="text-white/90 max-w-xl mx-auto mb-8">
               Keep your property in top condition year-round with our comprehensive AMC plans. Cover AC, plumbing, electrical, and general maintenance with one annual contract.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/amc" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
                 View AMC Plans
               </Link>
-              <Link href="/quote" className="btn-outline !bg-white/15 !border-white/40 !text-white hover:!bg-white/25">
+              <Link href="/quote" className="btn-outline !border-white/40 !text-white hover:!bg-white/10">
                 Get Custom Quote
               </Link>
             </div>

@@ -39,7 +39,7 @@ export default function DashboardPage() {
                   U
                 </div>
                 <p className="font-bold text-slate-900">Customer</p>
-                <p className="text-xs text-slate-400">Welcome back!</p>
+                <p className="text-xs text-slate-500">Welcome back!</p>
               </div>
               <nav className="space-y-1">
                 {TABS.map((tab) => (
@@ -73,7 +73,7 @@ export default function DashboardPage() {
                     <div key={stat.label} className="premium-card p-5 text-center">
                       <span className="text-2xl mb-2 block">{stat.icon}</span>
                       <p className="text-2xl font-extrabold text-slate-900">{stat.value}</p>
-                      <p className="text-xs text-slate-400">{stat.label}</p>
+                      <p className="text-xs text-slate-500">{stat.label}</p>
                     </div>
                   ))}
                 </div>

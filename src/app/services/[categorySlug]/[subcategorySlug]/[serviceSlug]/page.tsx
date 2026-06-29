@@ -142,7 +142,7 @@ export default async function ServiceDetailPage({
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white mb-4">
                 {service.name}
               </h1>
-              <p className="text-white/70 text-base leading-relaxed mb-6 max-w-xl">
+              <p className="text-white/90 text-base leading-relaxed mb-6 max-w-xl">
                 {svc.shortDescription ||
                   `Professional ${service.name.toLowerCase()} service by vetted, experienced technicians. Available across all UAE emirates with transparent pricing and satisfaction guarantee.`}
               </p>
@@ -156,7 +156,7 @@ export default async function ServiceDetailPage({
                 <Link href={`/booking?service=${service.slug}`} className="btn-primary !py-3 !px-6">
                   Book This Service
                 </Link>
-                <Link href={`/quote?service=${service.slug}`} className="btn-outline !bg-white/10 !text-white !border-white/20 hover:!bg-white/20 !py-3 !px-6">
+                <Link href={`/quote?service=${service.slug}`} className="btn-outline !bg-white/10 !text-white !border-white/40 hover:!bg-white/20 !py-3 !px-6">
                   Request a Quote
                 </Link>
                 <a
@@ -173,18 +173,18 @@ export default async function ServiceDetailPage({
               <div className="glass-card !bg-white rounded-2xl p-6">
                 {service.price && (
                   <div className="mb-4">
-                    <p className="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">
+                    <p className="text-xs text-slate-500 font-medium uppercase tracking-wider mb-1">
                       Starting From
                     </p>
                     <p className="text-3xl font-extrabold text-brand-600">
                       AED {service.price}
                     </p>
-                    <p className="text-xs text-slate-400">{svc.priceUnit || "per service"}</p>
+                    <p className="text-xs text-slate-500">{svc.priceUnit || "per service"}</p>
                   </div>
                 )}
                 {svc.durationEstimate && (
                   <div className="flex items-center gap-2 text-sm text-slate-600 mb-3 pb-3 border-b border-slate-100">
-                    <svg className="w-4 h-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Estimated duration: {svc.durationEstimate}
@@ -325,7 +325,7 @@ export default async function ServiceDetailPage({
                     <details key={i} className="premium-card p-5 group" open={i === 0}>
                       <summary className="font-semibold text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
                         {f.q}
-                        <svg className="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                         </svg>
                       </summary>

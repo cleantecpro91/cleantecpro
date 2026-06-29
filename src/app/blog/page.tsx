@@ -30,7 +30,7 @@ export default function BlogPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "Blog" }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">Blog & Resources</h1>
-          <p className="text-white/70 max-w-2xl">
+          <p className="text-white/90 max-w-2xl">
             Expert tips, maintenance guides, and practical advice for UAE homeowners and businesses.
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function BlogPage() {
                   </Link>
                 </h2>
                 <p className="text-sm text-slate-500 flex-1 mb-4">{post.excerpt}</p>
-                <div className="flex items-center justify-between text-xs text-slate-400 pt-3 border-t border-slate-100">
+                <div className="flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-100">
                   <span>{post.date}</span>
                   <span>{post.readTime} read</span>
                 </div>

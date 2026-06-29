@@ -15,7 +15,7 @@ export default function SitemapPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "Sitemap" }]} />
           <h1 className="text-3xl font-extrabold text-white mt-4 mb-2">Sitemap</h1>
-          <p className="text-white/70">A complete overview of all pages on {BRAND.shortName}.</p>
+          <p className="text-white/90">A complete overview of all pages on {BRAND.shortName}.</p>
         </div>
       </section>
       <section className="py-10 md:py-14">

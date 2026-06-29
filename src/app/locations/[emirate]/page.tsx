@@ -84,7 +84,7 @@ export default async function EmiratePage({
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Services in {emirate.name}
           </h1>
-          <p className="text-white/70 max-w-2xl text-base">
+          <p className="text-white/90 max-w-2xl text-base">
             {emirate.description}
           </p>
         </div>
@@ -149,7 +149,7 @@ export default async function EmiratePage({
                         <h3 className="text-sm font-semibold text-slate-900">
                           {cat.name}
                         </h3>
-                        <p className="text-xs text-slate-400">
+                        <p className="text-xs text-slate-500">
                           Available in {emirate.name}
                         </p>
                       </div>

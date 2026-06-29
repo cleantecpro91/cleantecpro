@@ -50,7 +50,7 @@ export default function QuotePage() {
       <section className="bg-gradient-to-br from-brand-900 to-brand-800 py-10 md:py-14">
         <div className="container-main">
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-2">Request a Free Quote</h1>
-          <p className="text-white/70">Tell us what you need and we&apos;ll provide a detailed, no-obligation quote.</p>
+          <p className="text-white/90">Tell us what you need and we&apos;ll provide a detailed, no-obligation quote.</p>
         </div>
       </section>
 
@@ -143,7 +143,7 @@ export default function QuotePage() {
               {status === "submitting" ? "Submitting..." : "Submit Quote Request"}
             </button>
 
-            <p className="text-xs text-slate-400 text-center">
+            <p className="text-xs text-slate-500 text-center">
               No obligation. We&apos;ll respond within 24 hours. For urgent needs, call or WhatsApp us.
             </p>
           </form>

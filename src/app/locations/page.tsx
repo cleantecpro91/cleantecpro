@@ -23,7 +23,7 @@ export default function LocationsPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Our Service Areas
           </h1>
-          <p className="text-white/70 max-w-2xl text-base">
+          <p className="text-white/90 max-w-2xl text-base">
             {BRAND.shortName} provides professional services across all seven emirates of the UAE. Select your emirate to view available services in your area.
           </p>
         </div>

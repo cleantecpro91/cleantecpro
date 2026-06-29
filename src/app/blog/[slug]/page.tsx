@@ -29,11 +29,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <section className="bg-gradient-to-br from-brand-900 to-brand-800 py-10 md:py-14">
         <div className="container-main max-w-3xl">
           <Breadcrumbs items={[{ label: "Blog", href: "/blog" }, { label: post.title }]} />
-          <span className="text-xs font-semibold text-brand-300 bg-white/10 px-2.5 py-1 rounded-md mt-4 inline-block mb-3">
+          <span className="text-xs font-semibold text-brand-200 bg-white/10 px-2.5 py-1 rounded-md mt-4 inline-block mb-3">
             {post.category}
           </span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white mb-3">{post.title}</h1>
-          <div className="flex items-center gap-3 text-sm text-white/50">
+          <div className="flex items-center gap-3 text-sm text-white/80">
             <span>{post.date}</span>
             <span>·</span>
             <span>{post.readTime} read</span>

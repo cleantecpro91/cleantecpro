@@ -88,7 +88,7 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link href="/services" className="text-sm text-brand-400 hover:text-brand-300 font-medium transition-colors">
+                <Link href="/services" className="text-sm text-brand-400 hover:text-brand-200 font-medium transition-colors">
                   View All →
                 </Link>
               </li>
@@ -146,23 +146,23 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-slate-800">
         <div className="container-main py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-xs text-slate-500">
+          <div className="text-xs text-slate-400">
             © {new Date().getFullYear()} {BRAND.fullName}. All rights reserved.
           </div>
           <div className="flex flex-wrap gap-4 text-xs">
-            <Link href="/privacy" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/privacy" className="text-slate-400 hover:text-slate-300 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/terms" className="text-slate-400 hover:text-slate-300 transition-colors">
               Terms & Conditions
             </Link>
-            <Link href="/refund" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/refund" className="text-slate-400 hover:text-slate-300 transition-colors">
               Refund Policy
             </Link>
-            <Link href="/cancellation" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/cancellation" className="text-slate-400 hover:text-slate-300 transition-colors">
               Cancellation Policy
             </Link>
-            <Link href="/sitemap" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/sitemap" className="text-slate-400 hover:text-slate-300 transition-colors">
               Sitemap
             </Link>
           </div>

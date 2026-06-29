@@ -30,7 +30,7 @@ export default function ServicesPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Our Services
           </h1>
-          <p className="text-white/70 text-base max-w-2xl">
+          <p className="text-white/90 text-base max-w-2xl">
             Comprehensive professional services for residential and commercial properties across all UAE emirates. Select a category to explore.
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function ServicesPage() {
                             >
                               <span>{svc.name}</span>
                               {svc.price && (
-                                <span className="text-xs text-slate-400 group-hover:text-brand-500">
+                                <span className="text-xs text-slate-500 group-hover:text-brand-500">
                                   From AED {svc.price}
                                 </span>
                               )}

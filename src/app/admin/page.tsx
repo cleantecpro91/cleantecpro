@@ -117,7 +117,7 @@ export default function AdminPage() {
               <div className="space-y-5">
                 <div className="grid sm:grid-cols-4 gap-4">
                   {[{ l: "Orders", i: "📦", c: "bg-blue-50 text-blue-600" }, { l: "Quotes", i: "📋", c: "bg-amber-50 text-amber-600" }, { l: "Customers", i: "👥", c: "bg-green-50 text-green-600" }, { l: "Blog Posts", i: "📝", c: "bg-purple-50 text-purple-600" }].map(s => (
-                    <div key={s.l} className="premium-card p-5"><div className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg mb-2 ${s.c}`}>{s.i}</div><p className="text-xs text-slate-400">{s.l}</p><button onClick={() => setTab(s.l.toLowerCase().replace(" ", ""))} className="text-xs text-brand-600 mt-1 hover:underline">Manage →</button></div>
+                    <div key={s.l} className="premium-card p-5"><div className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg mb-2 ${s.c}`}>{s.i}</div><p className="text-xs text-slate-500">{s.l}</p><button onClick={() => setTab(s.l.toLowerCase().replace(" ", ""))} className="text-xs text-brand-600 mt-1 hover:underline">Manage →</button></div>
                   ))}
                 </div>
                 <div className="premium-card p-6"><h2 className="text-base font-bold text-slate-900 mb-2">Welcome, Admin!</h2><p className="text-sm text-slate-500">Use the sidebar to manage orders, quotes, customers, blog posts, FAQs, testimonials, and contact messages.</p></div>
@@ -128,15 +128,15 @@ export default function AdminPage() {
             {tab === "orders" && (
               <div className="premium-card p-5">
                 <h2 className="text-lg font-bold text-slate-900 mb-4">Orders ({data.length})</h2>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-400">No orders yet.</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-500">No orders yet.</p> : (
                   <div className="space-y-3">{data.map((o: AnyRecord) => (
                     <div key={o.id as string} className="border border-slate-200 rounded-xl p-4">
                       <div className="flex items-start justify-between mb-2">
-                        <div><p className="font-bold text-sm text-slate-900">{o.orderNumber as string}</p><p className="text-xs text-slate-400">{o.customerName as string} · {o.customerPhone as string}</p><p className="text-xs text-slate-400">{o.customerEmail as string}</p></div>
-                        <div className="text-right"><span className={`text-xs px-2 py-1 rounded-full font-semibold ${o.orderStatus === "completed" ? "bg-green-100 text-green-700" : o.orderStatus === "cancelled" ? "bg-red-100 text-red-700" : "bg-amber-100 text-amber-700"}`}>{o.orderStatus as string}</span><p className="text-xs text-slate-400 mt-1">{fmtDate(o.createdAt)}</p></div>
+                        <div><p className="font-bold text-sm text-slate-900">{o.orderNumber as string}</p><p className="text-xs text-slate-500">{o.customerName as string} · {o.customerPhone as string}</p><p className="text-xs text-slate-500">{o.customerEmail as string}</p></div>
+                        <div className="text-right"><span className={`text-xs px-2 py-1 rounded-full font-semibold ${o.orderStatus === "completed" ? "bg-green-100 text-green-700" : o.orderStatus === "cancelled" ? "bg-red-100 text-red-700" : "bg-amber-100 text-amber-700"}`}>{o.orderStatus as string}</span><p className="text-xs text-slate-500 mt-1">{fmtDate(o.createdAt)}</p></div>
                       </div>
                       <p className="text-sm text-slate-600 mb-2">Service: <strong>{o.serviceName as string}</strong></p>
-                      {o.notes ? <p className="text-xs text-slate-400 mb-2">Notes: {String(o.notes)}</p> : null}
+                      {o.notes ? <p className="text-xs text-slate-500 mb-2">Notes: {String(o.notes)}</p> : null}
                       {editItem?.id === o.id ? (
                         <div className="mt-3 p-3 bg-slate-50 rounded-lg space-y-2">
                           <div className="grid grid-cols-2 gap-2">
@@ -161,15 +161,15 @@ export default function AdminPage() {
             {tab === "quotes" && (
               <div className="premium-card p-5">
                 <h2 className="text-lg font-bold text-slate-900 mb-4">Quote Requests ({data.length})</h2>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-400">No quote requests yet.</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-500">No quote requests yet.</p> : (
                   <div className="space-y-3">{data.map((q: AnyRecord) => (
                     <div key={q.id as string} className="border border-slate-200 rounded-xl p-4">
                       <div className="flex justify-between mb-2">
-                        <div><p className="font-bold text-sm">{q.quoteNumber as string}</p><p className="text-xs text-slate-400">{q.customerName as string} · {q.customerPhone as string} · {q.customerEmail as string}</p></div>
+                        <div><p className="font-bold text-sm">{q.quoteNumber as string}</p><p className="text-xs text-slate-500">{q.customerName as string} · {q.customerPhone as string} · {q.customerEmail as string}</p></div>
                         <span className={`text-xs px-2 py-1 rounded-full font-semibold h-fit ${q.status === "responded" ? "bg-green-100 text-green-700" : "bg-amber-100 text-amber-700"}`}>{q.status as string}</span>
                       </div>
                       <p className="text-sm text-slate-600">Service: <strong>{q.serviceName as string}</strong> · {q.emirate as string} · {q.propertyType as string}</p>
-                      <p className="text-xs text-slate-400 mt-1">{q.description as string}</p>
+                      <p className="text-xs text-slate-500 mt-1">{q.description as string}</p>
                       {editItem?.id === q.id ? (
                         <div className="mt-3 p-3 bg-slate-50 rounded-lg space-y-2">
                           <div className="grid grid-cols-2 gap-2">
@@ -191,9 +191,9 @@ export default function AdminPage() {
             {tab === "customers" && (
               <div className="premium-card p-5">
                 <h2 className="text-lg font-bold text-slate-900 mb-4">Customers ({data.length})</h2>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-400">No customers yet.</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-500">No customers yet.</p> : (
                   <div className="overflow-x-auto"><table className="w-full text-sm"><thead><tr className="border-b border-slate-200 text-left"><th className="py-2 px-3 text-xs text-slate-500 font-semibold">Name</th><th className="py-2 px-3 text-xs text-slate-500 font-semibold">Email</th><th className="py-2 px-3 text-xs text-slate-500 font-semibold">Phone</th><th className="py-2 px-3 text-xs text-slate-500 font-semibold">Joined</th></tr></thead>
-                  <tbody>{data.map((c: AnyRecord) => (<tr key={c.id as string} className="border-b border-slate-100"><td className="py-2 px-3 font-medium">{c.firstName as string} {c.lastName as string}</td><td className="py-2 px-3 text-slate-500">{c.email as string}</td><td className="py-2 px-3 text-slate-500">{c.phone as string}</td><td className="py-2 px-3 text-slate-400 text-xs">{fmtDate(c.createdAt)}</td></tr>))}</tbody></table></div>
+                  <tbody>{data.map((c: AnyRecord) => (<tr key={c.id as string} className="border-b border-slate-100"><td className="py-2 px-3 font-medium">{c.firstName as string} {c.lastName as string}</td><td className="py-2 px-3 text-slate-500">{c.email as string}</td><td className="py-2 px-3 text-slate-500">{c.phone as string}</td><td className="py-2 px-3 text-slate-500 text-xs">{fmtDate(c.createdAt)}</td></tr>))}</tbody></table></div>
                 )}
               </div>
             )}
@@ -221,10 +221,10 @@ export default function AdminPage() {
                     <div className="flex gap-2"><button onClick={() => saveItem("blog", editItem ? "PUT" : "POST", editItem ? { id: editItem.id, ...formData } : formData)} className="btn-primary !text-sm">Save Post</button><button onClick={() => { setShowForm(false); setFormData({}); }} className="btn-outline !text-sm">Cancel</button></div>
                   </div>
                 )}
-                {data.length === 0 ? <p className="text-sm text-slate-400">No blog posts.</p> : (
+                {data.length === 0 ? <p className="text-sm text-slate-500">No blog posts.</p> : (
                   <div className="space-y-2">{data.map((p: AnyRecord) => (
                     <div key={p.id as string} className="flex items-center justify-between p-3 border border-slate-200 rounded-lg">
-                      <div><p className="text-sm font-semibold">{p.title as string}</p><p className="text-xs text-slate-400">{p.category as string} · {p.isPublished ? "✅ Published" : "📝 Draft"} · {fmtDate(p.createdAt)}</p></div>
+                      <div><p className="text-sm font-semibold">{p.title as string}</p><p className="text-xs text-slate-500">{p.category as string} · {p.isPublished ? "✅ Published" : "📝 Draft"} · {fmtDate(p.createdAt)}</p></div>
                       <div className="flex gap-2"><button onClick={() => { setEditItem(p); setFormData({ title: p.title, slug: p.slug, excerpt: p.excerpt || "", content: p.content, category: p.category || "", isPublished: p.isPublished }); setShowForm(true); }} className="text-xs text-brand-600 hover:underline">Edit</button><button onClick={() => deleteItem("blog", p.id as string)} className="text-xs text-red-500 hover:underline">Delete</button></div>
                     </div>
                   ))}</div>
@@ -247,7 +247,7 @@ export default function AdminPage() {
                     <div className="flex gap-2"><button onClick={() => saveItem("faqs", editItem ? "PUT" : "POST", editItem ? { id: editItem.id, ...formData } : formData)} className="btn-primary !text-sm">Save FAQ</button><button onClick={() => { setShowForm(false); setFormData({}); }} className="btn-outline !text-sm">Cancel</button></div>
                   </div>
                 )}
-                {data.length === 0 ? <p className="text-sm text-slate-400">No FAQs.</p> : (
+                {data.length === 0 ? <p className="text-sm text-slate-500">No FAQs.</p> : (
                   <div className="space-y-2">{data.map((f: AnyRecord) => (
                     <div key={f.id as string} className="p-3 border border-slate-200 rounded-lg">
                       <p className="text-sm font-semibold mb-1">{f.question as string}</p><p className="text-xs text-slate-500">{(f.answer as string).substring(0, 120)}...</p>
@@ -279,10 +279,10 @@ export default function AdminPage() {
                     <div className="flex gap-2"><button onClick={() => saveItem("testimonials", "POST", formData)} className="btn-primary !text-sm">Save</button><button onClick={() => { setShowForm(false); setFormData({}); }} className="btn-outline !text-sm">Cancel</button></div>
                   </div>
                 )}
-                {data.length === 0 ? <p className="text-sm text-slate-400">No testimonials.</p> : (
+                {data.length === 0 ? <p className="text-sm text-slate-500">No testimonials.</p> : (
                   <div className="space-y-2">{data.map((t: AnyRecord) => (
                     <div key={t.id as string} className="flex items-start justify-between p-3 border border-slate-200 rounded-lg">
-                      <div><p className="text-sm font-semibold">{t.customerName as string} <span className="text-slate-400 font-normal">· {t.customerLocation as string}</span></p><p className="text-xs text-amber-500">{"★".repeat(t.rating as number)}</p><p className="text-xs text-slate-500 mt-1">{(t.content as string).substring(0, 100)}...</p></div>
+                      <div><p className="text-sm font-semibold">{t.customerName as string} <span className="text-slate-500 font-normal">· {t.customerLocation as string}</span></p><p className="text-xs text-amber-500">{"★".repeat(t.rating as number)}</p><p className="text-xs text-slate-500 mt-1">{(t.content as string).substring(0, 100)}...</p></div>
                       <button onClick={() => deleteItem("testimonials", t.id as string)} className="text-xs text-red-500 hover:underline shrink-0">Delete</button>
                     </div>
                   ))}</div>
@@ -294,11 +294,11 @@ export default function AdminPage() {
             {tab === "contacts" && (
               <div className="premium-card p-5">
                 <h2 className="text-lg font-bold text-slate-900 mb-4">Contact Messages ({data.length})</h2>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-400">No messages yet.</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-500">No messages yet.</p> : (
                   <div className="space-y-3">{data.map((c: AnyRecord) => (
                     <div key={c.id as string} className="p-4 border border-slate-200 rounded-lg">
-                      <div className="flex justify-between mb-1"><p className="text-sm font-semibold">{c.name as string}</p><p className="text-xs text-slate-400">{fmtDate(c.createdAt)}</p></div>
-                      <p className="text-xs text-slate-400">{c.email as string} · {c.phone as string || "No phone"}</p>
+                      <div className="flex justify-between mb-1"><p className="text-sm font-semibold">{c.name as string}</p><p className="text-xs text-slate-500">{fmtDate(c.createdAt)}</p></div>
+                      <p className="text-xs text-slate-500">{c.email as string} · {c.phone as string || "No phone"}</p>
                       {c.subject ? <p className="text-xs text-slate-500 mt-1 font-medium">Subject: {String(c.subject)}</p> : null}
                       <p className="text-sm text-slate-600 mt-2">{c.message as string}</p>
                     </div>
@@ -314,15 +314,15 @@ export default function AdminPage() {
                   <h2 className="text-lg font-bold text-slate-900">Services ({data.length})</h2>
                   {data.length === 0 && <button onClick={async () => { setMsg("⏳ Seeding data..."); const r = await fetch("/api/admin/seed-data?key=setup2025cleantecpro"); const d = await r.json(); if(r.ok){setMsg("✅ Data seeded! Refresh the tab."); fetchData("services");} else setMsg("❌ "+String(d.error)); }} className="btn-primary !text-xs !py-2 !px-3">🌱 Load All Services from Template</button>}
                 </div>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-400">No services in database. Click the button above to load all template services.</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : data.length === 0 ? <p className="text-sm text-slate-500">No services in database. Click the button above to load all template services.</p> : (
                   <div className="space-y-2">{data.map((s: AnyRecord) => (
                     <div key={s.id as string} className="flex items-center justify-between p-3 border border-slate-200 rounded-lg">
-                      <div><p className="text-sm font-semibold">{s.name as string}</p><p className="text-xs text-slate-400">/{s.slug as string} {s.startingPrice ? `· AED ${s.startingPrice}` : ""} · {s.isActive ? "✅ Active" : "❌ Inactive"}</p></div>
+                      <div><p className="text-sm font-semibold">{s.name as string}</p><p className="text-xs text-slate-500">/{s.slug as string} {s.startingPrice ? `· AED ${s.startingPrice}` : ""} · {s.isActive ? "✅ Active" : "❌ Inactive"}</p></div>
                       {editItem?.id === s.id ? (
                         <div className="flex gap-2 items-center">
                           <input className="form-input !text-xs !py-1 !w-20" placeholder="Price" value={formData.startingPrice as string || ""} onChange={e=>setFormData({...formData,startingPrice:e.target.value})} />
                           <button onClick={()=>saveItem("services","PUT",{id:s.id,...formData})} className="text-xs text-green-600 hover:underline">Save</button>
-                          <button onClick={()=>{setEditItem(null);setFormData({});}} className="text-xs text-slate-400">Cancel</button>
+                          <button onClick={()=>{setEditItem(null);setFormData({});}} className="text-xs text-slate-500">Cancel</button>
                         </div>
                       ) : (<button onClick={()=>{setEditItem(s);setFormData({});}} className="text-xs text-brand-600 hover:underline">Edit ✏️</button>)}
                     </div>
@@ -338,23 +338,23 @@ export default function AdminPage() {
                   <h2 className="text-lg font-bold text-slate-900">Categories ({data.length}) & Subcategories ({((extraData.subcategories as AnyRecord[]) || []).length})</h2>
                   {data.length === 0 && <button onClick={async () => { setMsg("⏳ Seeding..."); const r = await fetch("/api/admin/seed-data?key=setup2025cleantecpro"); if(r.ok){setMsg("✅ Seeded!"); fetchData("categories");} else setMsg("❌ Error"); }} className="btn-primary !text-xs !py-2 !px-3">🌱 Load Categories</button>}
                 </div>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : (
                   <div>
                     <h3 className="font-bold text-sm mb-2">Categories</h3>
-                    {data.length === 0 ? <p className="text-sm text-slate-400 mb-4">No categories. Click button above.</p> : (
+                    {data.length === 0 ? <p className="text-sm text-slate-500 mb-4">No categories. Click button above.</p> : (
                       <div className="space-y-1 mb-4">{data.map((c: AnyRecord) => (
                         <div key={c.id as string} className="flex items-center justify-between p-2 border border-slate-100 rounded-lg">
-                          <p className="text-sm"><span className="mr-2">{c.icon as string}</span><strong>{c.name as string}</strong> <span className="text-slate-400">/{c.slug as string}</span></p>
-                          <span className="text-xs text-slate-400">{c.isActive ? "Active" : "Inactive"}</span>
+                          <p className="text-sm"><span className="mr-2">{c.icon as string}</span><strong>{c.name as string}</strong> <span className="text-slate-500">/{c.slug as string}</span></p>
+                          <span className="text-xs text-slate-500">{c.isActive ? "Active" : "Inactive"}</span>
                         </div>
                       ))}</div>
                     )}
                     <h3 className="font-bold text-sm mb-2">Subcategories</h3>
-                    {((extraData.subcategories as AnyRecord[]) || []).length === 0 ? <p className="text-sm text-slate-400">No subcategories.</p> : (
+                    {((extraData.subcategories as AnyRecord[]) || []).length === 0 ? <p className="text-sm text-slate-500">No subcategories.</p> : (
                       <div className="space-y-1">{((extraData.subcategories as AnyRecord[]) || []).map((s: AnyRecord) => (
                         <div key={s.id as string} className="flex items-center justify-between p-2 border border-slate-100 rounded-lg">
-                          <p className="text-sm"><strong>{s.name as string}</strong> <span className="text-slate-400">/{s.slug as string}</span></p>
-                          <span className="text-xs text-slate-400">{s.isActive ? "Active" : "Inactive"}</span>
+                          <p className="text-sm"><strong>{s.name as string}</strong> <span className="text-slate-500">/{s.slug as string}</span></p>
+                          <span className="text-xs text-slate-500">{s.isActive ? "Active" : "Inactive"}</span>
                         </div>
                       ))}</div>
                     )}
@@ -370,22 +370,22 @@ export default function AdminPage() {
                   <h2 className="text-lg font-bold text-slate-900">Emirates ({data.length}) · Cities ({((extraData.cities as AnyRecord[]) || []).length})</h2>
                   {data.length === 0 && <button onClick={async () => { setMsg("⏳ Seeding..."); const r = await fetch("/api/admin/seed-data?key=setup2025cleantecpro"); if(r.ok){setMsg("✅ Seeded!"); fetchData("locations");} else setMsg("❌ Error"); }} className="btn-primary !text-xs !py-2 !px-3">🌱 Load Locations</button>}
                 </div>
-                {loading ? <p className="text-sm text-slate-400">Loading...</p> : (
+                {loading ? <p className="text-sm text-slate-500">Loading...</p> : (
                   <div>
                     <h3 className="font-bold text-sm mb-2">Emirates</h3>
-                    {data.length === 0 ? <p className="text-sm text-slate-400 mb-4">No emirates. Click button above.</p> : (
+                    {data.length === 0 ? <p className="text-sm text-slate-500 mb-4">No emirates. Click button above.</p> : (
                       <div className="space-y-1 mb-4">{data.map((e: AnyRecord) => (
                         <div key={e.id as string} className="flex items-center justify-between p-2 border border-slate-100 rounded-lg">
-                          <p className="text-sm"><strong>{e.name as string}</strong> <span className="text-slate-400">/{e.slug as string}</span> {e.isPrimary ? <span className="text-xs bg-brand-100 text-brand-600 px-1.5 py-0.5 rounded-full ml-1">Primary</span> : ""}</p>
-                          <span className="text-xs text-slate-400">{e.isActive ? "Active" : "Inactive"}</span>
+                          <p className="text-sm"><strong>{e.name as string}</strong> <span className="text-slate-500">/{e.slug as string}</span> {e.isPrimary ? <span className="text-xs bg-brand-100 text-brand-600 px-1.5 py-0.5 rounded-full ml-1">Primary</span> : ""}</p>
+                          <span className="text-xs text-slate-500">{e.isActive ? "Active" : "Inactive"}</span>
                         </div>
                       ))}</div>
                     )}
                     <h3 className="font-bold text-sm mb-2">Cities ({((extraData.cities as AnyRecord[]) || []).length})</h3>
-                    {((extraData.cities as AnyRecord[]) || []).length === 0 ? <p className="text-sm text-slate-400">No cities.</p> : (
+                    {((extraData.cities as AnyRecord[]) || []).length === 0 ? <p className="text-sm text-slate-500">No cities.</p> : (
                       <div className="grid sm:grid-cols-2 gap-1">{((extraData.cities as AnyRecord[]) || []).map((c: AnyRecord) => (
                         <div key={c.id as string} className="p-2 border border-slate-100 rounded-lg text-sm">
-                          <strong>{c.name as string}</strong> <span className="text-slate-400">/{c.slug as string}</span>
+                          <strong>{c.name as string}</strong> <span className="text-slate-500">/{c.slug as string}</span>
                         </div>
                       ))}</div>
                     )}

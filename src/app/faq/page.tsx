@@ -60,7 +60,7 @@ export default function FAQPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "FAQ" }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">Frequently Asked Questions</h1>
-          <p className="text-white/70 max-w-2xl">
+          <p className="text-white/90 max-w-2xl">
             Find answers to common questions about our services, booking process, pricing, and coverage.
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function FAQPage() {
                   <details key={i} className="premium-card p-5 group" open={i === 0}>
                     <summary className="font-semibold text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
                       {faq.q}
-                      <svg className="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>

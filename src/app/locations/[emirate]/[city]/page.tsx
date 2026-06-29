@@ -63,7 +63,7 @@ export default async function CityPage({
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Services in {city.name}, {emirate.name}
           </h1>
-          <p className="text-white/70 max-w-2xl text-base">
+          <p className="text-white/90 max-w-2xl text-base">
             Professional home and commercial services in {city.name}. Book online, get a quote, or contact us on WhatsApp for immediate assistance.
           </p>
         </div>
@@ -113,7 +113,7 @@ export default async function CityPage({
                           {cat.name}
                         </Link>
                       </h3>
-                      <p className="text-xs text-slate-400">
+                      <p className="text-xs text-slate-500">
                         Available in {city.name}, {emirate.name}
                       </p>
                     </div>

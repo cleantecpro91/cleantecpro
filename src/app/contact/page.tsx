@@ -25,7 +25,7 @@ export default function ContactPage() {
       <section className="bg-gradient-to-br from-brand-900 to-brand-800 py-12 md:py-16">
         <div className="container-main">
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-3">Contact Us</h1>
-          <p className="text-white/70">Get in touch with our team. We&apos;re here to help.</p>
+          <p className="text-white/90">Get in touch with our team. We&apos;re here to help.</p>
         </div>
       </section>
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
                 <div className="text-sm text-slate-600 space-y-1">
                   <p>Saturday – Thursday: 8:00 AM – 10:00 PM</p>
                   <p>Friday: 2:00 PM – 10:00 PM</p>
-                  <p className="text-xs text-slate-400 mt-2">WhatsApp and phone available during business hours. Online bookings available 24/7.</p>
+                  <p className="text-xs text-slate-500 mt-2">WhatsApp and phone available during business hours. Online bookings available 24/7.</p>
                 </div>
               </div>
             </div>

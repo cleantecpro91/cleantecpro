@@ -141,7 +141,7 @@
 
 .section-subheading {
   font-size: 1.0625rem;
-  color: #64748b;
+  color: #475569;
   line-height: 1.7;
   max-width: 640px;
 }
@@ -195,7 +195,7 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 0.875rem;
-  color: #64748b;
+  color: #475569;
   padding: 1rem 0;
   flex-wrap: wrap;
 }
@@ -211,7 +211,7 @@
 
 .breadcrumb-separator::before {
   content: '/';
-  color: #cbd5e1;
+  color: #94a3b8;
 }
 
 /* ─── Forms ─────────────────────────────────────────────────── */

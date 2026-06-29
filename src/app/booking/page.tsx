@@ -66,7 +66,7 @@ export default function BookingPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-2">
             Book a Service
           </h1>
-          <p className="text-white/70">
+          <p className="text-white/90">
             Select your service, choose a date, and we&apos;ll handle the rest.
           </p>
         </div>
@@ -191,7 +191,7 @@ export default function BookingPage() {
               {status === "submitting" ? "Submitting..." : "Confirm Booking"}
             </button>
 
-            <p className="text-xs text-slate-400 text-center">
+            <p className="text-xs text-slate-500 text-center">
               By booking, you agree to our{" "}
               <Link href="/terms" className="text-brand-600 underline">Terms & Conditions</Link>.
               We&apos;ll confirm your booking via WhatsApp or phone call.

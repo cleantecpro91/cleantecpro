@@ -14,7 +14,7 @@ export default function NotFound() {
           <Link href="/" className="btn-primary">Go to Homepage</Link>
           <Link href="/services" className="btn-outline">Browse Services</Link>
         </div>
-        <div className="text-sm text-slate-400">
+        <div className="text-sm text-slate-500">
           <p>Need help? Contact us:</p>
           <p className="mt-1">
             <a href={`tel:${BRAND.phone}`} className="text-brand-600 hover:underline">{BRAND.phoneFormatted}</a>

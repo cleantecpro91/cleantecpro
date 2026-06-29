@@ -47,7 +47,7 @@ export default function AMCPage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">
             Annual Maintenance Contracts
           </h1>
-          <p className="text-white/70 max-w-2xl">
+          <p className="text-white/90 max-w-2xl">
             Keep your property in top condition year-round with our comprehensive AMC plans. One contract, complete peace of mind.
           </p>
         </div>
@@ -68,11 +68,11 @@ export default function AMCPage() {
                 )}
                 <div className="text-center mb-6">
                   <h2 className="text-lg font-bold text-slate-900 mb-1">{plan.name}</h2>
-                  <p className="text-xs text-slate-400 mb-3">{plan.type}</p>
+                  <p className="text-xs text-slate-500 mb-3">{plan.type}</p>
                   <div className="text-3xl font-extrabold text-brand-600">
                     AED {plan.price}
                   </div>
-                  <p className="text-xs text-slate-400">per year</p>
+                  <p className="text-xs text-slate-500">per year</p>
                 </div>
                 <ul className="space-y-2.5 mb-6">
                   {plan.features.map((f) => (
