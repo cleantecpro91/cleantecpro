@@ -53,7 +53,7 @@ export default async function SubcategoryPage({
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-2">
             {subcategory.name}
           </h1>
-          <p className="text-white/70 text-base max-w-2xl">
+          <p className="text-white/85 text-base max-w-2xl">
             Browse and book professional {subcategory.name.toLowerCase()} services across the UAE.
           </p>
         </div>

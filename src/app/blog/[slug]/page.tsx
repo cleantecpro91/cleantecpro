@@ -33,7 +33,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.category}
           </span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white mb-3">{post.title}</h1>
-          <div className="flex items-center gap-3 text-sm text-white/50">
+          <div className="flex items-center gap-3 text-sm text-white/80">
             <span>{post.date}</span>
             <span>·</span>
             <span>{post.readTime} read</span>

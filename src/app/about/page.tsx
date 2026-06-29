@@ -21,7 +21,7 @@ export default function AboutPage() {
         <div className="container-main">
           <Breadcrumbs items={[{ label: "About Us" }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold text-white mt-4 mb-3">About CleanTecPro</h1>
-          <p className="text-white/70 max-w-2xl">
+          <p className="text-white/85 max-w-2xl">
             Your trusted partner for professional technical, cleaning, and maintenance services across the UAE.
           </p>
         </div>

@@ -12,7 +12,7 @@ export default function Footer() {
               <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-1">
                 Ready to Book a Service?
               </h2>
-              <p className="text-white/80 text-base">
+              <p className="text-white/85 text-base">
                 Get professional service at your doorstep. Fast booking, reliable teams, transparent pricing.
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function Footer() {
                 Clean<span className="text-brand-400">Tec</span>Pro
               </span>
             </div>
-            <p className="text-sm text-slate-400 leading-relaxed mb-4">
+            <p className="text-sm text-slate-300 leading-relaxed mb-4">
               Your trusted partner for professional technical, cleaning, and maintenance services across the United Arab Emirates.
             </p>
             <div className="space-y-2.5 text-sm">
@@ -64,7 +64,7 @@ export default function Footer() {
                 </svg>
                 {BRAND.email}
               </a>
-              <div className="flex items-start gap-2 text-slate-400">
+              <div className="flex items-start gap-2 text-slate-300">
                 <svg className="w-4 h-4 text-brand-400 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -146,23 +146,23 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-slate-800">
         <div className="container-main py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-xs text-slate-500">
+          <div className="text-xs text-slate-300">
             © {new Date().getFullYear()} {BRAND.fullName}. All rights reserved.
           </div>
           <div className="flex flex-wrap gap-4 text-xs">
-            <Link href="/privacy" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/privacy" className="text-slate-400 hover:text-slate-200 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/terms" className="text-slate-400 hover:text-slate-200 transition-colors">
               Terms & Conditions
             </Link>
-            <Link href="/refund" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/refund" className="text-slate-400 hover:text-slate-200 transition-colors">
               Refund Policy
             </Link>
-            <Link href="/cancellation" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/cancellation" className="text-slate-400 hover:text-slate-200 transition-colors">
               Cancellation Policy
             </Link>
-            <Link href="/sitemap" className="text-slate-500 hover:text-slate-300 transition-colors">
+            <Link href="/sitemap" className="text-slate-400 hover:text-slate-200 transition-colors">
               Sitemap
             </Link>
           </div>
