@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 const SAMPLE_POSTS = [
+  { title: "Professional Deep Cleaning Services in Dubai: What's Included & Why You Need It", slug: "professional-deep-cleaning-services-dubai", excerpt: "Looking for professional deep cleaning services in Dubai? Discover what's included, pricing breakdown, benefits and why UAE residents trust expert deep cleaners. Complete guide with costs.", category: "Cleaning", date: "2025-06-25", readTime: "12 min" },
   { title: "10 Essential AC Maintenance Tips for UAE Summers", slug: "ac-maintenance-tips-uae-summers", excerpt: "Keep your AC running efficiently during the intense UAE summer with these practical maintenance tips from our HVAC experts.", category: "AC & HVAC", date: "2025-01-15", readTime: "5 min" },
   { title: "How Often Should You Deep Clean Your Home in the UAE?", slug: "how-often-deep-clean-home-uae", excerpt: "The UAE's desert climate means homes accumulate dust faster than in many other regions. Learn the optimal cleaning frequency for different areas of your home.", category: "Cleaning", date: "2025-01-10", readTime: "4 min" },
   { title: "Signs Your Water Heater Needs Repair or Replacement", slug: "signs-water-heater-needs-repair", excerpt: "A malfunctioning water heater can disrupt your daily routine. Here are the key warning signs that indicate it's time for a repair or replacement.", category: "Plumbing", date: "2025-01-05", readTime: "4 min" },
