@@ -351,13 +351,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <Link href="/booking" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
                 Book Now
               </Link>
-              <Link href="/quote" className="btn-outline !border-white/40 !text-white hover:!bg-white/10">
+              <Link href="/quote" className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
                 Get Free Quote
               </Link>
               <a href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent("Hi, I'd like to book a deep cleaning service.")}`} className="btn-whatsapp" target="_blank" rel="noopener noreferrer">
                 WhatsApp Us
               </a>
-              <a href={`tel:${BRAND.phone}`} className="btn-outline !border-white/40 !text-white hover:!bg-white/10">
+              <a href={`tel:${BRAND.phone}`} className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
                 Call {BRAND.phoneFormatted}
               </a>
             </div>

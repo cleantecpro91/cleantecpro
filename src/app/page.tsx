@@ -342,7 +342,7 @@ export default function HomePage() {
               <Link href="/amc" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
                 View AMC Plans
               </Link>
-              <Link href="/quote" className="btn-outline !border-white/40 !text-white hover:!bg-white/10">
+              <Link href="/quote" className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
                 Get Custom Quote
               </Link>
             </div>
