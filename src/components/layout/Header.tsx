@@ -130,20 +130,14 @@ export default function Header() {
       >
         <div className="container-main flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="CleanTecPro Home">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center shadow-lg shadow-brand-500/20">
-              <svg viewBox="0 0 32 32" className="w-6 h-6 text-white" fill="currentColor">
-                <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 3c1.5 0 3 .5 4 1.5l-4 4-4-4C13 5.5 14.5 5 16 5zm-7 6.5L12.5 15 9 18.5c-1-1-1.5-2.5-1.5-4 0-1 .5-2 1.5-3zM16 27c-6.075 0-11-4.925-11-11 0-1.5.5-3 1.5-4.5L12 17l4-7 4 7 5.5-5.5c1 1.5 1.5 3 1.5 4.5 0 6.075-4.925 11-11 11z"/>
-              </svg>
-            </div>
-            <div className="hidden sm:block">
-              <span className="text-lg font-extrabold tracking-tight text-brand-900">
-                Clean<span className="text-brand-600">Tec</span>Pro
-              </span>
-              <p className="text-[10px] text-slate-500 font-medium -mt-0.5 leading-tight">
-                Professional Services
-              </p>
-            </div>
+          <Link href="/" className="flex items-center shrink-0" aria-label="CleanTecPro Home">
+            <img
+              src="/logo.png"
+              alt="CleanTecPro - Professional Technical And Cleaning Services"
+              className="h-12 sm:h-14 w-auto"
+              width={180}
+              height={56}
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -353,9 +347,7 @@ export default function Header() {
           <div className="fixed right-0 top-0 bottom-0 w-[320px] max-w-[85vw] bg-white shadow-2xl overflow-y-auto">
             <div className="p-5">
               <div className="flex items-center justify-between mb-6">
-                <span className="text-lg font-extrabold text-brand-900">
-                  Clean<span className="text-brand-600">Tec</span>Pro
-                </span>
+                <img src="/logo.png" alt="CleanTecPro" className="h-10 w-auto" width={130} height={40} />
                 <button onClick={() => setMobileOpen(false)} className="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-slate-100">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />

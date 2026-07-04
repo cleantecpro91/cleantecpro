@@ -38,15 +38,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:pr-6">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center">
-                <svg viewBox="0 0 32 32" className="w-6 h-6 text-white" fill="currentColor">
-                  <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 3c1.5 0 3 .5 4 1.5l-4 4-4-4C13 5.5 14.5 5 16 5zm-7 6.5L12.5 15 9 18.5c-1-1-1.5-2.5-1.5-4 0-1 .5-2 1.5-3zM16 27c-6.075 0-11-4.925-11-11 0-1.5.5-3 1.5-4.5L12 17l4-7 4 7 5.5-5.5c1 1.5 1.5 3 1.5 4.5 0 6.075-4.925 11-11 11z"/>
-                </svg>
-              </div>
-              <span className="text-lg font-extrabold text-white">
-                Clean<span className="text-brand-400">Tec</span>Pro
-              </span>
+            <div className="mb-4">
+              <img
+                src="/logo.png"
+                alt="CleanTecPro - Professional Technical And Cleaning Services"
+                className="h-12 w-auto brightness-0 invert"
+                width={160}
+                height={48}
+              />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
               Your trusted partner for professional technical, cleaning, and maintenance services across the United Arab Emirates.
