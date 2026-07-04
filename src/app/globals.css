@@ -118,7 +118,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: #128c51;
+  background: #0b6e3d;
   color: white;
   font-weight: 700;
   border-radius: 12px;
@@ -127,9 +127,9 @@
 }
 
 .btn-whatsapp:hover {
-  background: #0e7a45;
+  background: #095e33;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(18, 140, 81, 0.4);
+  box-shadow: 0 4px 12px rgba(11, 110, 61, 0.4);
 }
 
 .section-heading {
@@ -314,11 +314,11 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #128c51;
+  background: #0b6e3d;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 20px rgba(18, 140, 81, 0.4);
+  box-shadow: 0 4px 20px rgba(11, 110, 61, 0.4);
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
