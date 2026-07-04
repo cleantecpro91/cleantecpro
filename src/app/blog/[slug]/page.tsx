@@ -419,7 +419,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 { name: "Mirdif", href: "/locations/dubai/mirdif" },
                 { name: "JVC", href: "/locations/dubai/jvc" },
               ].map(loc => (
-                <Link key={loc.href} href={loc.href} className="text-sm text-brand-600 bg-brand-50 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors font-medium">
+                <Link key={loc.href} href={loc.href} className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors font-medium">
                   {loc.name}
                 </Link>
               ))}

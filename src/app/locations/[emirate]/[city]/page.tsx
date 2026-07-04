@@ -132,7 +132,7 @@ export default async function CityPage({
                       <Link
                         key={a.slug}
                         href={`/locations/${emirate.slug}/${a.slug}`}
-                        className="text-sm text-brand-600 bg-brand-50 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors"
+                        className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors"
                       >
                         {a.name}
                       </Link>

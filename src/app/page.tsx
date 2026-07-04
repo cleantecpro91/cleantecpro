@@ -184,7 +184,7 @@ export default function HomePage() {
                 href={svc.slug}
                 className="premium-card p-6 flex flex-col"
               >
-                <span className="text-xs font-semibold text-brand-600 bg-brand-50 px-2 py-1 rounded-md self-start mb-3">
+                <span className="text-xs font-semibold text-brand-800 bg-brand-100 px-2 py-1 rounded-md self-start mb-3">
                   {svc.cat}
                 </span>
                 <h3 className="text-base font-bold text-slate-900 mb-2">

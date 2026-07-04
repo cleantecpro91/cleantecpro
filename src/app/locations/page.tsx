@@ -62,7 +62,7 @@ export default function LocationsPage() {
                     </span>
                   ))}
                   {emirate.cities.length > 6 && (
-                    <span className="text-xs bg-brand-50 text-brand-600 px-2.5 py-1 rounded-md font-medium">
+                    <span className="text-xs bg-brand-100 text-brand-800 px-2.5 py-1 rounded-md font-medium">
                       +{emirate.cities.length - 6} more
                     </span>
                   )}
