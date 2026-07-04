@@ -110,9 +110,9 @@ export default function HomePage() {
                       <span className="text-2xl mb-2 block">
                         {CATEGORY_ICONS[cat.slug] || "📋"}
                       </span>
-                      <h3 className="text-sm font-bold text-white mb-1">
+                      <p className="text-sm font-bold text-white mb-1">
                         {cat.name}
-                      </h3>
+                      </p>
                       <p className="text-xs text-white/80">
                         {cat.subcategories.length} service types
                       </p>
