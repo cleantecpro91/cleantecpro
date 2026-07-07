@@ -33,41 +33,43 @@ export default function LocationsPage() {
         <div className="container-main">
           <div className="grid md:grid-cols-2 gap-6">
             {UAE_EMIRATES.map((emirate) => (
-              <Link
+              <div
                 key={emirate.slug}
-                href={`/locations/${emirate.slug}`}
-                className="premium-card p-6 group"
+                className="premium-card p-6"
               >
                 <div className="flex items-center justify-between mb-3">
-                  <h2 className="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
-                    {emirate.name}
+                  <h2 className="text-xl font-bold text-slate-900">
+                    <Link href={`/locations/${emirate.slug}`} className="hover:text-brand-600 transition-colors">
+                      {emirate.name}
+                    </Link>
                     {emirate.isPrimary && (
                       <span className="ml-2 text-[10px] bg-brand-100 text-brand-700 px-2 py-0.5 rounded-full font-semibold align-middle">
                         Primary Market
                       </span>
                     )}
                   </h2>
-                  <span className="text-sm text-brand-600 font-medium">
+                  <Link href={`/locations/${emirate.slug}`} className="text-sm text-brand-600 font-medium hover:text-brand-700">
                     {emirate.cities.length} areas →
-                  </span>
+                  </Link>
                 </div>
                 <p className="text-sm text-slate-500 mb-4">{emirate.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {emirate.cities.slice(0, 6).map((city) => (
-                    <span
+                    <Link
                       key={city.slug}
-                      className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md"
+                      href={`/locations/${emirate.slug}/${city.slug}`}
+                      className="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md hover:bg-brand-100 hover:text-brand-800 transition-colors"
                     >
                       {city.name}
-                    </span>
+                    </Link>
                   ))}
                   {emirate.cities.length > 6 && (
-                    <span className="text-xs bg-brand-100 text-brand-800 px-2.5 py-1 rounded-md font-medium">
+                    <Link href={`/locations/${emirate.slug}`} className="text-xs bg-brand-100 text-brand-800 px-2.5 py-1 rounded-md font-medium hover:bg-brand-200 transition-colors">
                       +{emirate.cities.length - 6} more
-                    </span>
+                    </Link>
                   )}
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
 
