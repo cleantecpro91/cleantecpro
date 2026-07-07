@@ -172,12 +172,12 @@ export default function HomePage() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { name: "Deep Home Cleaning", slug: "/services/cleaning/deep-cleaning/deep-home-cleaning", price: "From AED 199", cat: "Cleaning" },
-              { name: "AC Cleaning & Service", slug: "/services/ac-hvac/ac-maintenance/ac-cleaning", price: "From AED 89", cat: "AC & HVAC" },
-              { name: "Plumbing Leak Repair", slug: "/services/plumbing/plumbing-repair/leak-repair", price: "From AED 129", cat: "Plumbing" },
-              { name: "Move-In Move-Out Cleaning", slug: "/services/cleaning/deep-cleaning/move-in-move-out-cleaning", price: "From AED 299", cat: "Cleaning" },
-              { name: "Electrical Light Installation", slug: "/services/electrical/electrical-installation/light-installation", price: "From AED 79", cat: "Electrical" },
-              { name: "Sofa Cleaning", slug: "/services/cleaning/specialized-cleaning/sofa-cleaning", price: "From AED 129", cat: "Cleaning" },
+              { name: "Deep Home Cleaning", slug: "/services/cleaning/deep-cleaning/deep-home-cleaning", price: "From AED 199", cat: "Cleaning", desc: "Complete top-to-bottom home cleaning that removes embedded dust, grease, and allergens from every room." },
+              { name: "AC Cleaning & Service", slug: "/services/ac-hvac/ac-maintenance/ac-cleaning", price: "From AED 89", cat: "AC & HVAC", desc: "Restore your AC cooling efficiency with coil cleaning, filter wash, and gas pressure check included." },
+              { name: "Plumbing Leak Repair", slug: "/services/plumbing/plumbing-repair/leak-repair", price: "From AED 129", cat: "Plumbing", desc: "Quick leak detection and pipe repair for kitchens, bathrooms, and water heater connections." },
+              { name: "Move-In Move-Out Cleaning", slug: "/services/cleaning/deep-cleaning/move-in-move-out-cleaning", price: "From AED 299", cat: "Cleaning", desc: "Handover-ready cleaning for tenants and landlords — walls, cabinets, bathrooms, and balconies covered." },
+              { name: "Electrical Light Installation", slug: "/services/electrical/electrical-installation/light-installation", price: "From AED 79", cat: "Electrical", desc: "Safe fitting of ceiling lights, chandeliers, spotlights, and outdoor fixtures with wiring check." },
+              { name: "Sofa Cleaning", slug: "/services/cleaning/specialized-cleaning/sofa-cleaning", price: "From AED 129", cat: "Cleaning", desc: "Steam-based fabric and leather sofa cleaning that lifts stains, odors, and dust mites effectively." },
             ].map((svc) => (
               <Link
                 key={svc.slug}
@@ -191,7 +191,7 @@ export default function HomePage() {
                   {svc.name}
                 </h3>
                 <p className="text-sm text-slate-500 mb-4 flex-1">
-                  Professional service with transparent pricing and vetted teams.
+                  {svc.desc}
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-bold text-brand-600">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { UAE_EMIRATES, BRAND, getEmirateBySlug, getCityBySlug, SERVICE_CATEGORIES } from "@/lib/data";
+import { getCityContent } from "@/lib/locations-data";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
@@ -22,10 +23,11 @@ export async function generateMetadata({
   const { emirate: emirateSlug, city: citySlug } = await params;
   const emirate = getEmirateBySlug(emirateSlug);
   const city = getCityBySlug(emirateSlug, citySlug);
+  const content = getCityContent(emirateSlug, citySlug);
   if (!emirate || !city) return {};
   return {
-    title: `Professional Services in ${city.name}, ${emirate.name} — Book Online`,
-    description: `Book cleaning, AC repair, plumbing, electrical, handyman and maintenance services in ${city.name}, ${emirate.name}. ${BRAND.shortName} delivers vetted, professional services with transparent pricing. Same-day availability.`,
+    title: content?.metaTitle || `Professional Services in ${city.name}, ${emirate.name} — Book Online`,
+    description: content?.metaDescription || `Book cleaning, AC repair, plumbing, electrical, handyman and maintenance services in ${city.name}, ${emirate.name}. ${BRAND.shortName} delivers vetted, professional services with transparent pricing. Same-day availability.`,
     alternates: { canonical: `${BRAND.website}/locations/${emirateSlug}/${citySlug}` },
     openGraph: {
       title: `Services in ${city.name}, ${emirate.name} | ${BRAND.shortName}`,
@@ -45,12 +47,43 @@ export default async function CityPage({
   const city = getCityBySlug(emirateSlug, citySlug);
   if (!emirate || !city) notFound();
 
+  const cityContent = getCityContent(emirateSlug, citySlug);
   const nearbyAreas = emirate.cities
     .filter((c) => c.slug !== city.slug)
     .slice(0, 6);
 
+  // Fallback content for areas without unique data yet
+  const introText = cityContent?.uniqueIntro ||
+    `${city.name} is a key area within ${emirate.name} where our teams deliver cleaning, AC servicing, plumbing, electrical, and handyman services to apartments, villas, and commercial properties. With locally positioned technicians, we ensure fast response times and consistent quality across all service types in ${city.name}.`;
+
+  const areaHighlights = cityContent?.highlights || [
+    `Fast response from our ${emirate.name} service hub`,
+    "Apartments, villas, and offices covered",
+    "Same-day and next-day booking available",
+    "All service categories offered",
+    `Experienced with ${city.name} building types`,
+  ];
+
+  const localFAQs = cityContent?.localFAQs || [
+    { q: `What services are available in ${city.name}?`, a: `We offer cleaning, AC maintenance, plumbing, electrical, handyman, pest control, and renovation services in ${city.name}, ${emirate.name}. All services are performed by trained technicians with full equipment.` },
+    { q: `How quickly can you reach ${city.name}?`, a: `Our teams are positioned across ${emirate.name} for fast dispatch. Most service requests in ${city.name} are fulfilled same-day or next-day depending on availability.` },
+    { q: `What is the starting price for services in ${city.name}?`, a: `Service prices in ${city.name} start from AED 59 for basic tasks like AC filter cleaning, AED 89 for home cleaning, and AED 129 for plumbing or electrical repairs. Final pricing depends on scope.` },
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: localFAQs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       <section className="bg-gradient-to-br from-brand-900 to-brand-800 py-12 md:py-16">
         <div className="container-main">
           <Breadcrumbs
@@ -64,7 +97,10 @@ export default async function CityPage({
             Services in {city.name}, {emirate.name}
           </h1>
           <p className="text-white/90 max-w-2xl text-base">
-            Professional home and commercial services in {city.name}. Book online, get a quote, or contact us on WhatsApp for immediate assistance.
+            {cityContent
+              ? `Reliable cleaning, AC, plumbing, and maintenance services tailored to ${city.name} residents and businesses.`
+              : `Professional home and commercial services in ${city.name}. Book online, get a quote, or contact us on WhatsApp.`
+            }
           </p>
         </div>
       </section>
@@ -73,33 +109,25 @@ export default async function CityPage({
         <div className="container-main">
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
+              {/* Unique Intro */}
               <div>
                 <h2 className="text-xl font-bold text-slate-900 mb-3">
-                  {BRAND.shortName} Serving {city.name}
+                  {BRAND.shortName} in {city.name}
                 </h2>
-                <p className="text-sm text-slate-600 leading-relaxed mb-4">
-                  {city.name} is one of the active service areas within {emirate.name}. Our teams regularly serve customers in {city.name} and surrounding neighborhoods, delivering reliable cleaning, maintenance, and technical services to both residential and commercial properties.
+                <p className="text-sm text-slate-600 leading-relaxed mb-5">
+                  {introText}
                 </p>
-                <p className="text-sm text-slate-600 leading-relaxed mb-4">
-                  Whether you need a one-time deep clean, regular maintenance, emergency repair, or a comprehensive annual maintenance contract, our vetted professionals in {city.name} are ready to help. We maintain high service standards with transparent pricing and no hidden charges.
-                </p>
-                <div className="grid sm:grid-cols-2 gap-2 mt-5">
-                  {[
-                    "Same-day availability",
-                    "Vetted local teams",
-                    "Transparent pricing",
-                    "All service types covered",
-                    "Residential & commercial",
-                    "Satisfaction guaranteed",
-                  ].map((item) => (
-                    <div key={item} className="flex items-center gap-2 text-sm text-slate-600">
-                      <span className="text-accent-600">✓</span>
-                      {item}
+                <div className="space-y-2">
+                  {areaHighlights.map((h, i) => (
+                    <div key={i} className="flex items-start gap-2 text-sm text-slate-600">
+                      <span className="text-accent-600 mt-0.5">✓</span>
+                      {h}
                     </div>
                   ))}
                 </div>
               </div>
 
+              {/* Services Grid */}
               <div>
                 <h2 className="text-xl font-bold text-slate-900 mb-4">
                   Services Available in {city.name}
@@ -121,6 +149,26 @@ export default async function CityPage({
                 </div>
               </div>
 
+              {/* Local FAQs */}
+              <div>
+                <h2 className="text-xl font-bold text-slate-900 mb-4">
+                  Common Questions — {city.name}
+                </h2>
+                <div className="space-y-3">
+                  {localFAQs.map((faq, i) => (
+                    <details key={i} className="premium-card p-5 group" open={i === 0}>
+                      <summary className="font-semibold text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
+                        {faq.q}
+                        <svg className="w-4 h-4 text-slate-500 group-open:rotate-180 transition-transform shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </summary>
+                      <p className="text-sm text-slate-600 mt-3 leading-relaxed">{faq.a}</p>
+                    </details>
+                  ))}
+                </div>
+              </div>
+
               {/* Nearby Areas */}
               {nearbyAreas.length > 0 && (
                 <div>
@@ -132,7 +180,7 @@ export default async function CityPage({
                       <Link
                         key={a.slug}
                         href={`/locations/${emirate.slug}/${a.slug}`}
-                        className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors"
+                        className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-200 transition-colors font-medium"
                       >
                         {a.name}
                       </Link>
@@ -142,6 +190,7 @@ export default async function CityPage({
               )}
             </div>
 
+            {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-5">
                 <div className="premium-card p-6">
@@ -161,10 +210,10 @@ export default async function CityPage({
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      💬 WhatsApp Us
+                      WhatsApp Us
                     </a>
                     <a href={`tel:${BRAND.phone}`} className="btn-outline w-full text-center">
-                      📞 {BRAND.phoneFormatted}
+                      Call {BRAND.phoneFormatted}
                     </a>
                   </div>
                 </div>
