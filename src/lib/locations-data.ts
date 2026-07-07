@@ -511,6 +511,402 @@ export const CITY_CONTENT: Record<string, CityContent> = {
       { q: "How much does deep cleaning a 4-bedroom Mirdif villa cost?", a: "Full deep cleaning for a 4-bedroom Mirdif villa including kitchen, bathrooms, bedrooms, living areas, and maid's room ranges from AED 899 to AED 1,299 depending on villa size and condition. Garden and garage available as add-ons." },
     ],
   },
+
+  // ─── ABU DHABI AREAS ──────────────────────────────────────────
+
+  "abu-dhabi/al-reem-island": {
+    uniqueIntro: "Al Reem Island is Abu Dhabi's premier residential island, connected to the mainland by two bridges and featuring luxury towers like Sun and Sky, Marina Square, and Gate Towers. The island's waterfront setting creates humidity challenges for AC systems, while the modern high-rise construction means residents expect premium-grade maintenance services. Our Abu Dhabi teams service Al Reem regularly, handling everything from tower apartment deep cleaning to marina-view unit mold prevention.",
+    highlights: [
+      "Premium tower apartment cleaning specialists",
+      "Marina-side humidity and mold management",
+      "Familiar with Gate Towers and Sun & Sky access",
+      "High-rise AC duct cleaning up to 50+ floors",
+      "Concierge-coordinated entry for absentee owners",
+    ],
+    localFAQs: [
+      { q: "How much does apartment cleaning cost on Al Reem Island?", a: "Standard apartment cleaning on Al Reem starts from AED 109 for 1-bedroom and AED 149 for 2-bedroom units. Deep cleaning is AED 299-499 depending on apartment size. Premium products used for marble and engineered stone floors." },
+      { q: "My Al Reem apartment bathroom has mold. Can you treat it?", a: "Yes. Waterfront towers on Al Reem get higher humidity. We remove visible mold, apply anti-fungal treatment to grout and silicone seals, and clean AC drain pans that often harbor mold growth — from AED 199 per bathroom." },
+      { q: "Do you service AC in Gate Towers on Al Reem?", a: "Yes. We regularly service AC units in Gate Towers 1, 2, and 3. Our technicians carry building access cards and coordinate with facility management. Full split AC service from AED 89 per unit." },
+    ],
+  },
+
+  "abu-dhabi/khalifa-city": {
+    uniqueIntro: "Khalifa City is a sprawling villa community in Abu Dhabi's mainland, popular with families who prefer spacious living close to schools, parks, and Khalifa University. The area is divided into Khalifa City A, B, and C, with a mix of standalone villas and compound-style communities. Villa maintenance dominates here — garden upkeep, pool cleaning, full-property AMC plans, and the frequent painting jobs needed to combat the sun's harsh UV damage on exterior walls.",
+    highlights: [
+      "Villa maintenance hub for Khalifa City A, B, and C",
+      "Garden landscaping and pool cleaning services",
+      "Exterior painting with UV-resistant coatings",
+      "Full-property AMC plans for villa owners",
+      "School and nursery cleaning services available",
+    ],
+    localFAQs: [
+      { q: "Do you offer villa AMC plans in Khalifa City?", a: "Yes. Our Khalifa City villa AMC covers quarterly AC servicing for all units, bi-annual plumbing check, annual electrical inspection, monthly garden maintenance, and pest control. Starting from AED 2,999/year for 3-bedroom villas." },
+      { q: "How often should I repaint my Khalifa City villa exterior?", a: "Abu Dhabi's intense sun degrades exterior paint faster than cooler climates. We recommend repainting every 3-4 years using UV-resistant exterior paint. Standard 4-bedroom villa exterior from AED 3,499." },
+      { q: "Do you maintain pools in Khalifa City compounds?", a: "Yes. We service both private villa pools and shared compound pools in Khalifa City. Weekly maintenance including chemical balancing, skimmer cleaning, and filter service from AED 149/visit." },
+    ],
+  },
+
+  "abu-dhabi/al-raha-beach": {
+    uniqueIntro: "Al Raha Beach is a waterfront community near Abu Dhabi International Airport, offering a mix of apartments, townhouses, and villas along a landscaped coastline. The development by Aldar includes communities like Al Bandar, Al Muneera, and Al Zeina, each with distinct property types. Coastal salt air, sand from beach proximity, and the ongoing need for premium finish maintenance keep our teams busy here year-round with cleaning, AC care, and minor repair services.",
+    highlights: [
+      "Serving Al Bandar, Al Muneera, and Al Zeina",
+      "Coastal property anti-corrosion treatments",
+      "Townhouse and villa garden maintenance",
+      "Beach-side sand management for balconies",
+      "Airport-adjacent — flexible scheduling for travelers",
+    ],
+    localFAQs: [
+      { q: "Do you serve all Al Raha Beach sub-communities?", a: "Yes. We cover Al Bandar (apartments), Al Muneera (townhouses and apartments), and Al Zeina (villas and apartments). Each community has different access protocols and our teams are registered with all three." },
+      { q: "Salt air is damaging my outdoor AC unit at Al Raha Beach. What can you do?", a: "We provide quarterly condenser wash with freshwater and apply anti-corrosion spray on coil fins. This prevents salt damage and maintains cooling efficiency. Included in our coastal AC maintenance package from AED 149/unit." },
+      { q: "Can you clean my apartment while I'm traveling?", a: "Yes. Many Al Raha Beach residents travel frequently given the airport proximity. We coordinate key handover with your building concierge, complete the service, and send WhatsApp confirmation with photos." },
+    ],
+  },
+
+  "abu-dhabi/mbz-city": {
+    uniqueIntro: "Mohammed Bin Zayed City (MBZ City) is one of Abu Dhabi's largest and most populated residential areas, offering affordable villas and apartments across a vast grid of numbered zones. The area's scale means high demand for budget-friendly cleaning services, practical AC maintenance, and quick plumbing fixes. Many MBZ buildings are 8-15 years old, creating steady need for water heater replacements, bathroom retiling, and electrical panel upgrades that our technicians handle daily.",
+    highlights: [
+      "Budget-friendly rates for MBZ residents",
+      "Covering all MBZ zones (1-40+)",
+      "Experienced with mid-age building systems",
+      "Water heater replacement and repair specialists",
+      "High-volume apartment cleaning services",
+    ],
+    localFAQs: [
+      { q: "What are your cheapest services in MBZ City?", a: "Studio cleaning from AED 69, AC filter cleaning from AED 49, basic pest treatment from AED 99. We keep MBZ pricing affordable while maintaining quality service standards." },
+      { q: "My water heater in MBZ City is leaking. Can you replace it?", a: "Yes. Water heater replacement is one of our most common jobs in MBZ City. We supply and install standard 50-80 liter units from AED 449 including removal of the old unit. Same-day service usually available." },
+      { q: "Do you cover all zones in MBZ City?", a: "Yes. We serve the entire MBZ City grid from Zone 1 through Zone 40+. Our Abu Dhabi dispatch routes technicians based on zone proximity for fastest response." },
+    ],
+  },
+
+  "abu-dhabi/tourist-club-area": {
+    uniqueIntro: "Tourist Club Area (TCA) is a central Abu Dhabi district near the Corniche, known for its mix of commercial towers, hotels, and residential apartments. The area hosts many offices, retail shops, and hospitality venues that require regular commercial cleaning. Residential buildings here are older construction, often needing experienced plumbers and electricians who can work with legacy systems. Our TCA team handles both commercial contracts and residential maintenance efficiently.",
+    highlights: [
+      "Commercial and residential cleaning coverage",
+      "Hotel and hospitality support services",
+      "Central Abu Dhabi — fastest island response",
+      "Legacy building plumbing and electrical expertise",
+      "Office cleaning contracts for TCA businesses",
+    ],
+    localFAQs: [
+      { q: "Do you offer office cleaning in Tourist Club Area?", a: "Yes. We provide daily and weekly office cleaning for TCA businesses from AED 599/month for standard offices. Early morning and after-hours cleaning available to avoid business disruption." },
+      { q: "My TCA apartment has old wiring. Can you check it?", a: "Yes. We perform electrical safety inspections including DB box assessment, wire insulation check, and outlet testing. Older TCA buildings often need circuit breaker upgrades — inspection from AED 149, upgrades quoted separately." },
+      { q: "How quickly can you reach Tourist Club Area?", a: "TCA is centrally located on Abu Dhabi island. Our Abu Dhabi team typically reaches TCA within 30-45 minutes for standard bookings and within 1 hour for emergency calls during business hours." },
+    ],
+  },
+
+  "abu-dhabi/corniche-abu-dhabi": {
+    uniqueIntro: "The Corniche is Abu Dhabi's iconic waterfront boulevard stretching 8 kilometers along the island's northwest edge. Residential towers along the Corniche offer premium sea views but face unique maintenance challenges — intense afternoon sun exposure fading curtains and furniture, salt-laden sea breeze affecting outdoor fixtures, and the constant need for window cleaning to maintain those prized views. Our Corniche teams deliver white-glove service matching the area's prestigious address.",
+    highlights: [
+      "Premium service for Corniche tower residents",
+      "Sea-view window cleaning specialists",
+      "UV damage protection for curtains and furniture",
+      "Salt-air fixture maintenance and replacement",
+      "Serving Corniche towers from Nation Towers to Etihad Towers area",
+    ],
+    localFAQs: [
+      { q: "How often should I clean windows in my Corniche apartment?", a: "Sea-facing Corniche apartments accumulate salt film on windows quickly. We recommend monthly window cleaning for clear views. Internal and external window cleaning from AED 149 for standard 2-bedroom apartments." },
+      { q: "Sun damage is fading my curtains in my Corniche flat. Any solution?", a: "We install UV-protective window film that blocks 99% of UV rays while maintaining your sea view. This protects curtains, furniture, and flooring from fading. Installation from AED 45 per square meter." },
+      { q: "Do you clean apartments in Nation Towers and Etihad Towers area?", a: "Yes. We service apartments in and around Nation Towers, Etihad Towers, and all major Corniche residential buildings. Our teams carry building-specific access credentials for smooth entry." },
+    ],
+  },
+
+  "abu-dhabi/saadiyat-island": {
+    uniqueIntro: "Saadiyat Island is Abu Dhabi's cultural and luxury living destination, home to Louvre Abu Dhabi, upcoming Guggenheim, and exclusive residential communities like Saadiyat Beach Residences and Mamsha Al Saadiyat. Properties here are ultra-premium and demand the highest service standards — museum-quality careful cleaning for luxury interiors, specialized care for natural stone and imported finishes, and discreet service teams who respect the privacy of high-net-worth residents.",
+    highlights: [
+      "Ultra-premium property maintenance",
+      "Specialized care for imported luxury finishes",
+      "Discreet, vetted teams for HNWI residences",
+      "Beach villa pool and outdoor maintenance",
+      "Serving Saadiyat Beach, Mamsha, and Hidd communities",
+    ],
+    localFAQs: [
+      { q: "Do you use special cleaning methods for Saadiyat luxury homes?", a: "Yes. Saadiyat properties often feature imported marble, custom woodwork, and designer fixtures. We use pH-neutral, non-abrasive products and microfiber techniques. Our team leads undergo luxury property care training." },
+      { q: "How much does villa deep cleaning cost on Saadiyat Island?", a: "Saadiyat villa deep cleaning ranges from AED 1,800 to AED 4,500 depending on property size, number of bedrooms, and inclusion of outdoor areas. We provide exact quotes after a brief walkthrough." },
+      { q: "Can you maintain my Saadiyat Beach villa pool and garden?", a: "Yes. We offer comprehensive packages combining weekly pool maintenance and bi-weekly garden care. Saadiyat packages from AED 899/month covering pool chemicals, filter service, lawn care, and irrigation check." },
+    ],
+  },
+
+  "abu-dhabi/yas-island": {
+    uniqueIntro: "Yas Island is Abu Dhabi's entertainment and lifestyle hub, home to Ferrari World, Yas Waterworld, Warner Bros World, and the Yas Marina F1 circuit. The residential side features Yas Acres villas and West Yas apartments, attracting families and young professionals. Common maintenance needs include villa garden setup for new handovers, AC commissioning, regular cleaning for entertainment-industry staff housing, and commercial cleaning for the island's hospitality venues.",
+    highlights: [
+      "New villa handover cleaning and snagging",
+      "Garden setup and landscaping for Yas Acres",
+      "Hospitality venue cleaning support",
+      "AC commissioning for new properties",
+      "Serving Yas Acres, West Yas, and Yas Bay",
+    ],
+    localFAQs: [
+      { q: "I just got my Yas Acres villa keys. Do you do handover cleaning?", a: "Yes. New handover cleaning removes construction dust, cleans all surfaces, sanitizes bathrooms and kitchen, and makes your villa move-in ready. Yas Acres villa handover cleaning from AED 599 for 3-bedroom units." },
+      { q: "Can you set up the garden for my new Yas Acres villa?", a: "Yes. We offer complete garden landscaping including soil preparation, grass laying (natural or artificial), plant selection, irrigation installation, and decorative stone work. Custom quotes after site visit." },
+      { q: "Do you provide cleaning for hotels and entertainment venues on Yas?", a: "Yes. We support hospitality venues on Yas Island with deep cleaning, kitchen exhaust service, event cleanup, and regular maintenance contracts. Scaled team deployment for large venue requirements." },
+    ],
+  },
+
+  // ─── AJMAN AREAS ──────────────────────────────────────────────
+
+  "ajman/al-rashidiya": {
+    uniqueIntro: "Al Rashidiya is Ajman's most established residential neighborhood, featuring a mix of older villas, apartment buildings, and new towers along Sheikh Khalifa Bin Zayed Road. The area's proximity to the Ajman Corniche and local markets makes it one of the emirate's most populated districts. Maintenance needs range from affordable apartment cleaning for the working-class community to villa upkeep for longer-term residents, with older buildings requiring experienced plumbers who can handle aging pipe systems.",
+    highlights: [
+      "Ajman's primary service hub — fastest response",
+      "Affordable apartment cleaning packages",
+      "Older building plumbing and electrical expertise",
+      "Villa maintenance including garden and exterior",
+      "Serving Corniche-adjacent blocks and inner Rashidiya",
+    ],
+    localFAQs: [
+      { q: "What are your rates for apartment cleaning in Al Rashidiya, Ajman?", a: "Apartment cleaning in Al Rashidiya starts from AED 69 for studios and AED 89 for 1-bedroom units. We offer weekly packages from AED 55/visit — among the most affordable in Ajman." },
+      { q: "Do you fix water pump issues in Al Rashidiya buildings?", a: "Yes. Water pump failures are common in older Rashidiya buildings. We repair and replace booster pumps, pressure tanks, and float valves. Emergency pump repair available same-day from AED 199." },
+      { q: "How quickly can you reach Al Rashidiya?", a: "Al Rashidiya is our primary Ajman service zone. We typically dispatch within 45-60 minutes for standard bookings and prioritize emergency calls for same-hour response when possible." },
+    ],
+  },
+
+  "ajman/al-nuaimiya": {
+    uniqueIntro: "Al Nuaimiya is a central Ajman area with dense residential and commercial activity, featuring numerous apartment towers, small offices, and retail shops. The neighborhood is one of Ajman's most affordable, attracting bachelor workers and small families who need cost-effective maintenance services. Our Al Nuaimiya packages focus on value — budget cleaning, basic AC servicing, and quick-fix plumbing at rates that suit the area's price-conscious residents without compromising on service quality.",
+    highlights: [
+      "Budget-optimized service packages",
+      "High-density apartment quick-clean service",
+      "Retail shop and small office cleaning",
+      "Basic AC service from AED 69",
+      "Same-day availability for most services",
+    ],
+    localFAQs: [
+      { q: "What is the cheapest cleaning available in Al Nuaimiya?", a: "Studio apartment cleaning from AED 55, AC filter cleaning from AED 39, basic pest spray from AED 89. We design Al Nuaimiya packages to be the most affordable in Ajman without cutting corners on quality." },
+      { q: "Can you clean my small shop in Al Nuaimiya?", a: "Yes. Retail shop cleaning in Al Nuaimiya starts from AED 99 per visit. We offer early morning cleaning before shop opening. Weekly packages available from AED 79/visit." },
+      { q: "Do you offer same-day AC repair in Al Nuaimiya?", a: "Yes. For AC not cooling, water leaks, or strange noises, we dispatch technicians same-day in Al Nuaimiya. Diagnostic visit from AED 79, with repair costs quoted transparently before any work begins." },
+    ],
+  },
+
+  "ajman/emirates-city": {
+    uniqueIntro: "Emirates City is a large residential cluster of towers on the E311 highway in Ajman, known for its affordable apartment pricing and high tenant turnover. The towers — including Goldcrest, Paradise Lakes, and Lavender — house thousands of residents who need regular cleaning between tenancies, basic AC maintenance, and quick plumbing repairs. Landlords managing multiple units in Emirates City are among our most active clients, using bulk cleaning and turnover packages.",
+    highlights: [
+      "Bulk turnover cleaning for Emirates City landlords",
+      "Affordable rates for tower apartment maintenance",
+      "Serving Goldcrest, Paradise Lakes, and Lavender towers",
+      "Move-in/move-out cleaning specialists",
+      "AC cleaning from AED 69 per unit",
+    ],
+    localFAQs: [
+      { q: "I own 6 apartments in Emirates City Ajman. Do you offer landlord rates?", a: "Yes. Landlords with 3+ units get bulk pricing from AED 45 per studio for turnover cleaning. We also offer annual maintenance packages covering AC servicing, pest control, and emergency repairs for all your units." },
+      { q: "How much does move-out cleaning cost in Emirates City?", a: "Move-out cleaning in Emirates City starts from AED 149 for studios, AED 199 for 1-bedroom, and AED 249 for 2-bedroom apartments. Includes kitchen degreasing, bathroom descaling, and balcony cleaning." },
+      { q: "The AC in my Emirates City apartment is leaking water. Can you fix it today?", a: "Yes. AC water leaks are usually caused by clogged drain lines — our most common repair in Emirates City towers. Same-day fix available from AED 99. We carry drain cleaning equipment on all our service vans." },
+    ],
+  },
+
+  "ajman/al-jurf": {
+    uniqueIntro: "Al Jurf is Ajman's industrial and commercial zone, housing warehouses, workshops, factories, and labor accommodations alongside some residential areas. Service needs here lean heavily commercial — warehouse cleaning, industrial AC and ventilation maintenance, labor camp sanitization, and pest control for storage facilities. Our Al Jurf commercial teams carry industrial-grade equipment and schedule work during off-peak hours to avoid disrupting business operations.",
+    highlights: [
+      "Industrial and warehouse cleaning capabilities",
+      "Labor accommodation sanitization services",
+      "Commercial pest control for storage facilities",
+      "Large-capacity AC and ventilation maintenance",
+      "Off-hours scheduling for zero business disruption",
+    ],
+    localFAQs: [
+      { q: "Can you sanitize our labor accommodation in Al Jurf?", a: "Yes. We provide full sanitization including room cleaning, bathroom deep clean, kitchen degreasing, and common area disinfection. Bulk rates for camps with 50+ rooms. Compliant with Ajman Municipality health standards." },
+      { q: "Do you handle warehouse pest control in Al Jurf?", a: "Yes. Warehouses attract rodents and stored-product insects. We deploy bait stations, seal entry points, and apply residual spray treatments. Monthly monitoring plans from AED 299/month for standard warehouses." },
+      { q: "Can you clean our factory floor in Al Jurf?", a: "Yes. Industrial floor cleaning using ride-on scrubbers and degreasers. We handle concrete, epoxy, and tiled industrial floors. Quoted per square meter — standard 1,000 sqm facility from AED 1,499." },
+    ],
+  },
+
+  "ajman/al-rawda-ajman": {
+    uniqueIntro: "Al Rawda is a quiet residential area in Ajman, popular with families who prefer a less commercial environment. The neighborhood features a mix of newer apartment buildings and smaller villa compounds, with community parks and schools nearby. Residents here commonly request regular weekly cleaning, seasonal AC maintenance, small handyman jobs like shelf and curtain installation, and occasional pest control — practical home services at Ajman's characteristically affordable pricing.",
+    highlights: [
+      "Family-focused residential service area",
+      "Weekly cleaning packages from AED 55",
+      "Small handyman jobs and furniture assembly",
+      "Seasonal AC prep before summer",
+      "Pest control for villa compounds",
+    ],
+    localFAQs: [
+      { q: "Do you offer weekly cleaning in Al Rawda, Ajman?", a: "Yes. Weekly apartment cleaning in Al Rawda from AED 55/visit for 1-bedroom units. Includes floor mopping, bathroom cleaning, kitchen wipe-down, and dusting. No long-term contract required." },
+      { q: "Can you hang shelves and install curtain rods in Al Rawda?", a: "Yes. Our handyman service covers shelf mounting, curtain rod installation, TV wall mounting, picture hanging, and furniture assembly. Small jobs from AED 69. Multiple items in one visit get discounted rates." },
+      { q: "Is pest control needed in Al Rawda villas?", a: "Villas with gardens in Al Rawda can attract ants, cockroaches, and occasionally scorpions. We recommend quarterly perimeter treatment. Starting from AED 129 per visit with 90-day guarantee." },
+    ],
+  },
+
+  // ─── RAS AL KHAIMAH AREAS ─────────────────────────────────────
+
+  "ras-al-khaimah/al-nakheel": {
+    uniqueIntro: "Al Nakheel is the urban center of Ras Al Khaimah city, featuring the main commercial district, older residential neighborhoods, and the RAK Corniche waterfront. As the emirate's most populated area, Al Nakheel has a mix of older and newer buildings creating diverse maintenance needs — from legacy plumbing repair in established buildings to modern apartment cleaning in newer tower developments. Our RAK team is headquartered near Al Nakheel for the fastest emirate-wide response.",
+    highlights: [
+      "RAK primary service hub — fastest local response",
+      "Mixed building age expertise (old and new)",
+      "Corniche-area waterfront maintenance",
+      "Commercial cleaning for RAK city center shops",
+      "Affordable rates matching RAK market pricing",
+    ],
+    localFAQs: [
+      { q: "How much does apartment cleaning cost in Al Nakheel, RAK?", a: "Apartment cleaning in Al Nakheel starts from AED 79 for 1-bedroom units. RAK pricing is generally 10-20% lower than Dubai for equivalent services. Weekly packages from AED 59/visit." },
+      { q: "Do you cover all of Ras Al Khaimah from Al Nakheel?", a: "Yes. Our RAK operations hub is near Al Nakheel, allowing us to serve Al Hamra, Mina Al Arab, and other RAK areas within 20-30 minutes. Al Nakheel itself gets fastest response." },
+      { q: "Can you fix plumbing in older Al Nakheel buildings?", a: "Yes. Many Al Nakheel buildings are 15-25 years old. Our plumbers carry fittings for older pipe systems and can handle everything from faucet replacement to full bathroom replumbing." },
+    ],
+  },
+
+  "ras-al-khaimah/al-hamra-village": {
+    uniqueIntro: "Al Hamra Village is a premium resort-style community in RAK, featuring beachfront villas, townhouses, golf course residences, and the Al Hamra Mall. Many properties here are vacation homes or short-term rental units, creating demand for turnover cleaning, property management maintenance, and villa upkeep for absentee owners. The community's high standards and beachfront location require experienced teams who can deliver resort-quality service.",
+    highlights: [
+      "Resort-quality cleaning for Al Hamra properties",
+      "Vacation home turnover and management cleaning",
+      "Beachfront villa salt-air maintenance",
+      "Golf course residence garden and pool care",
+      "Absentee owner property management support",
+    ],
+    localFAQs: [
+      { q: "I rent my Al Hamra villa on Airbnb. Do you do turnover cleaning?", a: "Yes. We provide same-day turnover cleaning between guests — linen change support, full clean, bathroom sanitization, and kitchen reset. Fast 3-4 hour turnaround for standard villas from AED 349." },
+      { q: "Can you maintain my Al Hamra property while I'm overseas?", a: "Yes. We offer absentee owner packages including monthly inspection, AC run-check, pest prevention, cleaning, and garden/pool maintenance. You receive photo reports after each visit. From AED 499/month." },
+      { q: "Do you clean around the golf course residences in Al Hamra?", a: "Yes. We service villas and townhouses throughout Al Hamra including Golf Apartments, Bayti Townhouses, and beachfront villas. Garden maintenance for golf-view properties from AED 249/month." },
+    ],
+  },
+
+  "ras-al-khaimah/mina-al-arab": {
+    uniqueIntro: "Mina Al Arab is a waterfront destination development on RAK's coast, offering apartments and villas with sea views and private beach access. As a newer development, properties here have modern AC and plumbing systems but need regular maintenance to keep them performing optimally in the coastal environment. Our Mina Al Arab service includes anti-corrosion treatment for outdoor fixtures, regular AC maintenance to combat sea-air humidity, and premium cleaning for the development's quality finishes.",
+    highlights: [
+      "Modern waterfront property specialists",
+      "Coastal anti-corrosion maintenance programs",
+      "New unit handover and snagging available",
+      "Premium finish care for contemporary interiors",
+      "Serving apartments, villas, and Hayat Island",
+    ],
+    localFAQs: [
+      { q: "Do you offer property snagging in Mina Al Arab for new handovers?", a: "Yes. Our inspectors check all aspects of new units — AC performance, plumbing pressure, electrical function, paint quality, tile alignment, and fixture installation. Full snagging report from AED 799." },
+      { q: "Sea air is affecting metal fixtures on my Mina Al Arab balcony. What can you do?", a: "We clean corroded fixtures, apply marine-grade anti-corrosion coating, and recommend stainless steel replacements where damage is severe. Balcony fixture maintenance from AED 149 per visit." },
+      { q: "How often should I service my AC in Mina Al Arab?", a: "Coastal RAK properties should have AC serviced every 3 months during summer and every 6 months in winter. The sea air accelerates coil corrosion. Our quarterly coastal AC package from AED 129/unit per visit." },
+    ],
+  },
+
+  // ─── FUJAIRAH AREAS ───────────────────────────────────────────
+
+  "fujairah/fujairah-city": {
+    uniqueIntro: "Fujairah City is the capital and main urban center of the emirate, nestled between the Hajar Mountains and the Gulf of Oman. The city has a growing residential and commercial sector with apartment buildings, government offices, and a developing tourism infrastructure. Maintenance services here need to account for Fujairah's higher humidity compared to western UAE emirates, as the Gulf of Oman coast brings more moisture — affecting AC loads, increasing mold risk, and accelerating exterior paint degradation.",
+    highlights: [
+      "Fujairah's primary service coverage area",
+      "East coast humidity management specialists",
+      "Government and commercial building maintenance",
+      "Exterior painting with moisture-resistant coatings",
+      "Serving Fujairah city center and surrounding areas",
+    ],
+    localFAQs: [
+      { q: "Is Fujairah more humid than Dubai? Does that affect maintenance?", a: "Yes. Fujairah's east coast location makes it more humid year-round. This means AC systems work harder, mold grows faster in bathrooms, and exterior paint degrades quicker. We adjust our maintenance schedules and products for Fujairah's climate." },
+      { q: "Do you cover all of Fujairah emirate?", a: "Yes. We serve Fujairah City, Dibba Al Fujairah, and surrounding areas. Response times in Fujairah City are same-day for most services. Dibba is covered with 24-hour advance booking." },
+      { q: "How much does AC cleaning cost in Fujairah?", a: "AC cleaning in Fujairah starts from AED 89 per split unit. Given the higher humidity, we recommend cleaning every 3 months rather than the standard 6 months. Quarterly packages from AED 79/unit per visit." },
+    ],
+  },
+
+  "fujairah/dibba": {
+    uniqueIntro: "Dibba Al Fujairah is a coastal town at the northernmost tip of the east coast, known for its fishing harbor, mountain backdrop, and growing tourism sector with diving and adventure activities. Residential maintenance here includes apartment cleaning for the local community, hospitality support for dive resorts and hotels, and boat/marina facility cleaning. The remote location means our Dibba visits are pre-scheduled — we typically serve Dibba on dedicated routing days for maximum efficiency.",
+    highlights: [
+      "Scheduled service days for Dibba coverage",
+      "Tourism and hospitality cleaning support",
+      "Mountain and coastal property maintenance",
+      "Boat and marina facility cleaning available",
+      "Pre-booking recommended for guaranteed availability",
+    ],
+    localFAQs: [
+      { q: "How do I book a service in Dibba Al Fujairah?", a: "Dibba services are available on our scheduled routing days (typically 2-3 days per week). Book at least 48 hours in advance to guarantee your preferred date. Call or WhatsApp to check the next available Dibba service day." },
+      { q: "Do you provide cleaning for dive resorts and hotels in Dibba?", a: "Yes. We support Dibba hospitality venues with room turnover cleaning, kitchen maintenance, and facility deep cleaning. Seasonal contracts available for peak diving season (October-April)." },
+      { q: "Can you maintain a property in Dibba that I visit on weekends only?", a: "Yes. We offer fortnightly or monthly property check-and-clean packages for weekend homes in Dibba. Includes AC run-check, dust cleaning, bathroom sanitization, and pest check from AED 249/visit." },
+    ],
+  },
+
+  // ─── UMM AL QUWAIN AREAS ──────────────────────────────────────
+
+  "umm-al-quwain/old-town-uaq": {
+    uniqueIntro: "Old Town UAQ is the historic center of Umm Al Quwain, featuring traditional architecture, the corniche waterfront, and a close-knit residential community. Properties here are a mix of older coral-stone houses, mid-age apartment blocks, and some newer developments. Maintenance in Old Town requires technicians who respect the area's heritage character while providing modern service quality — from careful painting that matches original aesthetics to plumbing upgrades in buildings with decades-old pipe systems.",
+    highlights: [
+      "Heritage-aware maintenance approach",
+      "UAQ primary service area",
+      "Older building plumbing and electrical upgrades",
+      "Corniche-area property maintenance",
+      "Affordable pricing matching UAQ market",
+    ],
+    localFAQs: [
+      { q: "Do you service the whole of Umm Al Quwain?", a: "Yes. We cover Old Town UAQ, Al Salamah, and surrounding residential areas. UAQ services are available 5 days a week with same-day availability for most requests." },
+      { q: "Can you upgrade plumbing in old UAQ buildings?", a: "Yes. Many Old Town buildings have 20+ year old plumbing. We replace old galvanized pipes with modern PPR or CPVC systems, upgrade water heaters, and fix chronic leak issues. Free assessment before quoting." },
+      { q: "How much does cleaning cost in Umm Al Quwain?", a: "UAQ has the most affordable rates in our network. Apartment cleaning from AED 59, AC service from AED 79, pest control from AED 99. We price UAQ services to match the local market." },
+    ],
+  },
+
+  "umm-al-quwain/al-salamah": {
+    uniqueIntro: "Al Salamah is a newer residential area in Umm Al Quwain, developed to accommodate the emirate's growing population with modern apartment buildings and villa plots. The area offers more contemporary living compared to the Old Town, with newer construction that has standard modern plumbing and AC systems. Residents here request regular cleaning, seasonal AC maintenance, and the occasional fit-out or renovation as they personalize newly built properties.",
+    highlights: [
+      "Modern residential area maintenance",
+      "New property customization and fit-out support",
+      "Regular cleaning packages for families",
+      "AC commissioning for new installations",
+      "Competitive UAQ pricing",
+    ],
+    localFAQs: [
+      { q: "Do you help with interior customization for new Al Salamah properties?", a: "Yes. We support painting, curtain installation, shelf mounting, kitchen cabinet adjustments, and small renovation work for new Al Salamah units. Free consultation visit to discuss your requirements." },
+      { q: "What cleaning packages do you offer in Al Salamah?", a: "Weekly cleaning from AED 55/visit, bi-weekly from AED 69/visit, and deep cleaning from AED 149 for 1-bedroom apartments. Family villas quoted based on size — typically AED 199-399 for regular cleaning." },
+      { q: "Can you install and commission a new AC unit in Al Salamah?", a: "Yes. We supply and install split AC units from all major brands. Installation includes bracket mounting, pipe routing, drainage setup, and gas charging. Standard installation from AED 349 plus unit cost." },
+    ],
+  },
+
+  // ─── AL AIN AREAS ─────────────────────────────────────────────
+
+  "al-ain/al-jimi": {
+    uniqueIntro: "Al Jimi is one of Al Ain's oldest and most established residential areas, centered around the historic Al Jimi Oasis and featuring a mix of traditional villas, newer apartment blocks, and the Al Jimi Mall commercial area. The neighborhood houses many Emirati and long-term resident families who value reliable, recurring maintenance services. Villa upkeep dominates here — from falaj-adjacent garden maintenance to comprehensive property AMC plans that cover AC, plumbing, and electrical year-round.",
+    highlights: [
+      "Al Ain's primary service hub — fastest response",
+      "Villa AMC plans for Al Jimi family homes",
+      "Garden maintenance near Al Jimi Oasis",
+      "Older villa renovation and upgrade support",
+      "Trusted by long-term Al Ain residents",
+    ],
+    localFAQs: [
+      { q: "Do you offer villa AMC plans in Al Jimi, Al Ain?", a: "Yes. Our Al Jimi villa AMC covers quarterly AC servicing, plumbing inspection, electrical check, monthly garden care, and pest control. Starting from AED 2,499/year for 3-bedroom villas." },
+      { q: "Can you maintain gardens near Al Jimi Oasis?", a: "Yes. We handle garden maintenance for properties near the oasis including lawn care, palm tree trimming, irrigation repair, and seasonal planting suited to Al Ain's inland climate. Monthly garden plans from AED 249." },
+      { q: "How quickly can you reach Al Jimi?", a: "Al Jimi is our Al Ain hub area. Standard bookings are served same-day or next-day. Emergency plumbing and electrical calls are prioritized for 1-2 hour response during business hours." },
+    ],
+  },
+
+  "al-ain/al-muwaiji": {
+    uniqueIntro: "Al Muwaiji is a residential area in central Al Ain, known for its family-friendly environment and proximity to Al Ain University. The neighborhood features compound-style villa communities and newer apartment developments catering to university staff, students, and families. Common service requests include regular home cleaning, AC maintenance in Al Ain's extreme summer heat (often 50°C+), and pest control to manage the desert insects that are more prevalent in inland locations compared to coastal emirates.",
+    highlights: [
+      "University area — student-friendly pricing available",
+      "Extreme heat AC maintenance specialists",
+      "Desert pest control expertise",
+      "Compound villa cleaning and maintenance",
+      "Serving Al Muwaiji and University district",
+    ],
+    localFAQs: [
+      { q: "Al Ain gets over 50°C in summer. How often should I service my AC?", a: "In Al Ain's extreme heat, we recommend AC servicing every 2-3 months during summer (May-September) instead of the standard 6 months. Filters should be cleaned monthly. Our Al Ain summer AC package covers this." },
+      { q: "Desert insects keep entering my Al Muwaiji villa. What can you do?", a: "Al Ain's inland desert location brings more insect activity — especially ants, beetles, and occasionally scorpions. We apply perimeter barrier treatment plus interior gel bait. Quarterly plans from AED 149/visit." },
+      { q: "Do you have discounts for university staff in Al Muwaiji?", a: "We offer competitive rates for the Al Muwaiji university community. Studio cleaning from AED 59, apartment cleaning from AED 79. University ID holders get 10% off first booking." },
+    ],
+  },
+
+  "al-ain/al-towayya": {
+    uniqueIntro: "Al Towayya is a well-established residential neighborhood in Al Ain, situated near the Al Ain-Dubai highway and close to commercial areas. The district features a blend of government housing, private villas, and apartment buildings, serving a mix of Emirati families and long-term expat residents. Maintenance focus here is on villa painting and renovation to combat the harsh inland sun, garden irrigation repairs common in Al Ain's dry climate, and reliable AC servicing that keeps homes comfortable through the extreme summer months.",
+    highlights: [
+      "Villa painting with extreme-UV-resistant coatings",
+      "Garden irrigation repair and upgrade",
+      "Government housing maintenance experience",
+      "Summer AC emergency response capability",
+      "Affordable rates for Al Ain families",
+    ],
+    localFAQs: [
+      { q: "How often should I repaint my villa exterior in Al Towayya?", a: "Al Ain's intense sun and dust storms degrade exterior paint faster — we recommend repainting every 2-3 years with UV-resistant paint. Standard 3-bedroom villa exterior from AED 2,999. Color consultation included." },
+      { q: "My garden irrigation system in Al Towayya keeps breaking. Can you fix it?", a: "Yes. Al Ain's hard water and extreme heat stress irrigation pipes and sprinkler heads. We repair leaks, replace damaged sprinklers, and upgrade timer controllers. Full irrigation system check from AED 149." },
+      { q: "Do you handle AC emergencies in Al Towayya during summer?", a: "Yes. Summer AC breakdowns in Al Ain are genuine emergencies at 50°C. We prioritize emergency AC calls in Al Towayya and all Al Ain areas for same-day response. Emergency diagnostic from AED 99." },
+    ],
+  },
+
+  "al-ain/al-khabisi": {
+    uniqueIntro: "Al Khabisi is a primarily residential area in Al Ain with a quieter, suburban character. The neighborhood is popular with families seeking a calmer environment away from the city center, with schools, mosques, and small retail clusters serving daily needs. Home maintenance here is straightforward and practical — regular cleaning, bi-annual AC servicing, minor plumbing and electrical fixes, and annual pest prevention treatments. Our Al Khabisi customers value reliability and fair pricing above all else.",
+    highlights: [
+      "Practical, no-frills maintenance services",
+      "Family-oriented scheduling and approach",
+      "Annual pest prevention programs",
+      "Minor repair and handyman services",
+      "Consistent quality at Al Ain-friendly pricing",
+    ],
+    localFAQs: [
+      { q: "What is the most popular service in Al Khabisi?", a: "Regular apartment and villa cleaning is our top service in Al Khabisi, followed by AC servicing and pest control. Most families book bi-weekly cleaning from AED 65/visit and quarterly AC service from AED 89/unit." },
+      { q: "Do you offer annual pest prevention in Al Khabisi?", a: "Yes. Our annual pest plan includes 4 quarterly treatments covering cockroaches, ants, and general crawling insects. Includes perimeter barrier and interior gel bait. Annual plan from AED 449 (4 visits)." },
+      { q: "Can you do small handyman jobs in Al Khabisi?", a: "Yes. We handle shelf installation, curtain rods, door handle replacement, tap washer change, light bulb replacement, and furniture assembly. Small jobs from AED 69 with no call-out fee in Al Khabisi." },
+    ],
+  },
 };
 
 // Helper function to get city content
