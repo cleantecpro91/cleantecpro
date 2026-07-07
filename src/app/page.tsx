@@ -3,16 +3,16 @@ import { SERVICE_CATEGORIES, BRAND, UAE_EMIRATES } from "@/lib/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE | Dubai, Sharjah, Abu Dhabi`,
+  title: "Cleaning, AC, Plumbing & Maintenance Services in UAE | CleanTecPro",
   description:
-    "Book trusted cleaning, AC repair, plumbing, electrical, renovation, pest control & maintenance services across Dubai, Sharjah, Abu Dhabi and all 7 UAE emirates. Transparent pricing, vetted professionals, same-day booking available.",
+    "Book cleaning, AC repair, plumbing, electrical, and handyman services across Dubai, Sharjah, Abu Dhabi & all 7 UAE emirates. Same-day slots. 55+ areas covered. From AED 59.",
   alternates: {
     canonical: BRAND.website,
   },
   openGraph: {
-    title: `${BRAND.shortName} — Professional Technical & Cleaning Services in UAE`,
+    title: "Cleaning, AC, Plumbing & Maintenance Services in UAE | CleanTecPro",
     description:
-      "Book trusted cleaning, AC, plumbing, electrical & maintenance services across all UAE emirates. Transparent pricing, vetted professionals.",
+      "Book cleaning, AC repair, plumbing, electrical, and handyman services across Dubai, Sharjah & all UAE emirates. Same-day slots from AED 59.",
     url: BRAND.website,
     type: "website",
   },
@@ -25,13 +25,28 @@ const CATEGORY_ICONS: Record<string, string> = {
   "building-maintenance": "🏢", "lifestyle-support": "🏠",
 };
 
+const CATEGORY_TAGLINES: Record<string, string> = {
+  cleaning: "Deep clean, move-out clean, sofa, carpet & window washing",
+  "ac-hvac": "AC repair, gas refill, duct cleaning & split installation",
+  plumbing: "Leak repair, drain clearing, water heater fix & pipe work",
+  electrical: "Light fitting, DB panel, wiring, fan & socket installation",
+  handyman: "Furniture assembly, TV mount, door fix & curtain hanging",
+  renovation: "Kitchen remodel, bathroom upgrade, tiling, gypsum & fit-out",
+  "pest-control": "Cockroach, bed bug, termite, rodent & mosquito treatment",
+  "appliance-repair": "Washing machine, fridge, oven, dishwasher & dryer repair",
+  movers: "Home moving, office relocation, packing & storage solutions",
+  "garden-outdoor": "Lawn mowing, tree trimming, irrigation & pool maintenance",
+  "building-maintenance": "Villa AMC, property snagging, annual inspection & rope access",
+  "lifestyle-support": "Maid service, laundry, event cleaning & office support",
+};
+
 const TRUST_ITEMS = [
-  { icon: "✅", title: "Vetted Professionals", desc: "Background-checked and trained teams" },
-  { icon: "💰", title: "Transparent Pricing", desc: "No hidden charges, clear quotes" },
-  { icon: "⚡", title: "Fast Response", desc: "Same-day service availability" },
-  { icon: "🛡️", title: "Service Guarantee", desc: "Satisfaction guaranteed on every job" },
-  { icon: "🕐", title: "7 Days a Week", desc: "Available 8 AM – 10 PM daily" },
-  { icon: "📍", title: "All UAE Coverage", desc: "Serving all 7 emirates" },
+  { icon: "✅", title: "ID-Verified Teams", desc: "Every technician carries company ID and is background-screened before deployment" },
+  { icon: "💰", title: "Fixed-Quote Model", desc: "You get a written quote before work starts — the final bill matches, no surprises" },
+  { icon: "⚡", title: "Same-Day Dispatch", desc: "Over 60% of bookings are served within 4 hours of confirmation" },
+  { icon: "🛡️", title: "Re-Do Guarantee", desc: "Not satisfied? We send a team back within 48 hours at zero extra cost" },
+  { icon: "🕐", title: "Open 7 Days", desc: "Booking slots from 8 AM to 10 PM including Fridays and public holidays" },
+  { icon: "📍", title: "55+ Areas Covered", desc: "Active service teams in Dubai, Sharjah, Abu Dhabi, Ajman, RAK, Fujairah, UAQ, and Al Ain" },
 ];
 
 const PROCESS_STEPS = [
@@ -42,10 +57,10 @@ const PROCESS_STEPS = [
 ];
 
 const TESTIMONIALS = [
-  { name: "Ahmed M.", location: "Business Bay, Dubai", rating: 5, text: "Booked a deep cleaning for my apartment. The team arrived on time and did an excellent job. Very professional and the pricing was fair. Will definitely use CleanTecPro again.", service: "Deep Cleaning" },
-  { name: "Sarah K.", location: "Al Majaz, Sharjah", rating: 5, text: "Had an AC emergency in the middle of summer. CleanTecPro sent a technician within 2 hours. The issue was fixed quickly and the price was exactly as quoted. Highly recommend their AC services.", service: "AC Repair" },
-  { name: "Raj P.", location: "Al Reem Island, Abu Dhabi", rating: 5, text: "Used their move-in cleaning service for our new villa. Everything was spotless. The team was thorough and paid attention to every detail. Great experience overall.", service: "Move-In Cleaning" },
-  { name: "Fatima A.", location: "JLT, Dubai", rating: 5, text: "Regular office cleaning service that we rely on every week. Consistent quality, reliable scheduling, and responsive customer support. CleanTecPro has been a great partner.", service: "Office Cleaning" },
+  { name: "Ahmed M.", location: "Business Bay, Dubai", locationHref: "/locations/dubai/business-bay", rating: 5, text: "Booked a deep cleaning for my apartment. The team arrived on time and did an excellent job. Very professional and the pricing was fair. Will definitely use CleanTecPro again.", service: "Deep Cleaning" },
+  { name: "Sarah K.", location: "Al Majaz, Sharjah", locationHref: "/locations/sharjah/al-majaz", rating: 5, text: "Had an AC emergency in the middle of summer. CleanTecPro sent a technician within 2 hours. The issue was fixed quickly and the price was exactly as quoted. Highly recommend their AC services.", service: "AC Repair" },
+  { name: "Raj P.", location: "Al Reem Island, Abu Dhabi", locationHref: "/locations/abu-dhabi/al-reem-island", rating: 5, text: "Used their move-in cleaning service for our new villa. Everything was spotless. The team was thorough and paid attention to every detail. Great experience overall.", service: "Move-In Cleaning" },
+  { name: "Fatima A.", location: "JLT, Dubai", locationHref: "/locations/dubai/jlt", rating: 5, text: "Regular office cleaning service that we rely on every week. Consistent quality, reliable scheduling, and responsive customer support. CleanTecPro has been a great partner.", service: "Office Cleaning" },
 ];
 
 export default function HomePage() {
@@ -65,12 +80,12 @@ export default function HomePage() {
                 Trusted by 10,000+ UAE Customers
               </div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-white leading-[1.1] mb-5">
-                Professional Services
+                Cleaning, AC & Maintenance
                 <br />
-                <span className="text-brand-200">At Your Doorstep</span>
+                <span className="text-brand-200">Services Across Dubai, Sharjah & UAE</span>
               </h1>
               <p className="text-base md:text-lg text-white/90 leading-relaxed mb-8 max-w-lg">
-                Book trusted cleaning, AC, plumbing, electrical, renovation, and maintenance services across Dubai, Sharjah, Abu Dhabi, and all UAE emirates. One platform, every service.
+                Book cleaning, AC repair, plumbing, electrical, handyman, and renovation services in Dubai, Sharjah, Abu Dhabi, and all 7 UAE emirates. Same-day slots available from AED 59.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 <Link href="/booking" className="btn-primary !py-3 !px-6 text-base">
@@ -114,7 +129,14 @@ export default function HomePage() {
                         {cat.name}
                       </p>
                       <p className="text-xs text-white/80">
-                        {cat.subcategories.length} service types
+                        {{
+                          cleaning: "Deep clean, move-out, sofa, carpet & window care",
+                          "ac-hvac": "AC repair, gas refill, duct cleaning & installation",
+                          plumbing: "Leak fix, drain clear, water heater & pipe repair",
+                          electrical: "Light fitting, DB box, wiring & fault finding",
+                          handyman: "Furniture build, TV mount, carpentry & painting",
+                          renovation: "Kitchen, bathroom, tiling, gypsum & fit-out",
+                        }[cat.slug] || `${cat.subcategories.length} service types`}
                       </p>
                     </Link>
                   ))}
@@ -148,7 +170,7 @@ export default function HomePage() {
                   {cat.name}
                 </h3>
                 <p className="text-xs text-slate-500">
-                  {cat.subcategories.reduce((acc, s) => acc + s.services.length, 0)}+ services
+                  {CATEGORY_TAGLINES[cat.slug] || `${cat.subcategories.reduce((acc, s) => acc + s.services.length, 0)}+ services`}
                 </p>
               </Link>
             ))}
@@ -242,7 +264,7 @@ export default function HomePage() {
               Why Choose CleanTecPro
             </h2>
             <p className="text-white/80 text-base max-w-lg mx-auto">
-              We are committed to delivering reliable, professional, and fairly priced services across the UAE.
+              Serving 55+ neighborhoods across 7 emirates with local teams, fixed quotes, and a re-do guarantee if you are not satisfied.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -271,25 +293,40 @@ export default function HomePage() {
               Professional services available across every emirate with dedicated local teams.
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {UAE_EMIRATES.map((emirate) => (
-              <Link
+              <div
                 key={emirate.slug}
-                href={`/locations/${emirate.slug}`}
-                className="premium-card p-5 text-center group"
+                className="premium-card p-5"
               >
-                <h3 className="text-base font-bold text-slate-900 mb-1">
+                <Link href={`/locations/${emirate.slug}`} className="text-base font-bold text-slate-900 hover:text-brand-600 transition-colors">
                   {emirate.name}
-                </h3>
+                </Link>
                 {emirate.isPrimary && (
-                  <span className="text-[10px] bg-brand-100 text-brand-700 px-2 py-0.5 rounded-full font-semibold">
-                    Primary Market
+                  <span className="text-[10px] bg-brand-100 text-brand-700 px-2 py-0.5 rounded-full font-semibold ml-2">
+                    Primary
                   </span>
                 )}
-                <p className="text-xs text-slate-500 mt-1">
-                  {emirate.cities.length} areas served
-                </p>
-              </Link>
+                <div className="flex flex-wrap gap-1.5 mt-3">
+                  {emirate.cities.slice(0, 5).map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/locations/${emirate.slug}/${city.slug}`}
+                      className="text-[11px] text-brand-800 bg-brand-100 px-2 py-0.5 rounded-md hover:bg-brand-200 transition-colors"
+                    >
+                      {city.name}
+                    </Link>
+                  ))}
+                  {emirate.cities.length > 5 && (
+                    <Link
+                      href={`/locations/${emirate.slug}`}
+                      className="text-[11px] text-brand-600 font-semibold px-2 py-0.5"
+                    >
+                      +{emirate.cities.length - 5} more
+                    </Link>
+                  )}
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -319,8 +356,8 @@ export default function HomePage() {
                 </p>
                 <div className="border-t border-slate-100 pt-3">
                   <p className="text-sm font-bold text-slate-900">{t.name}</p>
-                  <p className="text-xs text-slate-500">{t.location}</p>
-                  <span className="text-xs text-brand-600 mt-1 inline-block">{t.service}</span>
+                  <Link href={t.locationHref} className="text-xs text-brand-600 hover:underline">{t.location}</Link>
+                  <span className="text-xs text-slate-500 mt-1 block">{t.service}</span>
                 </div>
               </div>
             ))}
