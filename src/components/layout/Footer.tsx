@@ -42,7 +42,7 @@ export default function Footer() {
               <img
                 src="/logo.png"
                 alt="CleanTecPro - Professional Technical And Cleaning Services"
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
                 width={160}
                 height={48}
               />
