@@ -38,10 +38,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(BRAND.website),
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.webp", type: "image/webp" },
     ],
     apple: [
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.webp", type: "image/webp" },
     ],
   },
   openGraph: {
@@ -97,8 +97,8 @@ gtag('config', 'G-ZTKXVQYHEL');`,
           }}
         />
 
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/favicon.webp" />
         <meta name="theme-color" content="#256ee9" />
         <meta name="geo.region" content="AE" />
         <meta name="geo.placename" content="Dubai" />
@@ -114,8 +114,8 @@ gtag('config', 'G-ZTKXVQYHEL');`,
               name: BRAND.fullName,
               alternateName: BRAND.shortName,
               url: BRAND.website,
-              logo: `${BRAND.website}/favicon.png`,
-              image: `${BRAND.website}/favicon.png`,
+              logo: `${BRAND.website}/favicon.webp`,
+              image: `${BRAND.website}/favicon.webp`,
               telephone: BRAND.phoneFormatted,
               email: BRAND.email,
               description:

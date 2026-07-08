@@ -132,7 +132,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0" aria-label="CleanTecPro Home">
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="CleanTecPro - Professional Technical And Cleaning Services"
               className="h-12 sm:h-14 w-auto"
               width={180}
@@ -347,7 +347,7 @@ export default function Header() {
           <div className="fixed right-0 top-0 bottom-0 w-[320px] max-w-[85vw] bg-white shadow-2xl overflow-y-auto">
             <div className="p-5">
               <div className="flex items-center justify-between mb-6">
-                <img src="/logo.png" alt="CleanTecPro" className="h-10 w-auto" width={130} height={40} />
+                <img src="/logo.webp" alt="CleanTecPro" className="h-10 w-auto" width={130} height={40} />
                 <button onClick={() => setMobileOpen(false)} className="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-slate-100">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />

@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:pr-6">
             <div className="mb-4">
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt="CleanTecPro - Professional Technical And Cleaning Services"
                 className="h-12 w-auto"
                 width={160}
