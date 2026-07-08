@@ -300,6 +300,273 @@ const POSTS: Record<string, BlogPost> = {
 `,
   },
 
+  "ac-maintenance-al-nahda-sharjah": {
+    title: "AC Maintenance in Al Nahda, Sharjah",
+    category: "AC & HVAC",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "AC Maintenance in Al Nahda, Sharjah | CleanTecPro",
+    metaDescription: "Fast AC maintenance and repair in Al Nahda, Sharjah starting AED 89. Gas refill, cleaning, and cooling issues fixed same-day near Sahara Centre.",
+    faqs: [
+      { q: "How much does AC maintenance cost in Al Nahda?", a: "A basic single-unit AC service in Al Nahda starts at AED 89. Gas refills and deep cleaning cost more depending on unit condition." },
+      { q: "How often should I service my AC in Sharjah's climate?", a: "We recommend servicing every 3-4 months during summer and at least twice a year overall, given Sharjah's heat and dust levels." },
+      { q: "Can you fix AC same-day in Al Nahda?", a: "Yes, in most cases. Emergency cooling issues are prioritized for same-day visits when booked before 2 PM." },
+      { q: "Do you service both apartments and villas in Al Nahda?", a: "Yes, our technicians handle split units in apartments and larger central or multi-split systems in villas." },
+    ],
+    content: `<p>If your AC isn't cooling properly or hasn't been serviced in a while, CleanTecPro's <a href="/locations/sharjah">Sharjah</a> team covers <a href="/locations/sharjah/al-nahda-sharjah">Al Nahda</a> and the area around Sahara Centre with same-day <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a>, <a href="/services/ac-hvac/ac-maintenance/ac-gas-refill">gas refills</a>, and full servicing. We work on split units, central AC, and window units common in Al Nahda apartments and villas.</p>
+<h2>Why Al Nahda Residents Choose Us</h2>
+<p>Al Nahda's mix of apartments and villas means AC systems vary a lot — from compact split units to larger central systems. Our technicians are experienced with both, so you get an accurate diagnosis instead of a generic service package. We also carry common spare parts, so many repairs are completed in a single visit.</p>
+<h2>AC Maintenance Pricing in Al Nahda</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Basic AC service (1 unit)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89 – 129</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Gas refill</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150 – 250</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Deep clean (coil + filter)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129 – 199</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Central AC servicing</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250 – 450</td></tr>
+</tbody></table></div>
+<p>Final price depends on unit type and condition. We inspect first and confirm pricing before any work starts.</p>
+<h2>What's Included</h2>
+<ul><li>Filter cleaning and replacement (if needed)</li><li>Coil and condenser cleaning</li><li>Gas pressure check and refill (if low)</li><li>Drainage pipe check to prevent leaks</li><li>Thermostat and cooling performance test</li><li>Basic electrical connection check</li></ul>
+<h2>Common AC Problems We Fix in Al Nahda</h2>
+<ul><li>AC not cooling despite running constantly</li><li><a href="/services/ac-hvac/ac-repair/ac-water-leak-repair">Water leaking from indoor unit</a></li><li>Unusual noise or smell from AC</li><li>High electricity bills from inefficient cooling</li><li>AC turning on/off repeatedly (short cycling)</li></ul>
+<h2>Serving Al Nahda and Nearby Areas</h2>
+<p>We also provide AC maintenance in <a href="/locations/sharjah/al-majaz">Al Majaz</a>, <a href="/locations/sharjah/al-qasimia">Al Qasimia</a>, and <a href="/locations/sharjah/muwaileh">Muwaileh</a>. Check our <a href="/blog/villa-deep-cleaning-al-majaz-sharjah">villa deep cleaning in Al Majaz</a> if you also need a full home clean.</p>`,
+  },
+
+  "sofa-cleaning-al-qasimia-sharjah": {
+    title: "Sofa Cleaning in Al Qasimia, Sharjah",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "4 min",
+    metaTitle: "Sofa Cleaning in Al Qasimia, Sharjah | CleanTecPro",
+    metaDescription: "Professional sofa and upholstery cleaning in Al Qasimia, Sharjah starting AED 80. Deep steam clean, stain removal, same-day booking available.",
+    faqs: [
+      { q: "How much does sofa cleaning cost in Al Qasimia?", a: "A standard 3-seater sofa cleaning starts at AED 150 in Al Qasimia, with pricing varying by fabric and condition." },
+      { q: "How long does a sofa take to dry after cleaning?", a: "Most sofas dry within 2-4 hours using our steam extraction method, faster than traditional wet-shampoo cleaning." },
+      { q: "Can you remove old stains from fabric sofas?", a: "We treat most common stains effectively, though very old or set-in stains may only partially lift depending on fabric type." },
+      { q: "Do you clean leather sofas too?", a: "Yes, we use a separate leather-safe cleaning process that conditions the material instead of steam cleaning." },
+    ],
+    content: `<p>Sofas collect dust, stains, and odors faster than most homeowners realize, especially in <a href="/locations/sharjah">Sharjah's</a> dusty climate. CleanTecPro's <a href="/locations/sharjah/al-qasimia">Al Qasimia</a> team offers deep steam cleaning and stain treatment for fabric and leather sofas, with technicians who know the area well and can usually arrive within 24 hours of booking.</p>
+<h2>Why Al Qasimia Residents Choose Us</h2>
+<p>Many homes near Al Qasimia have fabric sofas that trap dust quickly due to the area's proximity to main roads. Our <a href="/services/cleaning/specialized-cleaning/sofa-cleaning">steam cleaning method</a> removes deep-set dust and allergens without soaking the fabric, so your sofa dries faster and stays fresher longer.</p>
+<h2>Sofa Cleaning Pricing in Al Qasimia</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Item</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">1-seater sofa</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 80 – 100</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">3-seater sofa</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150 – 200</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">L-shape / sectional sofa</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 220 – 280</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Mattress cleaning (add-on)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 100 – 150</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Pre-inspection for stains and fabric type</li><li>Deep steam cleaning or dry cleaning (fabric-dependent)</li><li>Stain treatment for common spots (food, drink, pet stains)</li><li>Deodorizing treatment</li><li>Quick-dry process (2-4 hours drying time)</li></ul>
+<h2>Serving Al Qasimia and Nearby Areas</h2>
+<p>We also offer <a href="/services/cleaning/specialized-cleaning/sofa-cleaning">sofa cleaning</a> in <a href="/locations/sharjah/al-majaz">Al Majaz</a>, <a href="/locations/sharjah/al-nahda-sharjah">Al Nahda</a>, and <a href="/locations/sharjah/al-khan">Al Khan</a>. Need <a href="/services/cleaning/specialized-cleaning/carpet-cleaning">carpet cleaning</a> too? Check our <a href="/blog/sofa-carpet-cleaning-jlt-dubai">JLT sofa and carpet cleaning</a> guide.</p>`,
+  },
+
+  "villa-cleaning-muwaileh-sharjah": {
+    title: "Villa Cleaning in Muwaileh, Sharjah",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "Villa Cleaning in Muwaileh, Sharjah | CleanTecPro",
+    metaDescription: "Reliable villa cleaning in Muwaileh, Sharjah starting AED 250. Regular and deep cleaning packages for University City area residents.",
+    faqs: [
+      { q: "How much does villa cleaning cost in Muwaileh?", a: "Regular cleaning starts at AED 120 per visit, while a full one-time deep clean ranges from AED 250-450 depending on villa size." },
+      { q: "Do you offer weekly cleaning contracts in Muwaileh?", a: "Yes, we offer weekly, bi-weekly, and monthly recurring plans with discounted rates compared to one-time bookings." },
+      { q: "Is cleaning available for shared/student villas near University City?", a: "Yes, we regularly service shared villas near University City Sharjah and adjust our checklist for higher-occupancy homes." },
+      { q: "Can I request the same cleaner every visit?", a: "Yes, for recurring bookings we try to assign the same team for consistency, subject to availability." },
+    ],
+    content: `<p><a href="/locations/sharjah/muwaileh">Muwaileh's</a> villa communities, many close to University City <a href="/locations/sharjah">Sharjah</a>, need cleaning teams that understand both large family homes and shared student housing setups. CleanTecPro offers one-time and recurring <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa cleaning</a> across Muwaileh, with flexible scheduling for both weekly upkeep and full deep cleans.</p>
+<h2>Why Muwaileh Residents Choose Us</h2>
+<p>Villas in Muwaileh often house larger families or shared tenants, meaning higher daily usage of kitchens and bathrooms. Our teams adjust cleaning checklists based on household size, so a shared villa near University City gets a different approach than a single-family home.</p>
+<h2>Villa Cleaning Pricing in Muwaileh</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service Type</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Regular cleaning (weekly/bi-weekly)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 120 – 200/visit</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">One-time deep clean</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250 – 450</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Move-in/move-out clean</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 300 – 500</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Full kitchen cleaning (counters, stovetop, cabinets exterior)</li><li>All bathrooms scrubbed and sanitized</li><li>Bedroom dusting and floor cleaning</li><li>Common area and living room cleaning</li><li>Trash removal and general tidying</li><li>Optional: laundry and dishwashing (add-on)</li></ul>
+<h2>Serving Muwaileh and Nearby Areas</h2>
+<p>We also serve <a href="/locations/sharjah/al-nahda-sharjah">Al Nahda</a>, <a href="/locations/sharjah/al-majaz">Al Majaz</a>, and <a href="/locations/sharjah/al-khan">Al Khan</a> with the same villa cleaning packages. See also our <a href="/blog/villa-deep-cleaning-al-majaz-sharjah">Al Majaz villa deep cleaning guide</a>.</p>`,
+  },
+
+  "apartment-deep-cleaning-al-khan-sharjah": {
+    title: "Apartment Deep Cleaning in Al Khan, Sharjah",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "Apartment Deep Cleaning in Al Khan, Sharjah | CleanTecPro",
+    metaDescription: "Thorough apartment deep cleaning in Al Khan, Sharjah starting AED 200. Move-in, move-out, and one-time deep cleans near Al Khan Corniche.",
+    faqs: [
+      { q: "How much does apartment deep cleaning cost in Al Khan?", a: "A 1-bedroom apartment deep clean in Al Khan typically costs AED 280-380, depending on condition and add-ons." },
+      { q: "Do you clean balconies in Al Khan apartments?", a: "Yes, balcony cleaning is included as standard for most Al Khan apartment packages given the coastal exposure." },
+      { q: "How long does a 2-bedroom apartment deep clean take?", a: "Typically 3-5 hours with a 2-person team, depending on the apartment's current condition." },
+      { q: "Can I book a move-out clean for the same day as my checkout?", a: "We recommend booking at least 24-48 hours in advance to guarantee availability, especially during month-end move-out periods." },
+    ],
+    content: `<p>Apartments near <a href="/locations/sharjah/al-khan">Al Khan Corniche</a> often deal with sea-air humidity and dust, which means kitchens and bathrooms need extra attention during a <a href="/services/cleaning/deep-cleaning/deep-home-cleaning">deep clean</a>. CleanTecPro's Al Khan team handles studio to 3-bedroom apartments, with same-day and next-day slots available for <a href="/services/cleaning/deep-cleaning/move-in-move-out-cleaning">move-in, move-out</a>, and routine deep cleans.</p>
+<h2>Why Al Khan Residents Choose Us</h2>
+<p>Coastal humidity near Al Khan Corniche can cause faster buildup of grime in bathrooms and kitchen exhausts. Our deep cleaning checklist specifically targets these problem areas, using treatments suited for humid conditions rather than a one-size-fits-all approach.</p>
+<h2>Apartment Deep Cleaning Pricing in Al Khan</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Apartment Size</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Studio</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 200 – 280</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">1-bedroom</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 280 – 380</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">2-bedroom</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 380 – 480</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">3-bedroom</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 480 – 600</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Kitchen deep clean including exhaust and cabinet interiors</li><li>Bathroom descaling and sanitization</li><li>Balcony cleaning (common in Al Khan buildings)</li><li><a href="/services/cleaning/specialized-cleaning/window-cleaning">Window and glass cleaning</a> (interior)</li><li>Floor deep mopping and skirting board dusting</li><li>AC vent dusting</li></ul>
+<h2>Serving Al Khan and Nearby Areas</h2>
+<p>We also offer apartment deep cleaning in <a href="/locations/sharjah/al-majaz">Al Majaz</a>, <a href="/locations/sharjah/al-qasimia">Al Qasimia</a>, and <a href="/locations/sharjah/al-nahda-sharjah">Al Nahda</a>. Related: <a href="/blog/sofa-cleaning-al-qasimia-sharjah">sofa cleaning in Al Qasimia</a>.</p>`,
+  },
+
+  "home-cleaning-business-bay-dubai": {
+    title: "Home Cleaning in Business Bay, Dubai",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "Home Cleaning in Business Bay, Dubai | CleanTecPro",
+    metaDescription: "Trusted home and apartment cleaning in Business Bay, Dubai starting AED 199. Vetted teams, flexible scheduling, same-week booking available.",
+    faqs: [
+      { q: "How much does home cleaning cost in Business Bay?", a: "A 1-bedroom apartment cleaning in Business Bay typically starts at AED 250, with larger units priced higher based on size and condition." },
+      { q: "Can you access buildings with strict security in Business Bay?", a: "Yes, our teams carry ID and follow standard building check-in procedures. We recommend informing building security in advance for first-time visits." },
+      { q: "Do you offer weekly cleaning for busy professionals?", a: "Yes, weekly and bi-weekly recurring plans are our most popular option in Business Bay, with discounted rates versus one-time bookings." },
+      { q: "Is same-week booking available in Business Bay?", a: "Yes, subject to team availability. We recommend booking 2-3 days in advance for guaranteed slots." },
+    ],
+    content: `<p><a href="/locations/dubai/business-bay">Business Bay's</a> mix of high-rise apartments and busy professional residents means cleaning needs to be reliable, fast, and flexible around work schedules. CleanTecPro serves apartments and offices throughout Business Bay, from studio units to larger multi-bedroom homes, with booking slots that fit around your week.</p>
+<h2>Why Business Bay Residents Choose Us</h2>
+<p>Most Business Bay towers have strict building access and parking rules for service providers. Our teams are experienced navigating these buildings, arrive with proper ID and equipment ready, and don't waste your time figuring out logistics on the day of service.</p>
+<h2>Home Cleaning Pricing in Business Bay</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Apartment Size</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Studio</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 199 – 250</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">1-bedroom</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250 – 320</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">2-bedroom</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 320 – 420</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">3-bedroom+</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 420 – 550</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Full kitchen cleaning (counters, stovetop, sink, cabinet exteriors)</li><li>Bathroom deep cleaning and sanitization</li><li>Bedroom and living area dusting, floor cleaning</li><li>Glass and mirror cleaning</li><li>Trash removal</li><li>Optional add-ons: inside-fridge cleaning, oven cleaning, ironing</li></ul>
+<h2>Serving Business Bay and Nearby Areas</h2>
+<p>We also provide home cleaning in <a href="/locations/dubai/jlt">JLT</a>, <a href="/locations/dubai/downtown-dubai">Downtown Dubai</a>, and <a href="/locations/dubai/dubai-marina">Dubai Marina</a>. See our <a href="/blog/sofa-carpet-cleaning-jlt-dubai">JLT sofa and carpet cleaning</a> guide for upholstery care tips.</p>`,
+  },
+
+  "sofa-carpet-cleaning-jlt-dubai": {
+    title: "Sofa & Carpet Cleaning in JLT, Dubai",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "4 min",
+    metaTitle: "Sofa & Carpet Cleaning in JLT, Dubai | CleanTecPro",
+    metaDescription: "Deep steam sofa and carpet cleaning in Jumeirah Lake Towers (JLT), Dubai starting AED 129. Stain removal, fast drying, same-week booking.",
+    faqs: [
+      { q: "How much does sofa cleaning cost in JLT?", a: "A 3-seater sofa cleaning in JLT typically starts at AED 160, with pricing varying by fabric type and condition." },
+      { q: "Can you clean carpets without soaking my apartment floor?", a: "Yes, our steam extraction method controls moisture levels, and floors are protected during the process to avoid water damage." },
+      { q: "How long does carpet cleaning take to dry in JLT apartments?", a: "Most carpets dry within 2-4 hours using our low-moisture steam method, faster than traditional shampoo cleaning." },
+      { q: "Do you remove pet stains and odors from carpets?", a: "Yes, we use specialized enzyme-based treatments for pet stains and odors, in addition to standard steam cleaning." },
+    ],
+    content: `<p><a href="/locations/dubai/jlt">Jumeirah Lake Towers</a> apartments often feature light-colored carpets and fabric sofas that show dust and stains quickly, especially in high-traffic living areas. CleanTecPro's JLT team provides deep <a href="/services/cleaning/specialized-cleaning/sofa-cleaning">steam cleaning for sofas</a>, <a href="/services/cleaning/specialized-cleaning/carpet-cleaning">carpets</a>, and rugs, with a fast-drying process suited to apartment living.</p>
+<h2>Why JLT Residents Choose Us</h2>
+<p>JLT towers vary widely in layout, from open-plan studios to larger family apartments with multiple carpeted rooms. Our technicians assess fabric and carpet type on arrival, adjusting the cleaning method (steam vs. dry-clean) to avoid damage and ensure faster drying in enclosed apartment spaces.</p>
+<h2>Sofa & Carpet Cleaning Pricing in JLT</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Item</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">1-seater sofa</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 90 – 120</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">3-seater sofa</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 160 – 220</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Carpet (per room, up to 15 sqm)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129 – 180</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Area rug cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 80 – 150</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Pre-inspection of fabric/carpet type</li><li>Deep steam extraction or dry cleaning (fabric-dependent)</li><li>Targeted stain treatment (food, drink, pet stains)</li><li>Deodorizing treatment</li><li>Fast-dry process (2-4 hours)</li></ul>
+<h2>Serving JLT and Nearby Areas</h2>
+<p>We also offer sofa and carpet cleaning in <a href="/locations/dubai/business-bay">Business Bay</a>, <a href="/locations/dubai/downtown-dubai">Downtown Dubai</a>, and <a href="/locations/dubai/dubai-marina">Dubai Marina</a>. Related: <a href="/blog/home-cleaning-business-bay-dubai">home cleaning in Business Bay</a>.</p>`,
+  },
+
+  "villa-deep-cleaning-al-reem-island-abu-dhabi": {
+    title: "Villa Deep Cleaning in Al Reem Island, Abu Dhabi",
+    category: "Cleaning",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "Villa Deep Cleaning in Al Reem Island, Abu Dhabi | CleanTecPro",
+    metaDescription: "Professional villa and apartment deep cleaning in Al Reem Island, Abu Dhabi starting AED 250. Trusted local team, flexible booking.",
+    faqs: [
+      { q: "How much does villa deep cleaning cost on Al Reem Island?", a: "A 3-4 bedroom villa deep clean starts at AED 450, with larger villas priced higher based on size and condition." },
+      { q: "Do you clean marble floors without damaging them?", a: "Yes, we use pH-neutral, marble-safe cleaning products specifically to avoid dulling or etching common in generic cleaning approaches." },
+      { q: "Can you access gated communities on Al Reem Island?", a: "Yes, our teams are familiar with the main communities and building entry procedures. We recommend informing security in advance for first-time bookings." },
+      { q: "Is same-week booking available on Al Reem Island?", a: "Yes, subject to availability. We recommend booking 2-3 days ahead for guaranteed scheduling." },
+    ],
+    content: `<p><a href="/locations/abu-dhabi/al-reem-island">Al Reem Island's</a> mix of waterfront villas and high-rise apartments means cleaning needs vary a lot from building to building. CleanTecPro's <a href="/locations/abu-dhabi">Abu Dhabi</a> team handles both <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa</a> and <a href="/services/cleaning/deep-cleaning/deep-home-cleaning">apartment deep cleaning</a> across Al Reem Island, with teams familiar with the area's major communities and building access requirements.</p>
+<h2>Why Al Reem Island Residents Choose Us</h2>
+<p>Many homes on Al Reem Island are relatively new builds with marble or large-format tile flooring that needs specific cleaning products to avoid streaking or dulling. Our teams use surface-appropriate products rather than generic all-purpose cleaners, protecting your flooring investment.</p>
+<h2>Villa & Apartment Deep Cleaning Pricing in Al Reem Island</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Property Type</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">1-2 bedroom apartment</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250 – 350</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">3-bedroom apartment</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 350 – 450</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Villa (3-4 bedroom)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 450 – 700</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Villa (5+ bedroom)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 700 – 950</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Full kitchen deep clean (cabinets, exhaust, appliances exterior)</li><li>All bathrooms scrubbed and sanitized</li><li>Marble/tile floor cleaning and polishing pass</li><li><a href="/services/cleaning/specialized-cleaning/window-cleaning">Window and glass door cleaning</a> (interior)</li><li>Balcony/terrace cleaning</li><li>Dusting of all surfaces and light fixtures</li></ul>
+<h2>Serving Al Reem Island and Nearby Areas</h2>
+<p>We also serve <a href="/locations/abu-dhabi/al-raha-beach">Al Raha Beach</a>, <a href="/locations/abu-dhabi/corniche-abu-dhabi">Corniche</a>, and <a href="/locations/abu-dhabi/khalifa-city">Khalifa City</a> with the same deep cleaning packages.</p>`,
+  },
+
+  "ac-maintenance-ajman": {
+    title: "AC Maintenance in Ajman",
+    category: "AC & HVAC",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "AC Maintenance in Ajman Near Me | CleanTecPro",
+    metaDescription: "Fast AC maintenance and gas refill service in Ajman starting AED 89. Same-day cooling repairs, cleaning, and servicing across Ajman.",
+    faqs: [
+      { q: "How much does AC maintenance cost in Ajman?", a: "A basic single-unit AC service in Ajman starts at AED 89, with gas refills and deep cleaning priced separately based on condition." },
+      { q: "Do you service older AC units in Ajman?", a: "Yes, our technicians are experienced with both new and older AC systems, including units that may need extra attention for drainage or gas levels." },
+      { q: "Can you fix AC issues same-day in Ajman?", a: "Yes, in most cases when booked before 2 PM, subject to technician availability." },
+      { q: "How often should I service my AC in Ajman's climate?", a: "We recommend servicing every 3-4 months during summer months and at least twice yearly overall." },
+    ],
+    content: `<p>If your AC in <a href="/locations/ajman">Ajman</a> isn't cooling well or needs a routine service, CleanTecPro provides same-day and next-day <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a> covering split units, central AC, and window units common across Ajman's residential areas including <a href="/locations/ajman/al-rashidiya">Al Rashidiya</a>, <a href="/locations/ajman/al-nuaimiya">Al Nuaimiya</a>, and <a href="/locations/ajman/emirates-city">Emirates City</a>.</p>
+<h2>Why Ajman Residents Choose Us</h2>
+<p>Ajman's residential mix includes many older buildings where AC units may need extra attention for gas levels and drainage. Our technicians check these common problem points as standard, not as a paid extra, so nothing gets missed during a routine service.</p>
+<h2>AC Maintenance Pricing in Ajman</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Basic AC service (1 unit)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89 – 129</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Gas refill</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150 – 250</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Deep clean (coil + filter)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129 – 199</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Central AC servicing</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250 – 450</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Filter cleaning and replacement (if needed)</li><li>Coil and condenser cleaning</li><li><a href="/services/ac-hvac/ac-maintenance/ac-gas-refill">Gas pressure check and refill</a> (if low)</li><li>Drainage pipe check to prevent leaks</li><li>Cooling performance test</li><li>Basic electrical connection check</li></ul>
+<h2>Common AC Problems We Fix in Ajman</h2>
+<ul><li><a href="/services/ac-hvac/ac-repair/ac-not-cooling-repair">AC not cooling</a> despite running constantly</li><li><a href="/services/ac-hvac/ac-repair/ac-water-leak-repair">Water leaking from indoor unit</a></li><li>Unusual noise or burning smell</li><li>High electricity bills from inefficient cooling</li><li>AC short-cycling (turning on/off repeatedly)</li></ul>
+<h2>Serving Ajman and Nearby Areas</h2>
+<p>We also provide AC maintenance in <a href="/locations/sharjah">Sharjah</a> and <a href="/locations/umm-al-quwain">Umm Al Quwain</a>. See our <a href="/blog/ac-maintenance-al-nahda-sharjah">Al Nahda AC maintenance guide</a> for Sharjah-specific pricing.</p>`,
+  },
+
+  "pest-control-ras-al-khaimah": {
+    title: "Pest Control in Ras Al Khaimah",
+    category: "Pest Control",
+    date: "2025-07-07",
+    readTime: "5 min",
+    metaTitle: "Pest Control in Ras Al Khaimah | CleanTecPro",
+    metaDescription: "Effective pest control in Ras Al Khaimah starting AED 150. Cockroach, termite, and general pest treatment with safe, licensed methods.",
+    faqs: [
+      { q: "How much does pest control cost in Ras Al Khaimah?", a: "General pest treatment for an apartment starts at AED 150, while villa treatments and termite control are priced higher based on size and severity." },
+      { q: "Is the pest control treatment safe for children and pets?", a: "Yes, we use licensed, low-toxicity treatments designed for residential use, though we recommend keeping pets and children away from treated areas for a few hours post-treatment." },
+      { q: "How often should I get pest control done in RAK's climate?", a: "We recommend quarterly treatment for most homes, given RAK's humidity and pest activity levels, though this can vary by property." },
+      { q: "Do you treat termites in wooden furniture specifically?", a: "Yes, we offer targeted termite treatment for both structural wood and furniture, with follow-up inspections available." },
+    ],
+    content: `<p>Whether it's cockroaches in the kitchen, termites in wooden structures, or general pest issues around villas and apartments, CleanTecPro provides licensed <a href="/services/pest-control">pest control</a> treatment across <a href="/locations/ras-al-khaimah">Ras Al Khaimah</a> including <a href="/locations/ras-al-khaimah/al-nakheel">Al Nakheel</a>, <a href="/locations/ras-al-khaimah/al-hamra-village">Al Hamra Village</a>, and <a href="/locations/ras-al-khaimah/mina-al-arab">Mina Al Arab</a>, using safe, effective methods suited for both residential and commercial properties.</p>
+<h2>Why Ras Al Khaimah Residents Choose Us</h2>
+<p>RAK's mix of coastal humidity and desert heat creates ideal conditions for certain pests, especially termites in older wooden fixtures and cockroaches in kitchens near water sources. Our technicians identify the specific pest type and treatment needed rather than applying a one-size-fits-all spray.</p>
+<h2>Pest Control Pricing in Ras Al Khaimah</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Price Range</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">General pest treatment (apartment)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150 – 220</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">General pest treatment (villa)</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 220 – 350</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/pest-control/specialized-pest-control/termite-control">Termite treatment</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 350 – 600</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2"><a href="/services/pest-control/general-pest-control/cockroach-control">Cockroach treatment</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150 – 250</td></tr>
+</tbody></table></div>
+<h2>What's Included</h2>
+<ul><li>Full property inspection to identify pest type and entry points</li><li>Safe, licensed chemical treatment (indoor and outdoor as needed)</li><li>Targeted gel/bait treatment for cockroaches</li><li>Termite barrier treatment where applicable</li><li>Follow-up visit if pest activity continues (as per package terms)</li></ul>
+<h2>Common Pest Issues We Treat in Ras Al Khaimah</h2>
+<ul><li><a href="/services/pest-control/general-pest-control/cockroach-control">Cockroach infestations</a> in kitchens and bathrooms</li><li><a href="/services/pest-control/specialized-pest-control/termite-control">Termite damage</a> in wooden furniture or structures</li><li><a href="/services/pest-control/general-pest-control/ant-control">Ant trails</a> in kitchens and outdoor areas</li><li>General insect control for villas near green/outdoor spaces</li></ul>
+<h2>Serving Ras Al Khaimah and Nearby Areas</h2>
+<p>We also provide pest control in <a href="/locations/ajman">Ajman</a> and <a href="/locations/umm-al-quwain">Umm Al Quwain</a>. See our <a href="/blog/ac-maintenance-ajman">Ajman AC maintenance guide</a> for other home services in the northern emirates.</p>`,
+  },
+
   "ac-maintenance-tips-uae-summers": {
     title: "10 Essential AC Maintenance Tips for UAE Summers",
     category: "AC & HVAC",

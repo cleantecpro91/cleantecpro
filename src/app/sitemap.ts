@@ -67,6 +67,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const blogPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog/ac-maintenance-al-nahda-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/sofa-cleaning-al-qasimia-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/villa-cleaning-muwaileh-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/apartment-deep-cleaning-al-khan-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/home-cleaning-business-bay-dubai`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/sofa-carpet-cleaning-jlt-dubai`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/villa-deep-cleaning-al-reem-island-abu-dhabi`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/ac-maintenance-ajman`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/pest-control-ras-al-khaimah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/villa-deep-cleaning-al-majaz-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/professional-deep-cleaning-services-dubai`, lastModified: new Date("2025-06-25"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/ac-maintenance-tips-uae-summers`, lastModified: new Date("2025-01-15"), changeFrequency: "monthly", priority: 0.6 },
