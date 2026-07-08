@@ -66,5 +66,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  return [...staticPages, ...servicePages, ...locationPages];
+  const blogPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog/villa-deep-cleaning-al-majaz-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/professional-deep-cleaning-services-dubai`, lastModified: new Date("2025-06-25"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/ac-maintenance-tips-uae-summers`, lastModified: new Date("2025-01-15"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/blog/how-often-deep-clean-home-uae`, lastModified: new Date("2025-01-10"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/blog/signs-water-heater-needs-repair`, lastModified: new Date("2025-01-05"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/blog/villa-summer-maintenance-checklist-uae`, lastModified: new Date("2024-12-28"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/blog/understanding-amc-contracts-uae`, lastModified: new Date("2024-12-20"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/blog/pest-control-methods-uae`, lastModified: new Date("2024-12-15"), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/sitemap`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
+  ];
+
+  return [...staticPages, ...servicePages, ...locationPages, ...blogPages];
 }

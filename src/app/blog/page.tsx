@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 const SAMPLE_POSTS = [
+  { title: "Villa Deep Cleaning in Al Majaz, Sharjah", slug: "villa-deep-cleaning-al-majaz-sharjah", excerpt: "Professional villa deep cleaning in Al Majaz, Sharjah starting AED 250. Pricing table, what's included, FAQs, and same-day booking for Al Majaz Waterfront residents.", category: "Cleaning", date: "2025-07-07", readTime: "5 min" },
   { title: "Professional Deep Cleaning Services in Dubai: What's Included & Why You Need It", slug: "professional-deep-cleaning-services-dubai", excerpt: "Looking for professional deep cleaning services in Dubai? Discover what's included, pricing breakdown, benefits and why UAE residents trust expert deep cleaners. Complete guide with costs.", category: "Cleaning", date: "2025-06-25", readTime: "12 min" },
   { title: "10 Essential AC Maintenance Tips for UAE Summers", slug: "ac-maintenance-tips-uae-summers", excerpt: "Keep your AC running efficiently during the intense UAE summer with these practical maintenance tips from our HVAC experts.", category: "AC & HVAC", date: "2025-01-15", readTime: "5 min" },
   { title: "How Often Should You Deep Clean Your Home in the UAE?", slug: "how-often-deep-clean-home-uae", excerpt: "The UAE's desert climate means homes accumulate dust faster than in many other regions. Learn the optimal cleaning frequency for different areas of your home.", category: "Cleaning", date: "2025-01-10", readTime: "4 min" },
