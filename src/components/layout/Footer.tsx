@@ -35,9 +35,9 @@ export default function Footer() {
 
       {/* Main Footer */}
       <div className="container-main py-12 md:py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand Column */}
-          <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:pr-6">
+          <div className="col-span-2 md:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-4">
               <img
                 src="/logo.webp"
