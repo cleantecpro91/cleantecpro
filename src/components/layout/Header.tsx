@@ -130,14 +130,22 @@ export default function Header() {
       >
         <div className="container-main flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0" aria-label="CleanTecPro Home">
+          <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="CleanTecPro Home">
             <img
               src="/logo.webp"
-              alt="CleanTecPro - Professional Technical And Cleaning Services"
-              className="h-12 sm:h-14 w-auto"
-              width={180}
-              height={56}
+              alt="CleanTecPro"
+              className="h-10 sm:h-12 w-auto"
+              width={48}
+              height={48}
             />
+            <div className="hidden sm:block leading-tight">
+              <span className="text-[17px] font-extrabold tracking-tight text-slate-900">
+                Clean<span className="text-teal-600">Tec</span><span className="text-orange-500">Pro</span>
+              </span>
+              <p className="text-[9px] text-slate-500 font-medium tracking-wide uppercase">
+                Professional Technical & Cleaning Services
+              </p>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -347,7 +355,12 @@ export default function Header() {
           <div className="fixed right-0 top-0 bottom-0 w-[320px] max-w-[85vw] bg-white shadow-2xl overflow-y-auto">
             <div className="p-5">
               <div className="flex items-center justify-between mb-6">
-                <img src="/logo.webp" alt="CleanTecPro" className="h-10 w-auto" width={130} height={40} />
+                <div className="flex items-center gap-2">
+                  <img src="/logo.webp" alt="CleanTecPro" className="h-9 w-auto" width={36} height={36} />
+                  <div className="leading-tight">
+                    <span className="text-base font-extrabold text-slate-900">Clean<span className="text-teal-600">Tec</span><span className="text-orange-500">Pro</span></span>
+                  </div>
+                </div>
                 <button onClick={() => setMobileOpen(false)} className="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-slate-100">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />

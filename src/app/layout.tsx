@@ -54,11 +54,11 @@ export const metadata: Metadata = {
       "Book cleaning, AC repair, plumbing, electrical, and handyman services across Dubai, Sharjah, Abu Dhabi & all 7 UAE emirates. Same-day slots from AED 59.",
     images: [
       {
-        url: `${BRAND.website}/og-image.png`,
+        url: `${BRAND.website}/og-image.webp`,
         width: 1200,
         height: 630,
         alt: "CleanTecPro — Cleaning, AC, Plumbing & Maintenance Services in UAE",
-        type: "image/png",
+        type: "image/webp",
       },
     ],
   },
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Cleaning, AC, Plumbing & Maintenance Services in UAE | CleanTecPro",
     description:
       "Book cleaning, AC repair, plumbing, electrical & maintenance services across Dubai, Sharjah & all UAE emirates. Same-day slots from AED 59.",
-    images: [`${BRAND.website}/og-image.png`],
+    images: [`${BRAND.website}/og-image.webp`],
   },
   robots: {
     index: true,

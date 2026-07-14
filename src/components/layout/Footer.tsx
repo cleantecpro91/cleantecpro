@@ -38,14 +38,22 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
           {/* Brand Column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:pr-6">
-            <div className="mb-4">
+            <div className="flex items-center gap-2.5 mb-4">
               <img
                 src="/logo.webp"
-                alt="CleanTecPro - Professional Technical And Cleaning Services"
-                className="h-12 w-auto"
-                width={160}
-                height={48}
+                alt="CleanTecPro"
+                className="h-11 w-auto"
+                width={44}
+                height={44}
               />
+              <div className="leading-tight">
+                <span className="text-lg font-extrabold text-white">
+                  Clean<span className="text-teal-400">Tec</span><span className="text-orange-400">Pro</span>
+                </span>
+                <p className="text-[9px] text-slate-400 font-medium tracking-wide uppercase">
+                  Professional Technical & Cleaning Services
+                </p>
+              </div>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
               Your trusted partner for professional technical, cleaning, and maintenance services across the United Arab Emirates.

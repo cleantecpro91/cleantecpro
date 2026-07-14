@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Book cleaning, AC repair, plumbing, electrical, and handyman services across Dubai, Sharjah & all UAE emirates. Same-day slots from AED 59.",
     url: BRAND.website,
     type: "website",
-    images: [{ url: `${BRAND.website}/og-image.png`, width: 1200, height: 630, alt: "CleanTecPro Services" }],
+    images: [{ url: `${BRAND.website}/og-image.webp`, width: 1200, height: 630, alt: "CleanTecPro Services" }],
   },
 };
 
