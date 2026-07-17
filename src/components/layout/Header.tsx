@@ -131,12 +131,15 @@ export default function Header() {
         <div className="container-main flex items-center justify-between h-16 md:h-18">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0" aria-label="CleanTecPro Home">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.webp"
               alt="CleanTecPro"
               className="h-10 sm:h-12 w-auto"
               width={48}
               height={48}
+              fetchPriority="high"
+              decoding="async"
             />
             <div className="hidden sm:block leading-tight">
               <span className="text-[17px] font-extrabold tracking-tight text-slate-900">

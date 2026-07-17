@@ -96,17 +96,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTKXVQYHEL" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-ZTKXVQYHEL');`,
-          }}
-        />
-
         <link rel="icon" href="/favicon.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/favicon.webp" />
         <meta name="theme-color" content="#256ee9" />
@@ -224,6 +213,13 @@ gtag('config', 'G-ZTKXVQYHEL');`,
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
+        {/* Google Analytics - loaded after page render */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTKXVQYHEL" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZTKXVQYHEL');`,
+          }}
+        />
       </body>
     </html>
   );
