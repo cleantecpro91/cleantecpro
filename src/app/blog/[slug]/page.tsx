@@ -567,6 +567,158 @@ const POSTS: Record<string, BlogPost> = {
 <p>We also provide pest control in <a href="/locations/ajman">Ajman</a> and <a href="/locations/umm-al-quwain">Umm Al Quwain</a>. See our <a href="/blog/ac-maintenance-ajman">Ajman AC maintenance guide</a> for other home services in the northern emirates.</p>`,
   },
 
+  "cleaning-ac-plumbing-services-al-nakheel-rak": {
+    title: "Home & Maintenance Services in Al Nakheel, Ras Al Khaimah",
+    category: "Multi-Service", date: "2025-07-17", readTime: "8 min",
+    metaTitle: "Cleaning, AC, Plumbing & Handyman Services in Al Nakheel, RAK | CleanTecPro",
+    metaDescription: "Trusted home cleaning, AC repair, plumbing, electrical, and handyman services in Al Nakheel, Ras Al Khaimah. Serving Al Nakheel, Al Seer, Al Dhahiri.",
+    faqs: [
+      { q: "How much does home cleaning cost in Al Nakheel?", a: "A 1-bedroom apartment cleaning in Al Nakheel typically starts at AED 199, with villas and larger units priced higher based on size and condition." },
+      { q: "Do you offer same-day AC repair in Al Nakheel?", a: "Yes, most AC issues booked before 2 PM are addressed same-day, subject to technician availability." },
+      { q: "Can I bundle cleaning, AC service, and plumbing in one visit?", a: "Yes, many Al Nakheel customers bundle multiple services in one booking — mention this when scheduling and we'll coordinate the right teams." },
+      { q: "Do you offer AMC contracts for landlords with multiple units in Al Nakheel?", a: "Yes, we offer custom AMC pricing for landlords and businesses managing multiple properties, covering both cleaning and AC maintenance." },
+      { q: "Do you cover Al Seer and Al Dhahiri as well?", a: "Yes, we regularly service Al Seer, Al Dhahiri, and nearby pockets with the same pricing and service standards as central Al Nakheel." },
+    ],
+    content: `<p><a href="/locations/ras-al-khaimah/al-nakheel">Al Nakheel</a> is <a href="/locations/ras-al-khaimah">Ras Al Khaimah's</a> busiest residential and commercial hub, home to a mix of older apartment blocks, villas, and shops along Al Muntasir Road. Whether you're searching for home cleaning near Al Nakheel, an <a href="/services/ac-hvac/ac-repair/ac-not-cooling-repair">AC repair</a> technician, or a reliable plumber in Ras Al Khaimah, CleanTecPro covers all of it under one booking — <a href="/services/cleaning">cleaning</a>, <a href="/services/ac-hvac">AC maintenance</a>, <a href="/services/plumbing">plumbing</a>, <a href="/services/electrical">electrical</a>, <a href="/services/handyman">handyman</a>, and <a href="/services/pest-control">pest control</a> — so residents in Al Nakheel and nearby pockets like Al Seer and Al Dhahiri don't need five different companies for five different problems.</p>
+<h2>Services We Provide in Al Nakheel</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Starting Price</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Common Issues We Fix</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/cleaning">Home & Villa Cleaning</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 199</td><td class="border border-slate-200 px-4 py-2">Deep cleans, move-in/move-out, recurring plans</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2"><a href="/services/ac-hvac">AC Maintenance & Repair</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89</td><td class="border border-slate-200 px-4 py-2">Not cooling, gas refill, servicing older units</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/plumbing">Plumbing Repair</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129</td><td class="border border-slate-200 px-4 py-2">Leaks, blocked drains, low water pressure</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2"><a href="/services/electrical">Electrical Repair</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 79</td><td class="border border-slate-200 px-4 py-2">Light fittings, socket issues, minor wiring</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/handyman">Handyman Services</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 99</td><td class="border border-slate-200 px-4 py-2">Furniture assembly, door/window fixes</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2"><a href="/services/pest-control">Pest Control</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Cockroaches, ants, general pest treatment</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/amc">AMC (Annual Contract)</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">Custom quote</td><td class="border border-slate-200 px-4 py-2">Yearly cleaning + AC servicing bundled</td></tr>
+</tbody></table></div>
+<h2>Why Al Nakheel Residents Choose Us</h2>
+<p>Many buildings in Al Nakheel, particularly older ones near Corniche Al Qawasim, come with recurring issues — aging plumbing, AC units needing frequent servicing, and electrical fittings that weren't updated in later renovations. Our technicians assess actual building age and condition before quoting, rather than applying a generic package that doesn't match your unit's real needs.</p>
+<h2>Home & Apartment Cleaning in Al Nakheel</h2>
+<p>Looking for home cleaning near Al Nakheel? Studio and 1-bedroom apartment cleans start at AED 199, with 2-3 bedroom units and villas priced higher. We handle <a href="/services/cleaning/deep-cleaning/deep-home-cleaning">deep cleaning</a> in Al Nakheel RAK, <a href="/services/cleaning/deep-cleaning/move-in-move-out-cleaning">move-out cleaning</a> for tenants ending their lease, and recurring <a href="/services/lifestyle-support/home-support/maid-service">maid service</a> for residents who want weekly or bi-weekly upkeep.</p>
+<h2>Villa Deep Cleaning in Al Nakheel</h2>
+<p>For <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa cleaning</a> in Al Nakheel RAK, our teams handle larger kitchens, multiple bathrooms, and outdoor sitting areas that standard apartment packages don't cover. Villa deep cleaning in Ras Al Khaimah typically starts at AED 380 depending on size, with add-ons available for gardens, garages, and outdoor majlis areas.</p>
+<h2>AC Maintenance & Repair in Al Nakheel</h2>
+<p>If your AC isn't cooling, is leaking water, or hasn't been serviced this season, our <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a> in Al Nakheel covers <a href="/services/ac-hvac/ac-maintenance/ac-gas-refill">gas refills</a>, coil cleaning, and full diagnostics starting at AED 89. Given the mix of older and newer buildings here, we check gas levels and drainage as standard on every visit.</p>
+<h2>Plumbing Services in Al Nakheel</h2>
+<p>Common calls from Al Nakheel residents include <a href="/services/plumbing/plumbing-repair/leak-repair">leak repair</a>, <a href="/services/plumbing/plumbing-repair/drain-cleaning">blocked drains</a> in older units, and low water pressure complaints. Most jobs are completed in a single visit starting at AED 129.</p>
+<h2>Serving Al Nakheel and Surrounding Communities</h2>
+<p>Beyond central Al Nakheel, we also cover nearby residential pockets including Al Seer, Al Dhahiri, and areas closer to Ras Al Khaimah Corniche. See also: <a href="/blog/home-cleaning-ac-maintenance-al-dhait-rak">Al Dhait services</a>, <a href="/blog/villa-cleaning-garden-maintenance-al-hamra-rak">Al Hamra Village services</a>, <a href="/blog/apartment-villa-cleaning-ac-services-mina-al-arab-rak">Mina Al Arab services</a>, and <a href="/blog/pest-control-ras-al-khaimah">RAK pest control</a>.</p>`,
+  },
+
+  "home-cleaning-ac-maintenance-al-dhait-rak": {
+    title: "Home & Maintenance Services in Al Dhait, Ras Al Khaimah",
+    category: "Multi-Service", date: "2025-07-17", readTime: "7 min",
+    metaTitle: "Cleaning, AC, Plumbing & Handyman Services in Al Dhait, RAK | CleanTecPro",
+    metaDescription: "Trusted home cleaning, AC repair, plumbing, electrical, and handyman services in Al Dhait North & South, Ras Al Khaimah. Fast local booking.",
+    faqs: [
+      { q: "Do you serve both Al Dhait North and Al Dhait South?", a: "Yes, we cover both zones equally with the same pricing and service standards." },
+      { q: "How much does villa cleaning cost in Al Dhait?", a: "Villa cleaning typically starts at AED 380 given the larger average property size compared to apartments, with final pricing confirmed after a quick property check." },
+      { q: "Do you service multiple AC units in one villa visit?", a: "Yes, our technicians check and service all AC units in a property during a single visit rather than charging separately per callout." },
+      { q: "Is termite treatment available for villa gardens in Al Dhait?", a: "Yes, termite treatment is one of our most requested pest control services in Al Dhait given the number of villa gardens and wooden fixtures in the area." },
+    ],
+    content: `<p>Al Dhait is one of <a href="/locations/ras-al-khaimah">Ras Al Khaimah's</a> largest residential zones, split between Al Dhait North and Al Dhait South, with a wide mix of villas, townhouses, and low-rise apartment buildings. Whether you're searching for home cleaning in Al Dhait North, <a href="/services/ac-hvac/ac-repair/ac-not-cooling-repair">AC repair</a> in Al Dhait South, or a reliable plumber nearby, CleanTecPro covers <a href="/services/cleaning">cleaning</a>, <a href="/services/ac-hvac">AC maintenance</a>, <a href="/services/plumbing">plumbing</a>, <a href="/services/electrical">electrical</a>, <a href="/services/handyman">handyman</a>, and <a href="/services/pest-control">pest control</a> across both zones under one simple booking.</p>
+<h2>Services We Provide in Al Dhait</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Starting Price</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Common Issues</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Home & Villa Cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 199</td><td class="border border-slate-200 px-4 py-2">Deep cleans, move-in/move-out, recurring</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">AC Maintenance & Repair</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89</td><td class="border border-slate-200 px-4 py-2">Not cooling, gas refill, multi-unit servicing</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Plumbing Repair</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129</td><td class="border border-slate-200 px-4 py-2">Leaks, blocked drains, low pressure</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Pest Control</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Cockroaches, <a href="/services/pest-control/specialized-pest-control/termite-control">termites</a>, ants</td></tr>
+</tbody></table></div>
+<h2>Why Al Dhait Residents Choose Us</h2>
+<p>Al Dhait's villa-heavy layout means larger properties with more rooms, bigger kitchens, and outdoor spaces compared to apartment-dense areas like <a href="/locations/ras-al-khaimah/al-nakheel">Al Nakheel</a>. Our teams size their crew and time estimate based on actual property type — whether it's a compact townhouse in Al Dhait South or a larger standalone villa in Al Dhait North — so quotes reflect real square footage, not a flat generic rate.</p>
+<h2>Home & Villa Cleaning in Al Dhait</h2>
+<p>For home cleaning in Al Dhait, apartment cleans start at AED 199, while <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa cleaning</a> across both Al Dhait North and South typically starts at AED 380. We handle <a href="/services/cleaning/deep-cleaning/deep-home-cleaning">deep cleaning</a>, <a href="/services/cleaning/deep-cleaning/move-in-move-out-cleaning">move-in/move-out cleans</a>, and recurring maid service.</p>
+<h2>AC Maintenance & Repair in Al Dhait</h2>
+<p>Villas in Al Dhait often run multiple AC units (central plus split systems), so <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a> covers full-property servicing, not just single units. Starting at AED 89 per unit with <a href="/services/ac-hvac/ac-maintenance/ac-gas-refill">gas refill</a> checks included.</p>
+<h2>Serving Al Dhait and Nearby Areas</h2>
+<p>We cover all of Al Dhait North and South equally, along with nearby zones toward <a href="/blog/cleaning-ac-plumbing-services-al-nakheel-rak">Al Nakheel</a> and Al Manar. See also: <a href="/blog/villa-cleaning-garden-maintenance-al-hamra-rak">Al Hamra Village services</a> and <a href="/blog/apartment-villa-cleaning-ac-services-mina-al-arab-rak">Mina Al Arab services</a>.</p>`,
+  },
+
+  "villa-cleaning-garden-maintenance-al-hamra-rak": {
+    title: "Home & Villa Services in Al Hamra, Ras Al Khaimah",
+    category: "Multi-Service", date: "2025-07-17", readTime: "7 min",
+    metaTitle: "Cleaning, AC, Plumbing & Garden Services in Al Hamra, RAK | CleanTecPro",
+    metaDescription: "Trusted villa cleaning, AC repair, plumbing, and garden maintenance in Al Hamra Village, Ras Al Khaimah. Serving expat and golf community residents.",
+    faqs: [
+      { q: "Do you service villas near the Al Hamra golf course and marina?", a: "Yes, we cover all of Al Hamra Village including properties near the golf course, marina, and beachfront." },
+      { q: "Can you maintain irrigation systems for villa gardens in Al Hamra?", a: "Yes, garden and irrigation maintenance is a core part of our Al Hamra service offering, including system checks to prevent over or under-watering." },
+      { q: "Do you handle pool-area plumbing in Al Hamra villas?", a: "Yes, our plumbing service covers both indoor fixtures and outdoor pool-area connections common in Al Hamra properties." },
+      { q: "Is an AMC available for seasonal residents who aren't in Al Hamra year-round?", a: "Yes, we offer flexible AMC terms that can accommodate seasonal residents, including scheduled maintenance visits during your absence." },
+    ],
+    content: `<p><a href="/locations/ras-al-khaimah/al-hamra-village">Al Hamra Village</a> is one of <a href="/locations/ras-al-khaimah">Ras Al Khaimah's</a> premier villa and expat communities, known for its golf course, marina, and beachfront properties. Homes here tend to be larger and better-finished than average, which means maintenance needs — from <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa cleaning</a> to <a href="/services/garden-outdoor/garden-maintenance">garden</a> and <a href="/services/garden-outdoor/landscaping/irrigation-system">irrigation</a> upkeep — are a step above standard apartment servicing.</p>
+<h2>Services We Provide in Al Hamra</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Starting Price</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Common Issues</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Villa & Home Cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 250</td><td class="border border-slate-200 px-4 py-2">Deep cleans, recurring, move-in/out</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">AC Maintenance</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89</td><td class="border border-slate-200 px-4 py-2">Multi-unit servicing, gas refill</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/garden-outdoor">Garden & Irrigation</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Lawn care, irrigation checks, landscaping</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2"><a href="/services/garden-outdoor/pool-services/pool-maintenance">Pool Maintenance</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 149</td><td class="border border-slate-200 px-4 py-2">Chemical balance, filter, skimmer</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2"><a href="/services/pest-control/specialized-pest-control/termite-control">Pest/Termite Control</a></td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Garden pests, termite treatment</td></tr>
+</tbody></table></div>
+<h2>Why Al Hamra Residents Choose Us</h2>
+<p>Villas in Al Hamra Village typically include gardens, sometimes a private pool area, and multiple AC zones — features that need specialized attention. Our teams are equipped for full villa cleaning, <a href="/services/garden-outdoor/garden-maintenance">garden and irrigation servicing</a>, and multi-unit <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a> in a single coordinated visit.</p>
+<h2>Villa Cleaning in Al Hamra Village</h2>
+<p><a href="/services/cleaning/deep-cleaning/deep-home-cleaning">Villa deep cleaning</a> in Al Hamra Village starts at AED 250 for smaller units, with larger properties near the golf course or marina priced according to size. We handle <a href="/services/cleaning/deep-cleaning/move-in-move-out-cleaning">move-in/move-out cleaning</a>, recurring <a href="/services/lifestyle-support/home-support/maid-service">maid service</a>, and one-time deep cleans for seasonal upkeep.</p>
+<h2>Garden & Irrigation Maintenance in Al Hamra</h2>
+<p>Given Al Hamra's landscaped villa gardens and golf community setting, <a href="/services/garden-outdoor/garden-maintenance">garden maintenance</a> is one of our most requested services alongside cleaning. This includes lawn care, <a href="/services/garden-outdoor/landscaping/irrigation-system">irrigation system checks</a>, and general landscaping upkeep, starting at AED 150 per visit.</p>
+<h2>Serving Al Hamra and RAK Communities</h2>
+<p>See also: <a href="/blog/cleaning-ac-plumbing-services-al-nakheel-rak">Al Nakheel services</a>, <a href="/blog/home-cleaning-ac-maintenance-al-dhait-rak">Al Dhait services</a>, <a href="/blog/apartment-villa-cleaning-ac-services-mina-al-arab-rak">Mina Al Arab services</a>, and <a href="/blog/home-commercial-cleaning-services-julfar-rak">Julfar commercial services</a>.</p>`,
+  },
+
+  "apartment-villa-cleaning-ac-services-mina-al-arab-rak": {
+    title: "Home & Maintenance Services in Mina Al Arab, Ras Al Khaimah",
+    category: "Multi-Service", date: "2025-07-17", readTime: "7 min",
+    metaTitle: "Cleaning, AC, Plumbing & Handyman Services in Mina Al Arab, RAK | CleanTecPro",
+    metaDescription: "Trusted apartment and villa cleaning, AC repair, and plumbing in Mina Al Arab, Ras Al Khaimah. Serving waterfront residents with fast local booking.",
+    faqs: [
+      { q: "Why does my AC need more frequent servicing in Mina Al Arab?", a: "Coastal humidity accelerates coil buildup and drainage issues, so we recommend servicing every 2-3 months rather than the standard 3-4 months for inland properties." },
+      { q: "Do you serve all the islands within Mina Al Arab?", a: "Yes, we cover apartment towers, townhouses, and villas across the Mina Al Arab community." },
+      { q: "Is plumbing corrosion common in Mina Al Arab properties?", a: "Older fittings can be more prone to corrosion-related leaks due to coastal humidity — we check for this specifically during plumbing visits." },
+      { q: "Can I get a recurring cleaning plan for a waterfront apartment?", a: "Yes, weekly and bi-weekly recurring plans are available at discounted per-visit rates." },
+    ],
+    content: `<p><a href="/locations/ras-al-khaimah/mina-al-arab">Mina Al Arab</a> is <a href="/locations/ras-al-khaimah">Ras Al Khaimah's</a> waterfront island community, made up of apartment towers, townhouses, and villas spread across several islands connected by bridges. Coastal humidity here means homes need more frequent attention to <a href="/services/ac-hvac">AC systems</a>, bathroom fittings, and outdoor surfaces than inland areas.</p>
+<h2>Services We Provide in Mina Al Arab</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Starting Price</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Common Issues</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Home & Villa Cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 199</td><td class="border border-slate-200 px-4 py-2">Deep cleans, move-in/out, recurring</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">AC Maintenance</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89</td><td class="border border-slate-200 px-4 py-2">Humidity-related servicing, gas refill</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Plumbing Repair</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 129</td><td class="border border-slate-200 px-4 py-2">Corrosion leaks, low pressure</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Pest Control</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Cockroach, general pest treatment</td></tr>
+</tbody></table></div>
+<h2>Why Mina Al Arab Residents Choose Us</h2>
+<p>Waterfront living means higher humidity levels, which accelerates <a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC coil buildup</a>, bathroom mold, and metal fitting corrosion compared to inland communities like <a href="/blog/home-cleaning-ac-maintenance-al-dhait-rak">Al Dhait</a>. Our teams use moisture-resistant cleaning products and check AC drainage more thoroughly.</p>
+<h2>AC Maintenance in Mina Al Arab</h2>
+<p><a href="/services/ac-hvac/ac-maintenance/ac-cleaning">AC maintenance</a> in Mina Al Arab is one of our most requested services, given how coastal humidity affects cooling efficiency. We check drainage, <a href="/services/ac-hvac/ac-maintenance/ac-gas-refill">gas levels</a>, and coil condition more thoroughly than a standard inland service, starting at AED 89 per unit.</p>
+<h2>Serving Mina Al Arab and RAK Communities</h2>
+<p>See also: <a href="/blog/cleaning-ac-plumbing-services-al-nakheel-rak">Al Nakheel services</a>, <a href="/blog/home-cleaning-ac-maintenance-al-dhait-rak">Al Dhait services</a>, <a href="/blog/villa-cleaning-garden-maintenance-al-hamra-rak">Al Hamra Village services</a>, and <a href="/blog/home-commercial-cleaning-services-julfar-rak">Julfar commercial services</a>.</p>`,
+  },
+
+  "home-commercial-cleaning-services-julfar-rak": {
+    title: "Home & Commercial Services in Julfar, Ras Al Khaimah",
+    category: "Multi-Service", date: "2025-07-17", readTime: "7 min",
+    metaTitle: "Cleaning, AC, Plumbing & Commercial Services in Julfar, RAK | CleanTecPro",
+    metaDescription: "Trusted home and commercial cleaning, AC repair, plumbing, and handyman services in Julfar and Al Jazirah Al Hamra, Ras Al Khaimah.",
+    faqs: [
+      { q: "Do you offer commercial cleaning for warehouses in the Julfar industrial area?", a: "Yes, we provide custom-quoted commercial and warehouse cleaning services for businesses operating near Al Jazirah Al Hamra." },
+      { q: "How much does villa cleaning cost in Julfar?", a: "Villa cleaning in Julfar and Al Jazirah Al Hamra typically starts at AED 380, depending on property size and condition." },
+      { q: "Can businesses set up an AMC for office cleaning in Julfar?", a: "Yes, we offer custom AMC contracts for commercial clients wanting predictable recurring maintenance costs." },
+      { q: "Do you handle industrial pest control near the warehouses in Julfar?", a: "Yes, we offer licensed pest control services suited for both residential homes and industrial/commercial units in the area." },
+    ],
+    content: `<p>Julfar, covering the Al Jazirah Al Hamra area, is a mixed residential and industrial zone in <a href="/locations/ras-al-khaimah">Ras Al Khaimah</a>, home to both family villas and nearby industrial units and warehouses. This mix means CleanTecPro's service coverage here spans both standard <a href="/services/cleaning">home cleaning</a> and maintenance, plus commercial cleaning for offices and warehouses in the surrounding industrial area.</p>
+<h2>Services We Provide in Julfar</h2>
+<div class="overflow-x-auto my-6"><table class="w-full border-collapse text-sm"><thead><tr class="bg-slate-100"><th class="border border-slate-200 px-4 py-3 text-left font-bold">Service</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Starting Price</th><th class="border border-slate-200 px-4 py-3 text-left font-bold">Common Issues</th></tr></thead><tbody>
+<tr><td class="border border-slate-200 px-4 py-2">Home & Villa Cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 199</td><td class="border border-slate-200 px-4 py-2">Deep cleans, move-in/out, recurring</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">AC Maintenance</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 89</td><td class="border border-slate-200 px-4 py-2">Not cooling, gas refill, servicing</td></tr>
+<tr><td class="border border-slate-200 px-4 py-2">Commercial/Warehouse Cleaning</td><td class="border border-slate-200 px-4 py-2 font-semibold">Custom quote</td><td class="border border-slate-200 px-4 py-2">Office, warehouse floor cleaning</td></tr>
+<tr class="bg-slate-50"><td class="border border-slate-200 px-4 py-2">Pest Control</td><td class="border border-slate-200 px-4 py-2 font-semibold">AED 150</td><td class="border border-slate-200 px-4 py-2">Residential + industrial pest control</td></tr>
+</tbody></table></div>
+<h2>Why Julfar Residents and Businesses Choose Us</h2>
+<p>Julfar's residential pockets near Al Jazirah Al Hamra are relatively quieter than central RAK, and many homes are villas with standard maintenance needs. At the same time, the nearby industrial zone means we also handle office and <a href="/services/lifestyle-support/commercial-support/warehouse-cleaning">warehouse cleaning</a> for businesses operating in the area.</p>
+<h2>Home & Villa Cleaning in Julfar</h2>
+<p>Home cleaning starts at AED 199 for apartments, with <a href="/services/cleaning/regular-cleaning/villa-cleaning">villa cleaning</a> around Al Jazirah Al Hamra starting at AED 380. We offer <a href="/services/cleaning/deep-cleaning/deep-home-cleaning">deep cleaning</a>, <a href="/services/cleaning/deep-cleaning/move-in-move-out-cleaning">move-in/move-out cleaning</a>, and recurring <a href="/services/lifestyle-support/home-support/maid-service">maid service</a>.</p>
+<h2>Commercial & Warehouse Cleaning in Julfar</h2>
+<p>Given Julfar's proximity to industrial units, we provide commercial cleaning including <a href="/services/cleaning/regular-cleaning/office-cleaning">office cleaning</a> and warehouse floor cleaning, priced on a custom quote basis depending on square footage.</p>
+<h2>Serving Julfar and RAK Communities</h2>
+<p>See also: <a href="/blog/cleaning-ac-plumbing-services-al-nakheel-rak">Al Nakheel services</a>, <a href="/blog/home-cleaning-ac-maintenance-al-dhait-rak">Al Dhait services</a>, <a href="/blog/villa-cleaning-garden-maintenance-al-hamra-rak">Al Hamra Village services</a>, and <a href="/blog/apartment-villa-cleaning-ac-services-mina-al-arab-rak">Mina Al Arab services</a>.</p>`,
+  },
+
   "ac-maintenance-tips-uae-summers": {
     title: "10 Essential AC Maintenance Tips for UAE Summers",
     category: "AC & HVAC",

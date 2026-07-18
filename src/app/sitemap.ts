@@ -67,6 +67,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const blogPages: MetadataRoute.Sitemap = [
+    { url: `${base}/blog/cleaning-ac-plumbing-services-al-nakheel-rak`, lastModified: new Date("2025-07-17"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/home-cleaning-ac-maintenance-al-dhait-rak`, lastModified: new Date("2025-07-17"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/villa-cleaning-garden-maintenance-al-hamra-rak`, lastModified: new Date("2025-07-17"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/apartment-villa-cleaning-ac-services-mina-al-arab-rak`, lastModified: new Date("2025-07-17"), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/blog/home-commercial-cleaning-services-julfar-rak`, lastModified: new Date("2025-07-17"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/ac-maintenance-al-nahda-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/sofa-cleaning-al-qasimia-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/villa-cleaning-muwaileh-sharjah`, lastModified: new Date("2025-07-07"), changeFrequency: "monthly", priority: 0.7 },
