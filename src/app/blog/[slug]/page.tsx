@@ -814,11 +814,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
 
-          {/* CTA Block */}
+          {/* CTA Block - Dynamic */}
           <div className="my-10 bg-gradient-to-br from-brand-600 to-brand-800 rounded-2xl p-8 text-center text-white">
-            <h2 className="text-2xl font-extrabold mb-3">Book Your Deep Cleaning Service in Dubai Today</h2>
+            <h2 className="text-2xl font-extrabold mb-3">Book a Service — Get a Free Quote in 60 Seconds</h2>
             <p className="text-white/90 mb-6 max-w-lg mx-auto">
-              Do not let dust, germs, and hidden grime affect your health and comfort. Experience the difference a truly clean home makes.
+              Same-day slots available across Dubai, Sharjah, Abu Dhabi, Ajman, RAK, and all UAE emirates. No hidden charges.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Link href="/booking" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
@@ -827,7 +827,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <Link href="/quote" className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
                 Get Free Quote
               </Link>
-              <a href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent("Hi, I'd like to book a deep cleaning service.")}`} className="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              <a href={`https://wa.me/${BRAND.whatsapp}?text=${encodeURIComponent(`Hi, I'd like to inquire about ${post.title}.`)}`} className="btn-whatsapp" target="_blank" rel="noopener noreferrer">
                 WhatsApp Us
               </a>
               <a href={`tel:${BRAND.phone}`} className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
@@ -856,17 +856,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
           )}
 
-          {/* Related Services */}
+          {/* Related Services - covers all main categories */}
           <div className="my-10">
-            <h2 className="text-xl font-extrabold text-slate-900 mb-4">Related Services</h2>
+            <h2 className="text-xl font-extrabold text-slate-900 mb-4">Popular Services</h2>
             <div className="grid sm:grid-cols-3 gap-4">
               {[
                 { name: "Deep Home Cleaning", href: "/services/cleaning/deep-cleaning/deep-home-cleaning", price: "From AED 199" },
-                { name: "Move-In Move-Out Cleaning", href: "/services/cleaning/deep-cleaning/move-in-move-out-cleaning", price: "From AED 299" },
+                { name: "AC Cleaning & Service", href: "/services/ac-hvac/ac-maintenance/ac-cleaning", price: "From AED 89" },
+                { name: "Plumbing Leak Repair", href: "/services/plumbing/plumbing-repair/leak-repair", price: "From AED 129" },
                 { name: "Villa Cleaning", href: "/services/cleaning/regular-cleaning/villa-cleaning", price: "From AED 179" },
-                { name: "Sofa Cleaning", href: "/services/cleaning/specialized-cleaning/sofa-cleaning", price: "From AED 129" },
-                { name: "Carpet Cleaning", href: "/services/cleaning/specialized-cleaning/carpet-cleaning", price: "From AED 99" },
-                { name: "AC Cleaning", href: "/services/ac-hvac/ac-maintenance/ac-cleaning", price: "From AED 89" },
+                { name: "Pest Control", href: "/services/pest-control/general-pest-control/general-pest-treatment", price: "From AED 199" },
+                { name: "Handyman Services", href: "/services/handyman/general-handyman/furniture-assembly", price: "From AED 99" },
               ].map(svc => (
                 <Link key={svc.href} href={svc.href} className="premium-card p-4 flex flex-col">
                   <h3 className="text-sm font-bold text-slate-900 mb-1">{svc.name}</h3>
@@ -876,29 +876,50 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
 
-          {/* Related Locations */}
+          {/* Related Locations - all emirates */}
           <div className="my-10">
-            <h2 className="text-xl font-extrabold text-slate-900 mb-4">We Serve All Dubai Areas</h2>
+            <h2 className="text-xl font-extrabold text-slate-900 mb-4">We Serve All UAE Emirates</h2>
             <div className="flex flex-wrap gap-2">
               {[
                 { name: "Business Bay", href: "/locations/dubai/business-bay" },
                 { name: "Dubai Marina", href: "/locations/dubai/dubai-marina" },
                 { name: "JLT", href: "/locations/dubai/jlt" },
-                { name: "Downtown Dubai", href: "/locations/dubai/downtown-dubai" },
-                { name: "JBR", href: "/locations/dubai/jbr" },
-                { name: "Palm Jumeirah", href: "/locations/dubai/palm-jumeirah" },
-                { name: "Al Barsha", href: "/locations/dubai/al-barsha" },
-                { name: "Deira", href: "/locations/dubai/deira" },
-                { name: "Mirdif", href: "/locations/dubai/mirdif" },
-                { name: "JVC", href: "/locations/dubai/jvc" },
+                { name: "Al Nahda, Sharjah", href: "/locations/sharjah/al-nahda-sharjah" },
+                { name: "Al Majaz", href: "/locations/sharjah/al-majaz" },
+                { name: "Muwaileh", href: "/locations/sharjah/muwaileh" },
+                { name: "Al Reem Island", href: "/locations/abu-dhabi/al-reem-island" },
+                { name: "Al Rashidiya, Ajman", href: "/locations/ajman/al-rashidiya" },
+                { name: "Al Nakheel, RAK", href: "/locations/ras-al-khaimah/al-nakheel" },
+                { name: "Al Hamra Village", href: "/locations/ras-al-khaimah/al-hamra-village" },
               ].map(loc => (
-                <Link key={loc.href} href={loc.href} className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-100 transition-colors font-medium">
+                <Link key={loc.href} href={loc.href} className="text-sm text-brand-800 bg-brand-100 px-3 py-2 rounded-lg hover:bg-brand-200 transition-colors font-medium">
                   {loc.name}
                 </Link>
               ))}
-              <Link href="/locations/dubai" className="text-sm text-white bg-brand-600 px-3 py-2 rounded-lg hover:bg-brand-700 transition-colors font-medium">
-                View All Dubai Areas →
+              <Link href="/locations" className="text-sm text-white bg-brand-600 px-3 py-2 rounded-lg hover:bg-brand-700 transition-colors font-medium">
+                All 55+ Areas →
               </Link>
+            </div>
+          </div>
+
+          {/* Related Blog Posts */}
+          <div className="my-10">
+            <h2 className="text-xl font-extrabold text-slate-900 mb-4">More Guides</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              {[
+                { title: "Deep Cleaning Services in Dubai", href: "/blog/professional-deep-cleaning-services-dubai" },
+                { title: "AC Maintenance in Al Nahda, Sharjah", href: "/blog/ac-maintenance-al-nahda-sharjah" },
+                { title: "Villa Cleaning in Muwaileh", href: "/blog/villa-cleaning-muwaileh-sharjah" },
+                { title: "Sofa Cleaning in Al Qasimia", href: "/blog/sofa-cleaning-al-qasimia-sharjah" },
+                { title: "Home Cleaning in Business Bay", href: "/blog/home-cleaning-business-bay-dubai" },
+                { title: "AC Maintenance in Ajman", href: "/blog/ac-maintenance-ajman" },
+                { title: "Pest Control in RAK", href: "/blog/pest-control-ras-al-khaimah" },
+                { title: "Services in Al Nakheel, RAK", href: "/blog/cleaning-ac-plumbing-services-al-nakheel-rak" },
+              ].filter(b => b.href !== `/blog/${slug}`).slice(0, 6).map(b => (
+                <Link key={b.href} href={b.href} className="text-sm text-brand-600 hover:text-brand-700 hover:underline font-medium py-1">
+                  → {b.title}
+                </Link>
+              ))}
             </div>
           </div>
 
