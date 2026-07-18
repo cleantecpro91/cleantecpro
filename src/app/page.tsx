@@ -369,20 +369,40 @@ export default function HomePage() {
       {/* ─── AMC Section ──────────────────────────────────── */}
       <section className="py-16 md:py-20">
         <div className="container-main">
-          <div className="bg-gradient-to-br from-brand-600 to-brand-800 rounded-3xl p-8 md:p-12 lg:p-16 text-white text-center">
-            <h2 className="text-2xl md:text-3xl font-extrabold mb-4">
-              Annual Maintenance Contracts
-            </h2>
-            <p className="text-white/90 max-w-xl mx-auto mb-8">
-              Keep your property in top condition year-round with our comprehensive AMC plans. Cover AC, plumbing, electrical, and general maintenance with one annual contract.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/amc" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
-                View AMC Plans
-              </Link>
-              <Link href="/quote" className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
-                Get Custom Quote
-              </Link>
+          <div className="bg-gradient-to-br from-brand-600 to-brand-800 rounded-3xl p-8 md:p-12 lg:p-16 text-white">
+            <div className="grid lg:grid-cols-2 gap-10 items-center">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-extrabold mb-4">
+                  Annual Maintenance Contracts
+                </h2>
+                <p className="text-white/90 mb-6">
+                  Keep your property in top condition year-round with our comprehensive AMC plans. Cover AC, plumbing, electrical, and general maintenance with one annual contract.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link href="/amc" className="btn-outline !bg-white !text-brand-700 !border-white hover:!bg-brand-50">
+                    View AMC Plans
+                  </Link>
+                  <Link href="/quote" className="btn-outline !bg-white/20 !border-2 !border-white !text-white hover:!bg-white/30 font-bold">
+                    Get Custom Quote
+                  </Link>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                {[
+                  { icon: "❄️", title: "AC Servicing", desc: "Quarterly coil clean, gas check, filter wash" },
+                  { icon: "🔧", title: "Plumbing Check", desc: "Bi-annual pipe inspection and leak prevention" },
+                  { icon: "⚡", title: "Electrical Audit", desc: "Annual wiring check, DB box and safety test" },
+                  { icon: "🛡️", title: "Pest Control", desc: "Quarterly treatment for cockroach, ant, termite" },
+                  { icon: "🧹", title: "Deep Cleaning", desc: "Included seasonal deep clean for full property" },
+                  { icon: "🚨", title: "Emergency Callouts", desc: "Priority same-day response for urgent repairs" },
+                ].map((item) => (
+                  <div key={item.title} className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                    <span className="text-xl mb-1 block">{item.icon}</span>
+                    <p className="text-sm font-bold text-white mb-0.5">{item.title}</p>
+                    <p className="text-xs text-white/80">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
