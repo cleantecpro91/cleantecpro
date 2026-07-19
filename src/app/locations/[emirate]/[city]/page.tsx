@@ -1,6 +1,21 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { UAE_EMIRATES, BRAND, getEmirateBySlug, getCityBySlug, SERVICE_CATEGORIES } from "@/lib/data";
+
+const CATEGORY_DESCS: Record<string, string> = {
+  cleaning: "Deep clean, villa clean, move-out, sofa & carpet care",
+  "ac-hvac": "AC repair, gas refill, duct cleaning & split installation",
+  plumbing: "Leak fix, drain clearing, water heater & pipe repair",
+  electrical: "Light fitting, DB panel, wiring & socket installation",
+  handyman: "Furniture assembly, TV mount, door fix & curtain hanging",
+  renovation: "Kitchen remodel, bathroom upgrade, tiling & fit-out",
+  "pest-control": "Cockroach, termite, rodent & general pest treatment",
+  "appliance-repair": "Washing machine, fridge, oven & dishwasher repair",
+  movers: "Home moving, office relocation, packing & storage",
+  "garden-outdoor": "Lawn mowing, tree trimming, irrigation & pool care",
+  "building-maintenance": "Villa AMC, property snagging & annual inspection",
+  "lifestyle-support": "Maid service, laundry, event & office support",
+};
 import { getCityContent } from "@/lib/locations-data";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
@@ -142,7 +157,7 @@ export default async function CityPage({
                         </Link>
                       </h3>
                       <p className="text-xs text-slate-500">
-                        Available in {city.name}, {emirate.name}
+                        {CATEGORY_DESCS[cat.slug] || `Available in ${city.name}`}
                       </p>
                     </div>
                   ))}
