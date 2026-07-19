@@ -497,18 +497,24 @@ export const CITY_CONTENT: Record<string, CityContent> = {
   },
 
   "dubai/mirdif": {
-    uniqueIntro: "Mirdif is a family-oriented residential area in eastern Dubai, known for its spacious villas, compound living, and proximity to Mushrif Park. The area attracts Emirati and long-term expat families who value community living and larger property sizes. Villa maintenance is the dominant service category here — from full property AMC plans covering AC, plumbing, and electrical, to garden landscaping, swimming pool care, and periodic painting. Mirdif's older villa stock also means regular waterproofing and roof maintenance.",
+    metaTitle: "Villa Cleaning, AC Repair & Maintenance in Mirdif, Dubai",
+    metaDescription: "Book villa cleaning, AC servicing, plumbing, garden care & roof repair in Mirdif, Dubai. Serving Mirdif, Uptown Mirdif & Shorooq compounds. From AED 179.",
+    uniqueIntro: "Mirdif is one of Dubai's largest villa communities in the eastern corridor, stretching from Mushrif Park to Mirdif City Centre. The area is split between older established compounds like Shorooq and Uptown Mirdif's newer townhouse clusters, creating two distinct maintenance profiles — older villas needing roof waterproofing, pipe replacement, and exterior repainting versus newer builds requiring AC commissioning, garden setup, and snagging fixes. CleanTecPro serves both ends, with villa-equipped teams carrying the tools and materials needed for larger 3-5 bedroom properties that apartment-focused companies aren't set up to handle. Most Mirdif households book us for a combination of villa deep cleaning, AC servicing across multiple split units, and garden or irrigation work — often in a single coordinated visit to save time.",
     highlights: [
-      "Villa AMC plans tailored for Mirdif properties",
-      "Large property deep cleaning (3-5 bedroom villas)",
-      "Garden landscaping and irrigation maintenance",
-      "Waterproofing and roof repair for older villas",
-      "Serving Mirdif, Uptown Mirdif, and Shorooq compounds",
+      "Villa-equipped teams for 3-5 bedroom properties — not apartment crews",
+      "Serving Mirdif, Uptown Mirdif, Shorooq, and Mirdif Hills compounds",
+      "Combined cleaning + AC + garden visits to reduce call-outs",
+      "Roof waterproofing with 5-year warranty for older villas",
+      "Garden irrigation repair — common failure point in Mirdif's hard water areas",
+      "Deep cleaning from AED 899 for 4-bedroom villas including maid's room",
     ],
     localFAQs: [
-      { q: "Do you offer annual maintenance contracts for Mirdif villas?", a: "Yes. Our Mirdif villa AMC covers quarterly AC servicing (all units), bi-annual plumbing inspection, annual electrical check, monthly garden maintenance, and unlimited emergency callouts. Plans from AED 3,499/year for 3-bedroom villas." },
-      { q: "My Mirdif villa roof leaks during rain. Can you fix it?", a: "Yes. Roof waterproofing is common in older Mirdif villas. We identify the leak source, apply bituminous or polyurethane waterproof membrane, and provide a 5-year warranty on the repair. Assessment visit is free." },
-      { q: "How much does deep cleaning a 4-bedroom Mirdif villa cost?", a: "Full deep cleaning for a 4-bedroom Mirdif villa including kitchen, bathrooms, bedrooms, living areas, and maid's room ranges from AED 899 to AED 1,299 depending on villa size and condition. Garden and garage available as add-ons." },
+      { q: "How much does villa deep cleaning cost in Mirdif?", a: "A 3-bedroom Mirdif villa deep clean starts at AED 699. A 4-bedroom villa including kitchen, all bathrooms, bedrooms, maid's room, and living areas ranges from AED 899 to AED 1,299 depending on condition. Garden, garage, and balcony cleaning are available as add-ons from AED 99 each." },
+      { q: "How often should I service my villa AC units in Mirdif?", a: "Mirdif villas typically have 4-8 split AC units. We recommend full servicing every 3 months during summer (April-September) and every 6 months in winter. A single visit covers all units — we don't charge per call-out, just per unit at AED 89 each." },
+      { q: "My Mirdif villa roof leaks when it rains. Can you fix it?", a: "Yes. Roof leaks are common in older Mirdif villas built before 2010. We locate the source using water testing, apply bituminous or polyurethane waterproof membrane, and provide a 5-year warranty. The initial roof assessment is free — repairs typically range from AED 1,500 to AED 4,000 depending on area." },
+      { q: "Do you offer annual maintenance contracts for Mirdif villas?", a: "Yes. Our Mirdif villa AMC covers quarterly AC servicing (all units), bi-annual plumbing inspection, annual electrical check, monthly garden maintenance, pest control, and unlimited emergency callouts. Plans from AED 3,499/year for 3-bedroom villas, AED 4,499 for 4-5 bedroom." },
+      { q: "Can you fix garden irrigation problems in Mirdif?", a: "Yes. Mirdif's hard water causes mineral buildup in irrigation nozzles and drip lines, leading to dry patches or flooding. We flush the system, replace clogged heads, and recalibrate timers. Full irrigation service from AED 199. Monthly garden maintenance plans from AED 299 include irrigation checks." },
+      { q: "Do you serve Uptown Mirdif and Mirdif Hills?", a: "Yes. We cover all Mirdif sub-communities — Shorooq compounds, Uptown Mirdif townhouses, Mirdif Hills, and standalone villas along Mushrif Park Road. Same pricing, same teams, same service standards across all zones." },
     ],
   },
 
