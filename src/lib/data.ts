@@ -31,7 +31,7 @@ export const BRAND = {
   whatsapp: "971544410488",
   email: "support@cleantecpro.com",
   address: "Cyan Centre 202, Business Bay, Dubai, UAE",
-  website: "https://cleantecpro.com",
+  website: "https://www.cleantecpro.com",
   currency: "AED",
 } as const;
 
