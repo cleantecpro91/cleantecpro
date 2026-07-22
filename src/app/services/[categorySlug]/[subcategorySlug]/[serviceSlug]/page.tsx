@@ -9,6 +9,7 @@ import {
   getAllServiceSlugs,
   UAE_EMIRATES,
 } from "@/lib/data";
+import { getServiceAbout } from "@/lib/service-content";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
@@ -228,8 +229,8 @@ export default async function ServiceDetailPage({
                 </h2>
                 <div className="prose prose-slate max-w-none text-sm leading-relaxed">
                   <p>
-                    {svc.description ||
-                      `${service.name} is one of our most requested services across the UAE. Our team of skilled and vetted professionals delivers this service with attention to detail, using quality materials and industry-standard techniques. Whether you are in Dubai, Sharjah, Abu Dhabi, or any other emirate, we ensure consistent quality and reliable service delivery.`}
+                    {getServiceAbout(service.slug) || svc.description ||
+                      `${service.name} covers a range of tasks suited to residential and commercial properties across the UAE. Our technicians arrive with the correct tools and materials for the job, assess your specific situation on-site, and provide a clear quote before starting. Most standard jobs are completed in a single visit, with parts sourced locally for common brands found in UAE buildings.`}
                   </p>
                   <p>
                     At {BRAND.shortName}, we understand that every property has unique requirements. That is why our {service.name.toLowerCase()} service is tailored to meet your specific needs. We serve residential villas, apartments, offices, and commercial properties across the United Arab Emirates.
