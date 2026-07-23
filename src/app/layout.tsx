@@ -96,6 +96,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" dir="ltr">
       <head>
+        <link rel="preload" href="/logo.webp" as="image" type="image/webp" fetchPriority="high" />
         <link rel="icon" href="/favicon.webp" type="image/webp" />
         <link rel="apple-touch-icon" href="/favicon.webp" />
         <meta name="theme-color" content="#256ee9" />
@@ -213,11 +214,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
-        {/* Google Analytics - loaded after page render */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTKXVQYHEL" />
+        {/* Google Analytics - delayed load to avoid blocking render */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZTKXVQYHEL');`,
+            __html: `window.addEventListener('load',function(){setTimeout(function(){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-ZTKXVQYHEL';s.async=true;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZTKXVQYHEL');},2000);});`,
           }}
         />
       </body>

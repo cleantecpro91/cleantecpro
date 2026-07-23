@@ -139,7 +139,7 @@ export default function Header() {
               width={48}
               height={48}
               fetchPriority="high"
-              decoding="async"
+              decoding="sync"
             />
             <div className="hidden sm:block leading-tight">
               <span className="text-[17px] font-extrabold tracking-tight text-slate-900">
