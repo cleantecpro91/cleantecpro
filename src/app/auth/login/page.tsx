@@ -59,7 +59,12 @@ export default function LoginPage() {
               <input type="email" required className="form-input" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
             </div>
             <div>
-              <label className="form-label">Password</label>
+              <div className="flex justify-between items-center mb-1">
+                <label className="form-label !mb-0">Password</label>
+                <Link href="/auth/forgot-password" className="text-xs text-brand-600 hover:underline">
+                  Forgot Password?
+                </Link>
+              </div>
               <input type="password" required className="form-input" value={form.password} onChange={(e) => setForm({ ...form, password: e.target.value })} />
             </div>
             <button type="submit" disabled={loading} className="btn-primary w-full !py-3 disabled:opacity-60">
