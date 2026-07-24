@@ -140,7 +140,7 @@ export default function AdminPage() {
         <div className="w-full max-w-md">
           <div className="text-center mb-6">
             <Link href="/" className="inline-block mb-3">
-              <Image src="/logo.png" alt="CleanTecPro Logo" width={180} height={60} className="h-14 w-auto object-contain mx-auto"/>
+              <Image src="/logo.webp" alt="CleanTecPro Logo" width={180} height={60} className="h-14 w-auto object-contain mx-auto"/>
             </Link>
             <h1 className="text-2xl font-extrabold text-slate-900">Admin Panel</h1>
             <p className="text-sm text-slate-500 mt-1">Sign in to manage your platform</p>
@@ -174,7 +174,7 @@ export default function AdminPage() {
       <aside className="w-full lg:w-[260px] bg-white border-r border-slate-200 flex flex-col justify-between shrink-0 shadow-sm min-h-screen">
         <div>
           <div className="p-4 border-b border-slate-100 flex items-center gap-2.5">
-            <Image src="/logo.png" alt="CleanTecPro" width={120} height={40} className="h-9 w-auto object-contain"/>
+            <Image src="/logo.webp" alt="CleanTecPro" width={120} height={40} className="h-9 w-auto object-contain"/>
           </div>
           <nav className="p-2 space-y-0.5">
             {TABS.map(t=>(

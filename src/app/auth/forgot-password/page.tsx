@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -72,13 +73,8 @@ export default function ForgotPasswordPage() {
     <section className="min-h-[80vh] flex items-center justify-center py-12 px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 mb-6">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center">
-              <span className="text-white font-bold text-lg">C</span>
-            </div>
-            <span className="text-xl font-extrabold text-brand-900">
-              Clean<span className="text-brand-600">Tec</span>Pro
-            </span>
+          <Link href="/" className="inline-block mb-5">
+            <Image src="/logo.webp" alt="CleanTecPro Logo" width={180} height={55} className="h-12 w-auto object-contain" priority />
           </Link>
           <h1 className="text-2xl font-extrabold text-slate-900 mb-1">Reset Password</h1>
           <p className="text-sm text-slate-500">Restore access to your CleanTecPro account</p>
